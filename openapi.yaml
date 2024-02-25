@@ -91,6 +91,12 @@ components:
   securitySchemes:
     OAuth2:
       type: oauth2  
+      flows:
+        implicit:
+          authorizationUrl: https://gressling.net/oauth2/authorize
+          scopes:
+            read_items: read items
+            write_items: modify items 
   schemas:
     InventoryItem:
       type: object
