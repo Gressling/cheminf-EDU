@@ -17,6 +17,11 @@ tags:
     description: Secured Admin-only calls
   - name: developers
     description: Operations available to regular developers
+security:
+      - ApiKeyAuth: []
+      - OAuth2:
+          - read
+          - write
 paths:
   /inventory:
     get:
@@ -27,6 +32,8 @@ paths:
       description: |
         By passing in the appropriate options, you can search for
         available inventory in the system
+      security:
+        - OAuth2: [Admin]   # Use OAuth with a different scope
       parameters:
         - in: query
           name: searchString
@@ -65,6 +72,8 @@ paths:
         - admins
       summary: adds an inventory item
       operationId: addInventory
+      security:
+        - OAuth2: [Admin]   # Use OAuth with a different scope
       description: Adds an inventory items to the database
       responses:
         '201':
