@@ -2,21 +2,21 @@ openapi: 3.0.0
 servers:
   # Added by API Auto Mocking Plugin
   - description: Test
-    url: https://virtserver.test.com/DILARADAMAR/ChemInfo/1.0.0
+    url: http://gressling.net/v2
 info:
-  description: This is a simple API
+  description: ChemInformatics EDU APU
   version: "1.0.0"
-  title: Simple Inventory API
+  title: Simple API
   contact:
-    email: you@your-company.com
+    email: thorsten.gressling@hu-berlin.com
   license:
     name: MIT
-    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+    url: 'https://opensource.org/license/mit'
 tags:
-  - name: admins
-    description: Secured Admin-only calls
-  - name: developers
-    description: Operations available to regular developers
+  - name: production
+    description: Deployed API
+  - name: development
+    description: Operations available to developers
 security:
       - OAuth2:
           - read
@@ -25,7 +25,8 @@ paths:
   /inventory:
     get:
       tags:
-        - developers
+        - production
+        - development
       summary: searches inventory
       operationId: searchInventory
       description: |
@@ -68,7 +69,7 @@ paths:
           description: bad input parameter
     post:
       tags:
-        - admins
+        - development
       summary: adds an inventory item
       operationId: addInventory
       security:
@@ -95,8 +96,8 @@ components:
         implicit:
           authorizationUrl: https://gressling.net/oauth2/authorize
           scopes:
-            read_items: read items
-            write_items: modify items 
+            read: read items
+            write: modify items 
   schemas:
     InventoryItem:
       type: object
@@ -125,11 +126,11 @@ components:
       properties:
         name:
           type: string
-          example: ACME Corporation
+          example: ChemInformatics EDU
         homePage:
           type: string
           format: url
-          example: 'https://www.acme-corp.com'
+          example: 'http://gressling.net'
         phone:
           type: string
           example: 408-867-5309
