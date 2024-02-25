@@ -23,3 +23,8 @@ tags:
     description: Operations about user
 servers:
   - url: 'http://gressling.net/v2'
+paths:
+    '/v1/{username}':
+      $ref: 'paths/users@{username}.yaml'
+    /echo:
+      $ref: paths/echo.yaml
