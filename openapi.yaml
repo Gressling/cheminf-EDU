@@ -18,7 +18,6 @@ tags:
   - name: developers
     description: Operations available to regular developers
 security:
-      - ApiKeyAuth: []
       - OAuth2:
           - read
           - write
@@ -89,6 +88,9 @@ paths:
               $ref: '#/components/schemas/InventoryItem'
         description: Inventory item to add
 components:
+  securitySchemes:
+    OAuth2:
+      type: oauth2  
   schemas:
     InventoryItem:
       type: object
