@@ -65,7 +65,7 @@ paths:
         - admins
       summary: adds an inventory item
       operationId: addInventory
-      description: Adds an item to the system
+      description: Adds an inventory items to the database
       responses:
         '201':
           description: item created
