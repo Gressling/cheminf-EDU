@@ -17,6 +17,7 @@ theme:
   openapi:
     generateCodeSamples:
       languages:
+        - lang: PHP
         - lang: curl
         - lang: Node.js
         - lang: Python
