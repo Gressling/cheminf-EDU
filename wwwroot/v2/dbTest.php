@@ -1,3 +1,7 @@
+<?php
+require 'session.php'; // Ensure this is the path to the session script
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
