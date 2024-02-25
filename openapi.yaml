@@ -23,9 +23,3 @@ tags:
     description: Operations about user
 servers:
   - url: 'http://gressling.net/v2'
-paths:
-    # paths here
-components:
-  securitySchemes:
-    # security schemes here
-security:
