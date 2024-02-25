@@ -1,3 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>ChemInformatics EDU</title>
+</head>
+<body>
+    <div class="container">
+        <div class="php-test">Check DB, via environment variables ... <br/> 
+
 <?php
 
 // DB
@@ -23,3 +35,9 @@ if ($result->num_rows > 0) {
 }
 
 ?>
+        </div>
+        <div class="license">MIT Licence - no commercial interest</div>
+    </div>
+
+</body>
+</html>
