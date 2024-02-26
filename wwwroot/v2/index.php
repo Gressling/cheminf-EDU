@@ -21,10 +21,14 @@ $username = htmlspecialchars($_SESSION['username']);
             <div class="container">
                 <h1 class="title">ChemInformatics EDU</h1>
                 <div class="links">
-                    <a class="link" href="dbTest.php">dbTest</a><br/>
-                    <a class="link" href="ping.php">ping</a><br/>
-                    <a class="link" href="test.php">session</a><br/>
-                    <a class="link" href="logout.php">logout</a><br/>
+                    <ul>
+                        <li><a class="link" href="dbTest.php">dbTest</a></li>
+                        <li><a class="link" href="ping.php">ping</a></li>
+                        <li><a class="link" href="test.php">session</a></li>
+                        <li><a class="link" href="api.php?apiKey=242KKlhkh899">api (key)</a> - <a class="link" href="api.php">api (no key)</a></li>
+                        <li><a class="link" href="call-rest-get.html">REST api from HTML</a></li>
+                        <li><a class="link" href="logout.php">logout</a></li>
+                    </ul>
                 </div>
                 <div class="license">MIT Licence - no commercial interest</div>
             </div>
