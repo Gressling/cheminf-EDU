@@ -1,6 +1,5 @@
 openapi: 3.0.0
 servers:
-  # Added by API Auto Mocking Plugin
   - description: Test
     url: http://gressling.net/v2
 info:
@@ -11,127 +10,51 @@ info:
     email: thorsten.gressling@hu-berlin.com
   license:
     name: MIT
-    url: 'https://opensource.org/license/mit'
+    url: 'https://opensource.org/licenses/MIT'
 tags:
   - name: production
     description: Deployed API
   - name: development
     description: Operations available to developers
 security:
-      - OAuth2:
-          - read
-          - write
+  - ApiKeyAuth: []
 paths:
-  /inventory:
+  /securedData:
     get:
       tags:
         - production
         - development
-      summary: searches inventory
-      operationId: searchInventory
+      summary: Retrieves secured data
+      operationId: getSecuredData
       description: |
-        By passing in the appropriate options, you can search for
-        available inventory in the system
-      security:
-        - OAuth2: [Admin]   # Use OAuth with a different scope
+        Retrieves secured data available in the system, requires API key for access.
       parameters:
         - in: query
-          name: searchString
-          description: pass an optional search string for looking up inventory
-          required: false
+          name: apiKey
+          description: API key for authenticating requests
+          required: true
           schema:
             type: string
-        - in: query
-          name: skip
-          description: number of records to skip for pagination
-          schema:
-            type: integer
-            format: int32
-            minimum: 0
-        - in: query
-          name: limit
-          description: maximum number of records to return
-          schema:
-            type: integer
-            format: int32
-            minimum: 0
-            maximum: 50
       responses:
         '200':
-          description: search results matching criteria
+          description: Successfully retrieved data
           content:
             application/json:
               schema:
-                type: array
-                items:
-                  $ref: '#/components/schemas/InventoryItem'
-        '400':
-          description: bad input parameter
-    post:
-      tags:
-        - development
-      summary: adds an inventory item
-      operationId: addInventory
-      security:
-        - OAuth2: [Admin]   # Use OAuth with a different scope
-      description: Adds an inventory items to the database
-      responses:
-        '201':
-          description: item created
-        '400':
-          description: 'invalid input, object invalid'
-        '409':
-          description: an existing item already exists
-      requestBody:
-        content:
-          application/json:
-            schema:
-              $ref: '#/components/schemas/InventoryItem'
-        description: Inventory item to add
+                type: object
+                properties:
+                  message:
+                    type: string
+                  data:
+                    type: object
+                    properties:
+                      info:
+                        type: string
+        '401':
+          description: Unauthorized access
 components:
   securitySchemes:
-    OAuth2:
-      type: oauth2  
-      flows:
-        implicit:
-          authorizationUrl: https://gressling.net/oauth2/authorize
-          scopes:
-            read: read items
-            write: modify items 
-  schemas:
-    InventoryItem:
-      type: object
-      required:
-        - id
-        - name
-        - manufacturer
-        - releaseDate
-      properties:
-        id:
-          type: string
-          format: uuid
-          example: d290f1ee-6c54-4b01-90e6-d701748f0851
-        name:
-          type: string
-          example: Widget Adapter
-        releaseDate:
-          type: string
-          format: date-time
-          example: '2016-08-29T09:12:33.001Z'
-        manufacturer:
-          $ref: '#/components/schemas/Manufacturer'
-    Manufacturer:
-      required:
-        - name
-      properties:
-        name:
-          type: string
-          example: ChemInformatics EDU
-        homePage:
-          type: string
-          format: url
-          example: 'http://gressling.net'
-        phone:
-          type: string
-          example: 408-867-5309
-      type: object
+    ApiKeyAuth:
+      type: apiKey
+      in: query
+      name: apiKey
