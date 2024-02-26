@@ -12,17 +12,16 @@ info:
     name: MIT
     url: 'https://opensource.org/licenses/MIT'
 tags:
-  - name: production
+  - name: production (PROD)
     description: Deployed API
-  - name: development
+  - name: development (DEV)
     description: Operations available to developers
 security:
   - ApiKeyAuth: []
 paths:
-  /securedData:
+  /api.php:
     get:
       tags:
-        - production
         - development
       summary: Retrieves secured data
       operationId: getSecuredData
