@@ -23,7 +23,7 @@ paths:
     get:
       tags:
         - development (DEV)
-      summary: Retrieves secured data
+      summary: api.php - Retrieves secured data
       operationId: getSecuredData
       description: Retrieves secured data available in the system, requires API key for access.
       security:
