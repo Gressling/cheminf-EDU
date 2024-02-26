@@ -25,9 +25,15 @@ $username = htmlspecialchars($_SESSION['username']);
                         <li><a class="link" href="dbTest.php">dbTest</a></li>
                         <li><a class="link" href="ping.php">ping</a></li>
                         <li><a class="link" href="test.php">session</a></li>
+                        </ul>
+                        <h2 class="title">REST</h1>
+                        <ul>
                         <li><a class="link" href="api.php?apiKey=242KKlhkh899">api (key)</a> - <a class="link" href="api.php">api (no key)</a></li>
                         <li><a class="link" href="call-rest-get.html">REST api from HTML</a></li>
-                        <li><a class="link" href="logout.php">logout</a></li>
+                        <li><a class="link" target="_blank" href="https://colab.research.google.com/drive/1xh7jvhI7x_jDN7fGYI6rxdZR9dZp1C-S">Jupyter on colab</a></li>
+                        <li><a class="link" target="_blank" href="https://gressling.redoc.ly/">API Reference (not public, login required)</a></li>
+                    </ul>
+                        <a class="link" href="logout.php">logout</a>
                     </ul>
                 </div>
                 <div class="license">MIT Licence - no commercial interest</div>
