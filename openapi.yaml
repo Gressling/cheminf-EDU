@@ -17,23 +17,17 @@ tags:
   - name: development (DEV)
     description: Operations available to developers
 security:
-  - ApiKeyAuth: []
+  - ApiKeyAuth: []  # Applies ApiKeyAuth to all operations by default
 paths:
   /api.php:
     get:
       tags:
-        - development
+        - development (DEV)
       summary: Retrieves secured data
       operationId: getSecuredData
-      description: |
-        Retrieves secured data available in the system, requires API key for access.
-      parameters:
-        - in: query
-          name: apiKey
-          description: API key for authenticating requests
-          required: true
-          schema:
-            type: string
+      description: Retrieves secured data available in the system, requires API key for access.
+      security:
+        - ApiKeyAuth: []  # Reiterates that this endpoint requires ApiKeyAuth
       responses:
         '200':
           description: Successfully retrieved data
