@@ -1,1 +1,1 @@
-recursive-include your_subfolder_name *.*
+recursive-include cheminformatics *.*
