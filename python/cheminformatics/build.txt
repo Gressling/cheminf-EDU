@@ -1,0 +1,3 @@
+Info: https://chat.openai.com/share/c7d8b847-8c64-419d-9781-6b8aaa390d80
+Build: PS C:\htdocs\github\cheminformatics\python> python setup.py sdist bdist_wheel
+Upload: PS C:\htdocs\github\cheminformatics\python> python -m twine upload dist/*
