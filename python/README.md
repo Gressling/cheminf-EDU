@@ -1,1 +1,1 @@
-Test package to validate the framework 0.0.2
+Test package to validate the framework

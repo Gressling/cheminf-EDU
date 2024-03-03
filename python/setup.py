@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='gressling',
-    version='0.0.2',
+    version='0.0.4',
     packages=find_packages(),
     install_requires=[],
     author='Gressling, T.',
