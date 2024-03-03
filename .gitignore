@@ -1,3 +1,4 @@
 \dist
 \gress*
 \build
+\__pycache__*
