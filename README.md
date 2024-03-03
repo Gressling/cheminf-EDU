@@ -1,4 +1,4 @@
-# cheminformatics
+# Cheminformatics EDU
  
 Cheminformatics toolset for lectures at Humboldt University Berlin.
 
