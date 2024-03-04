@@ -1,24 +1,23 @@
-
 openapi: 3.0.0
-servers:
-  - description: Test
-    url: http://gressling.net/v2
 info:
   description: ChemInformatics EDU API
-  version: "v2"
+  version: v2
   title: ChemInformatics EDU API
   contact:
     email: thorsten.gressling@hu-berlin.com
   license:
     name: MIT
-    url: 'https://opensource.org/licenses/MIT'
+    url: https://opensource.org/licenses/MIT
+servers:
+  - description: Test
+    url: http://gressling.net/v2
+security:
+  - ApiKeyAuth: []
 tags:
   - name: production (PROD)
     description: Deployed API
   - name: development (DEV)
     description: Operations available to developers
-security:
-  - ApiKeyAuth: []  # Applies ApiKeyAuth to all operations by default
 paths:
   /api.php:
     get:
@@ -28,7 +27,7 @@ paths:
       operationId: getSecuredData
       description: Retrieves secured data available in the system, requires API key for access.
       security:
-        - ApiKeyAuth: []  # Reiterates that this endpoint requires ApiKeyAuth
+        - ApiKeyAuth: []
       responses:
         '200':
           description: Successfully retrieved data
