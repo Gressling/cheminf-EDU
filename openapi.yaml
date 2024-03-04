@@ -18,12 +18,6 @@ tags:
     description: Operations available to developers
 security:
   - ApiKeyAuth: []  # Applies ApiKeyAuth to all operations by default
-components:
-    securitySchemes:
-      ApiKeyAuth:
-        type: apiKey
-        in: query
-        name: apiKey
 paths:
   /api.php:
     get:
@@ -55,7 +49,7 @@ paths:
     get:
       tags:
         - development (DEV)
-      summary: api.php - Retrieves secured data
+      summary: A1.php - Retrieves secured data
       operationId: getExperimentData
       description: Retrieves secured data available in the system, requires API key for access.
       security:
@@ -89,4 +83,9 @@ paths:
                           type: string        
           '401':
           description: Unauthorized access
-        
+components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: query
+      name: apiKey        
