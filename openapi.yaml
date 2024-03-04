@@ -45,32 +45,38 @@ paths:
                         type: string
         '401':
           description: Unauthorized access
-  /api.php:
+  /api/chemicals:
     get:
-      description: Retrieves secured data available in the system, requires API key for access.
-      operationId: getSecuredData
+      tags:
+        - production (PROD)
+      summary: api/chemicals - Retrieves chemical data
+      operationId: getChemicalData
+      description: Retrieves chemical data available in the system, requires API key for access.
+      security:
+        - ApiKeyAuth: []
       responses:
         '200':
+          description: Successfully retrieved chemical data
           content:
             application/json:
               schema:
+                type: object
                 properties:
-                  data:
-                    properties:
-                      info:
-                        type: string
-                    type: object
                   message:
                     type: string
-                type: object
-          description: Successfully retrieved data
+                  chemicals:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                        name:
+                          type: string
+                        formula:
+                          type: string
         '401':
           description: Unauthorized access
-      security:
-        - ApiKeyAuth: []
-      summary: api.php - Retrieves secured data
-      tags:
-        - development (DEV)
 components:
   securitySchemes:
     ApiKeyAuth:
