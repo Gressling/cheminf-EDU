@@ -1,7 +1,7 @@
 openapi: 3.0.0
 info:
   description: ChemInformatics EDU API
-  version: '0.7'
+  version: 0.7.0
   title: ChemInformatics EDU API
   contact:
     email: thorsten.gressling@hu-berlin.com
@@ -49,6 +49,7 @@ paths:
     get:
       tags:
         - production (PROD)
+        - development (DEV)
       summary: api/chemicals - Retrieves chemical data
       operationId: getChemicalData
       description: Retrieves chemical data available in the system, requires API key for access.
