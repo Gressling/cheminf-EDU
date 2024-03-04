@@ -45,6 +45,32 @@ paths:
                         type: string
         '401':
           description: Unauthorized access
+  /A1/A1.php:
+    get:
+      description: Retrieves secured data available in the system, requires API key for access.
+      operationId: getExperiment
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                properties:
+                  data:
+                    properties:
+                      info:
+                        type: string
+                    type: object
+                  message:
+                    type: string
+                type: object
+          description: Successfully retrieved data
+        '401':
+          description: Unauthorized access
+      security:
+        - ApiKeyAuth: []
+      summary: api.php - Retrieves secured data
+      tags:
+        - development (DEV)
 components:
   securitySchemes:
     ApiKeyAuth:
