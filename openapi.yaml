@@ -1,53 +1,54 @@
-components:
-  securitySchemes:
-    ApiKeyAuth:
-      in: query
-      name: apiKey
-      type: apiKey
-info:
-  contact:
-    email: thorsten.gressling@hu-berlin.com
-  description: ChemInformatics EDU API
-  license:
-    name: MIT
-    url: https://opensource.org/licenses/MIT
-  title: ChemInformatics EDU API
-  version: v2
+
 openapi: 3.0.0
-paths:
-  /api.php:
-    get:
-      description: Retrieves secured data available in the system, requires API key for access.
-      operationId: getSecuredData
-      responses:
-        '200':
-          content:
-            application/json:
-              schema:
-                properties:
-                  data:
-                    properties:
-                      info:
-                        type: string
-                    type: object
-                  message:
-                    type: string
-                type: object
-          description: Successfully retrieved data
-        '401':
-          description: Unauthorized access
-      security:
-        - ApiKeyAuth: []
-      summary: api.php - Retrieves secured data
-      tags:
-        - development (DEV)
-security:
-  - ApiKeyAuth: []
 servers:
   - description: Test
     url: http://gressling.net/v2
+info:
+  description: ChemInformatics EDU API
+  version: "v2"
+  title: ChemInformatics EDU API
+  contact:
+    email: thorsten.gressling@hu-berlin.com
+  license:
+    name: MIT
+    url: 'https://opensource.org/licenses/MIT'
 tags:
-  - description: Deployed API
-    name: production (PROD)
-  - description: Operations available to developers
-    name: development (DEV)
+  - name: production (PROD)
+    description: Deployed API
+  - name: development (DEV)
+    description: Operations available to developers
+security:
+  - ApiKeyAuth: []  # Applies ApiKeyAuth to all operations by default
+paths:
+  /api.php:
+    get:
+      tags:
+        - development (DEV)
+      summary: api.php - Retrieves secured data
+      operationId: getSecuredData
+      description: Retrieves secured data available in the system, requires API key for access.
+      security:
+        - ApiKeyAuth: []  # Reiterates that this endpoint requires ApiKeyAuth
+      responses:
+        '200':
+          description: Successfully retrieved data
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                  data:
+                    type: object
+                    properties:
+                      info:
+                        type: string
+        '401':
+          description: Unauthorized access
+components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: query
+      name: apiKey
