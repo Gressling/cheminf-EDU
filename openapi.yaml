@@ -45,7 +45,7 @@ paths:
                         type: string
         '401':
           description: Unauthorized access
-  /api/chemicals:
+  /A1/A1.php:
     get:
       tags:
         - production (PROD)
@@ -65,17 +65,23 @@ paths:
                 properties:
                   message:
                     type: string
-                  chemicals:
+                  data:
                     type: array
                     items:
                       type: object
                       properties:
-                        id:
+                        Number:
                           type: string
-                        name:
+                        Workflow_ID:
                           type: string
-                        formula:
+                        CreateDate:
                           type: string
+                        Cost:
+                          type: string
+                        Purpose:
+                          type: string
+                        FKEY_USER:
+                          type: string            
         '401':
           description: Unauthorized access
 components:
