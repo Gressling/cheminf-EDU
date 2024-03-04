@@ -45,10 +45,10 @@ paths:
                         type: string
         '401':
           description: Unauthorized access
-  /A1/A1.php:
+  /api.php:
     get:
       description: Retrieves secured data available in the system, requires API key for access.
-      operationId: getExperiment
+      operationId: getSecuredData
       responses:
         '200':
           content:
