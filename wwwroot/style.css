@@ -4,10 +4,12 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* height: 100vh; Remove or comment out this line */
+    min-height: 100vh; /* Use min-height instead */
+    display: block; /* Change display to block */
 }
 
 .container {
@@ -16,9 +18,11 @@ body {
     text-align: left;
     background-color: #fff;
     padding: 20px;
+    margin: auto; /* Center the container */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 
 .title {
     margin-bottom: 20px;
@@ -37,8 +41,47 @@ body {
 }
 
 .php-test {
-    margin-top: 20px;
-    color: #555;
+    background-color: black;
+    color: rgb(131, 254, 0);
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    white-space: pre-wrap; /* To maintain spacing and formatting of text */
+    margin-top: 22px;
+}
+
+/* Add before and after pseudo-elements for .php-test */
+.php-test::before {
+    content: "$ ";
+    color: rgb(131, 254, 0);
+}
+
+.php-test::after {
+    content: " >";
+    color: rgb(131, 254, 0);
+}
+
+.terminal {
+    background-color: black;
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    white-space: pre-wrap; /* To maintain spacing and formatting of text */
+}
+
+/* Optional: Add some styling for a more authentic terminal look */
+.terminal::before {
+    content: "$ ";
+    color: green;
+}
+
+/* If you want to differentiate input from output, you could add a class for input */
+.terminal-input::before {
+    content: "user@terminal:~$ ";
+    color: lightgreen;
 }
 
 .license {

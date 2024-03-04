@@ -24,6 +24,7 @@ $username = htmlspecialchars($_SESSION['username']);
         <a href="index.php">Home</a><br>
         <a href="logout.php">Logout</a> <!-- Ensure you have a logout.php to handle session destruction -->
     </div>
+    <div class="license">MIT Licence - no commercial interest</div>
 </div>
 </body>
 </html>
