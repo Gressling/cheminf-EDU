@@ -1,4 +1,5 @@
 import requests
+import pandas as pd
 
 class EDUInstance:
     def __init__(self, apiKey, RESTURL="http://gressling.net/v2/"):
@@ -34,5 +35,16 @@ class EDUInstance:
             query = {"apiKey": self.apiKey}
             response = requests.get(url, params=query)
             return response.json()
+        else:
+            return "Connection failed"
+
+    def getExperiments(self):
+        """Retrieves data from the API if connection is successful."""
+        if self.connect():
+            url = f"{self.RESTURL}A1/A1.php"
+            query = {"apiKey": self.apiKey}
+            response = requests.get(url, params=query)
+            json_data = response.json()
+            return pd.DataFrame(json_data['data'])
         else:
             return "Connection failed"

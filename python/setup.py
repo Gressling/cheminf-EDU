@@ -4,13 +4,13 @@ from setuptools import setup, find_packages
 
 setup(
     name='gressling',
-    version='0.0.6',
+    version='0.7',
     packages=find_packages(),
     install_requires=[],
     include_package_data=True,
     author='Gressling, T.',
     author_email='thorsten.gressling@gressling.com',
-    description='Cheminformatics toolset for lectures at Humboldt University Berlin',
+    description='Cheminformatics toolset for lectures at Humboldt University Berlin with focus on LLM functions',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
 )
