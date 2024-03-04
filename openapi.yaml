@@ -1,7 +1,7 @@
 openapi: 3.0.0
 info:
   description: ChemInformatics EDU API
-  version: v2
+  version: 0.7
   title: ChemInformatics EDU API
   contact:
     email: thorsten.gressling@hu-berlin.com
