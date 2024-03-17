@@ -2,9 +2,9 @@ import requests
 
 class S88:
     def __init__(self):
-        self.ghAPI = "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"
+        self.ghAPI = "<GHAPI_TOKEN>"
         # Your GitHub Personal Access Token
-        self.token = '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'
+        self.token = '<GHAPI_TOKEN>'
         self.headers = {'Authorization': f'token {self.token}'}
               
     def loadFromGithub(self, repo, path=''):
