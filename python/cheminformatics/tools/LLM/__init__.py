@@ -24,6 +24,31 @@ class Experiment:
         - language (str): (default: empty is en_en)
 
         Returns:
-        - str: The translates string
+        - str: The translated string
         """
         return "not implemented"
+
+    def convert(dataset: str, mask: str = "") -> str:
+            """
+            Perform a conversion to a new target format defined by mask.
+
+            Parameters:
+            - dataset (str): The first string to convert.
+            - mask (str): (default: empty is no conversion)        
+
+            Returns:
+            - str: The converted dataset
+            """
+            return "not implemented"
+
+    def comment(dataset: str) -> str:
+            """
+            Gives comments on the experiment.
+
+            Parameters:
+            - dataset (str): The experiment data.
+
+            Returns:
+            - str: The converted dataset
+            """
+            return "not implemented"

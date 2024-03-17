@@ -10,7 +10,8 @@
     <div class="container">
         <h1 class="title">ChemInformatics EDU</h1>
         <div class="links">
-            Version 1: <a class="link" href="v1/index.html">v1 - WiSe 24, Humboldt Uni</a><br/>
+            Version 0 (SoSe 23) and version 1 (WiSe 23/24) are closed.
+            <br/><br/>
             Version 2: <a class="link" href="v2/index.php">v2 (login)</a><br/>
             Repository: <a class="link" href="https://github.com/Gressling/cheminformatics">github.com/Gressling/cheminformatics</a><br/>
         </div>
