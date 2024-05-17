@@ -1,0 +1,59 @@
+ID,Chemical_Name,CAS_Number,Physical_State,Chemical_Family,Toxicity_Level,Flammability_Level,Reactivity_Level,Special_Hazard,Data_Source,Label_Class
+1,Chemical A,75-07-0,Solid,Acid,Medium,None,Highly Reactive,Irritant,Source A,2
+2,Chemical B,75-07-0,Liquid,Ester,High,Low,Highly Reactive,Irritant,Source A,0
+3,Chemical A,75-07-0,Gas,Acid,Medium,Low,Stable,Explosive,Source B,1
+4,Chemical B,64-17-5,Gas,Acid,Medium,Low,Highly Reactive,Corrosive,Source A,2
+5,Chemical B,64-17-5,Liquid,Acid,Medium,High,Unstable,Explosive,Source A,1
+6,Chemical C,64-17-5,Gas,Alcohol,Medium,Low,Unstable,Explosive,Source C,2
+7,Chemical A,50-00-0,Liquid,Alcohol,Low,Low,Highly Reactive,Explosive,Source A,1
+8,Chemical C,64-17-5,Solid,Alcohol,High,Low,Unstable,Explosive,Source A,2
+9,Chemical A,75-07-0,Gas,Acid,High,High,Highly Reactive,Explosive,Source B,1
+10,Chemical A,50-00-0,Gas,Ester,Low,None,Highly Reactive,Explosive,Source B,2
+11,Chemical A,75-07-0,Solid,Acid,Medium,Low,Unstable,Irritant,Source B,2
+12,Chemical C,64-17-5,Gas,Acid,Medium,None,Highly Reactive,Irritant,Source B,2
+13,Chemical B,50-00-0,Solid,Alcohol,Low,Low,Stable,Explosive,Source B,2
+14,Chemical C,50-00-0,Solid,Alcohol,Low,Low,Stable,Explosive,Source B,0
+15,Chemical C,64-17-5,Gas,Acid,Low,High,Highly Reactive,Explosive,Source C,2
+16,Chemical A,50-00-0,Solid,Ester,High,None,Unstable,Irritant,Source A,2
+17,Chemical B,50-00-0,Gas,Alcohol,Medium,High,Unstable,Corrosive,Source C,2
+18,Chemical B,50-00-0,Gas,Ester,High,None,Highly Reactive,Corrosive,Source A,2
+19,Chemical B,50-00-0,Gas,Ester,Medium,High,Highly Reactive,Corrosive,Source B,0
+20,Chemical B,50-00-0,Solid,Acid,High,None,Unstable,Explosive,Source A,1
+21,Chemical A,50-00-0,Solid,Acid,Low,High,Stable,Corrosive,Source C,0
+22,Chemical B,64-17-5,Solid,Acid,High,None,Highly Reactive,Explosive,Source A,2
+23,Chemical A,50-00-0,Liquid,Ester,Low,None,Stable,Corrosive,Source A,0
+24,Chemical A,64-17-5,Gas,Alcohol,Medium,None,Highly Reactive,Irritant,Source B,0
+25,Chemical B,75-07-0,Solid,Alcohol,Medium,None,Highly Reactive,Irritant,Source A,2
+26,Chemical C,64-17-5,Gas,Ester,High,None,Stable,Explosive,Source B,1
+27,Chemical A,75-07-0,Solid,Acid,Medium,High,Unstable,Irritant,Source A,0
+28,Chemical C,64-17-5,Gas,Acid,Low,Low,Stable,Corrosive,Source C,1
+29,Chemical B,50-00-0,Liquid,Acid,Medium,None,Stable,Irritant,Source A,2
+30,Chemical B,75-07-0,Liquid,Acid,High,High,Unstable,Corrosive,Source A,0
+31,Chemical B,50-00-0,Gas,Ester,Low,High,Highly Reactive,Corrosive,Source B,1
+32,Chemical C,50-00-0,Solid,Ester,Low,Low,Unstable,Irritant,Source A,1
+33,Chemical A,75-07-0,Solid,Ester,Medium,None,Highly Reactive,Explosive,Source A,2
+34,Chemical B,64-17-5,Solid,Acid,Low,None,Highly Reactive,Corrosive,Source C,1
+35,Chemical B,50-00-0,Gas,Acid,High,None,Stable,Irritant,Source B,2
+36,Chemical B,75-07-0,Gas,Alcohol,High,None,Unstable,Corrosive,Source C,0
+37,Chemical A,64-17-5,Solid,Alcohol,Medium,None,Stable,Irritant,Source C,1
+38,Chemical C,50-00-0,Solid,Alcohol,Medium,Low,Stable,Explosive,Source A,1
+39,Chemical A,64-17-5,Solid,Ester,Medium,None,Stable,Corrosive,Source C,2
+40,Chemical C,50-00-0,Liquid,Ester,High,High,Highly Reactive,Corrosive,Source C,2
+41,Chemical C,75-07-0,Gas,Acid,Medium,High,Stable,Irritant,Source A,0
+42,Chemical A,64-17-5,Solid,Acid,Medium,High,Unstable,Explosive,Source C,2
+43,Chemical C,64-17-5,Solid,Alcohol,Low,None,Stable,Irritant,Source B,1
+44,Chemical A,75-07-0,Liquid,Alcohol,Medium,None,Highly Reactive,Irritant,Source A,2
+45,Chemical A,50-00-0,Solid,Ester,High,High,Unstable,Explosive,Source B,0
+46,Chemical A,75-07-0,Gas,Acid,Medium,None,Stable,Corrosive,Source C,1
+47,Chemical B,75-07-0,Liquid,Acid,Medium,High,Unstable,Corrosive,Source B,2
+48,Chemical B,50-00-0,Liquid,Ester,Low,High,Highly Reactive,Irritant,Source B,0
+49,Chemical C,64-17-5,Liquid,Alcohol,Low,None,Stable,Explosive,Source A,2
+50,Chemical A,64-17-5,Solid,Acid,Medium,Low,Stable,Explosive,Source B,1
+51,Chemical A,64-17-5,Solid,Acid,Medium,Low,Stable,Corrosive,Source B,2
+52,Chemical B,64-17-5,Solid,Acid,High,Low,Highly Reactive,Corrosive,Source B,1
+53,Chemical A,75-07-0,Liquid,Acid,Medium,None,Unstable,Irritant,Source C,0
+54,Chemical B,64-17-5,Liquid,Acid,High,None,Stable,Corrosive,Source A,0
+55,Chemical C,64-17-5,Gas,Ester,High,Low,Stable,Explosive,Source B,1
+56,Chemical C,64-17-5,Liquid,Ester,Medium,None,Stable,Irritant,Source B,0
+57,Chemical A,64-17-5,Solid,Ester,High,None,Stable,Irritant,Source A,2
+58,Chemical B,64-17-5,Solid,Alcohol,High,Low,Unstable,Explosive,Source B,0
