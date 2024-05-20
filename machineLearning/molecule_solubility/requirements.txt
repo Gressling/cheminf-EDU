@@ -1,0 +1,5 @@
+jupyterlab==4.2.0
+pandas==2.2.2
+PyMySQL==1.1.0
+python==3.9
+sqlalchemy==2.0.30
