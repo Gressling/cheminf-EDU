@@ -1,14 +1,21 @@
+import os
 import pandas as pd
 import pymysql.cursors
 from typing import Union, List
+from dotenv import load_dotenv
 
-
-HOST = "den1.mysql6.gear.host"
-DB = "situation"
-USR = "situation"
-PASSWORD = "cogni88."
-TABLE = "p16_drug_target_data"
-SQL = f"SELECT * FROM {TABLE}"
+try:
+    load_dotenv()
+    HOST = os.getenv("HOST")
+    DB = os.getenv("DB")
+    USR = os.getenv("USR")
+    PASSWORD = os.getenv("PASSWORD")
+    TABLE = os.getenv("TABLE")
+    SQL = f"SELECT * FROM {TABLE}"
+except Exception as e:
+    print(
+        f"Can not load .env file. Make sure you created a .env file in the db folder. Refer to the README.md for help.\nError:{e}"
+    )
 
 
 def connect_to_database() -> pymysql.Connection:
@@ -50,3 +57,9 @@ def query_data(
     else:
         print("Type not found.")
         return []
+
+
+if __name__ == "__main__":
+    con = connect_to_database()
+    d = query_data(con, "sql")
+    print(d)
