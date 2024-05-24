@@ -1,7 +1,8 @@
 # Situation Analysis Dataset
 
 ## Overview
-This repository houses a dataset derived from a comprehensive study aimed at uncovering operational inefficiencies within a manufacturing process. The dataset encapsulates data collected from various unit operations, detailing parameters and degradation metrics.
+This repository houses a dataset derived from a comprehensive study aimed at uncovering operational inefficiencies within a manufacturing process. 
+The dataset encapsulates data collected from various unit operations, detailing parameters and degradation metrics.
 
 ## Dataset Description
 
@@ -46,7 +47,7 @@ Parameters Data:
 
 ## Statistical Summary
 - The degradation data includes metrics for operational inefficiency, measured across different unit operations and workflow steps.
-- Parameters data provides details about various unit operations and associated parameter
+- The parameters data provides details about various unit operations and associated parameters. Statistical summaries provide insights into the dataset's central tendencies and variability.
 
 ## Example Statistical Summaries
 #### Means of Inefficiency Scores by Experiment Group
@@ -88,22 +89,17 @@ The tables below show the minimum and maximum values for each parameter in the d
 | inefficiency_score| 0.195349          |
 
 
-
-
-
 ## Correlation Matrix
 The correlation matrix below exhibits the correlation coefficients between different operational parameters and inefficiency scores.
 
 ## Data Visualization
-Visualizing the dataset entails various plots:
-
-- Distribution of Inefficiency Scores: Histograms showcasing the distribution of inefficiency scores.
-- Pairplots: Scatter plots illustrating relationships between parameters and inefficiency scores.
-- Correlation Heatmap: A heatmap visualizing correlations between parameters and inefficiency scores.
+Visualizing the dataset involves the following plots:
+- Distribution of Inefficiency Scores: A histogram that shows the distribution of inefficiency scores in the dataset.
+- Inefficiency Score vs. Parameter Value: A scatter plot illustrating the relationship between parameter values and inefficiency scores, differentiated by experiment group.
+- Correlation Heatmap: A heatmap displaying the correlation coefficients between various numerical parameters and inefficiency scores.
 
 ## Usage
-This dataset finds utility in:
-
+This dataset can be used for:
 - Analyzing operational inefficiencies spanning diverse unit operations and workflow steps.
 - Developing predictive models to anticipate inefficiency scores based on operational parameters.
 - Conducting statistical analyses to pinpoint significant parameters influencing operational inefficiencies.
