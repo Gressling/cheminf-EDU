@@ -58,6 +58,39 @@ Parameters Data:
 | Group3           | 0.101                   |
 
 
+## Minimum and Maximum Values
+The tables below show the minimum and maximum values for each parameter in the degradation dataset. These values help identify the range and variability within the dataset.
+
+### Minimum Values
+
+| Parameter         | Minimum Value     |
+|-------------------|-------------------|
+| id                | 1                 |
+| reactor_robot_id  | RR101             |
+| experiment_group  | Group1            |
+| workflow_step     | Step1             |
+| parameter_name    | Pressure          |
+| parameter_value   | 105.757959        |
+| execution_time    | 2024-05-13 11:30:53 |
+| inefficiency_score| 0.012226          |
+
+### Maximum Values
+
+| Parameter         | Maximum Value     |
+|-------------------|-------------------|
+| id                | 44                |
+| reactor_robot_id  | RR104             |
+| experiment_group  | Group3            |
+| workflow_step     | Step3             |
+| parameter_name    | Viscosity         |
+| parameter_value   | 399.654102        |
+| execution_time    | 2024-05-13 15:05:53 |
+| inefficiency_score| 0.195349          |
+
+
+
+
+
 ## Correlation Matrix
 The correlation matrix below exhibits the correlation coefficients between different operational parameters and inefficiency scores.
 
