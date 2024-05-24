@@ -12,13 +12,17 @@ This repository contains a dataset derived from a metabolomics study aimed at di
  - **gender**: Gender of the individual (Male/Female)
  - **disease_status**: Health status of the individual, indicating whether they are "Healthy" or "Diseased"
 
-Sample Data
-sample_id	| metabolite1	metabolite2	metabolite3	metabolite4	metabolite5	metabolite6	metabolite7	metabolite8	metabolite9	metabolite10	age	gender	disease_status
-sample_0	0.676405	0.653278	0.506652	0.648825	0.413877	0.350874	0.618803	0.577179	0.345920	0.514195	43	Female	Healthy
-sample_1	0.540016	0.646936	0.530247	0.689589	0.691006	0.543939	0.531694	0.582350	0.506326	0.468067	54	Female	Diseased
-sample_10	0.514404	0.461267	0.336980	0.535637	0.529824	0.493176	0.454447	0.497567	0.384382	0.440369	46	Male	Healthy
-sample_11	0.645427	0.469770	0.546278	0.570657	0.632639	0.671334	0.501748	0.426197	0.578120	0.494743	58	Female	Diseased
-...	...	...	...	...	...	...	...	...	...	...	...	...	...
+### Sample Data
+
+| sample_id | metabolite1 | metabolite2 | ... |  metabolite10 | age | gender | disease_status |
+|-----------|-------------|-------------|-----|---------------|-----|--------|----------------|
+| sample_0  | 0.676405    | 0.653278    | ... | 0.514195      | 43  | Female | Healthy        |
+| sample_1  | 0.540016    | 0.646936    | ... | 0.468067      | 54  | Female | Diseased       |
+| ...       | ...         | ...         | ... |  ...          | ... | ...    | ...            |
+| sample_10 | 0.514404    | 0.461267    | ... |  0.440369     | 46  | Male   | Healthy        |
+| ...       | ...         | ...         | ... |  ...          | ... | ...    | ...            |
+
+
 ### Statistical Summary
 
    - dataset contains quantitative data for ten metabolites, each represented by a column
@@ -26,11 +30,13 @@ sample_11	0.645427	0.469770	0.546278	0.570657	0.632639	0.671334	0.501748	0.42619
    - gender column indicates the gender of the individuals
    - disease_status column categorizes individuals as either "Healthy" or "Diseased"
 
-Example Statistical Summaries
+### Example Statistical Summaries
 Means of Metabolite Levels by Disease Status
-disease_status	metabolite1	metabolite2	metabolite3	metabolite4	metabolite5	metabolite6	metabolite7	metabolite8	metabolite9	metabolite10	age
-Diseased	0.517483	0.502760	0.491695	0.547972	0.530802	0.473632	0.458145	0.510215	0.507977	0.467217	49.27
-Healthy	0.549179	0.468476	0.452395	0.561782	0.511256	0.510120	0.485692	0.529696	0.451494	0.484593	41.94
+| disease_status | metabolite1 | metabolite2 | ... | metabolite10 | age   |
+|----------------|-------------|-------------|-----|--------------|-------|
+| Diseased       | 0.517483    | 0.502760    | ... | 0.467217     | 49.27 |
+| Healthy        | 0.549179    | 0.468476    | ... | 0.484593     | 41.94 |
+
 
 ## Correlation Matrix
 
@@ -41,15 +47,15 @@ The correlation matrix below shows the correlation coefficients between differen
 
 The dataset has been visualized using various plots:
 
-  -  Distribution of Metabolites: Histograms for each metabolite show the distribution of their values.
-  -  Pairplots: Pairwise scatter plots of metabolites, colored by disease status, to visualize relationships and clustering.
-  -  Correlation Heatmap: A heatmap of the correlation matrix to identify relationships between different metabolites.
+  -  Distribution of Metabolites: Histograms for each metabolite show the distribution of their values
+  -  Pairplots: Pairwise scatter plots of metabolites, colored by disease status, to visualize relationships and clustering
+  -  Correlation Heatmap: A heatmap of the correlation matrix to identify relationships between different metabolites
 
 ## Usage
 
 This dataset can be used for:
 
-   - Analyzing the differences in metabolite levels between healthy and diseased individuals.
-   - Building machine learning models to predict disease status based on metabolite levels.
-   - Conducting statistical analysis to identify significant metabolites related to the disease.
+   - Analyzing the differences in metabolite levels between healthy and diseased individuals
+   - Building machine learning models to predict disease status based on metabolite levels
+   - Conducting statistical analysis to identify significant metabolites related to the disease
 
