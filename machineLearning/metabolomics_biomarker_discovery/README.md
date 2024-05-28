@@ -61,7 +61,12 @@ This dataset can be used for:
 
 ## Referneces and further reading
 
-- https://www.kaggle.com/datasets/desertman/human-serum-metabolome-variability, see also:  https://www.kaggle.com/datasets/desertman/human-serum-metabolome-variability
-- https://www.kaggle.com/datasets/desertman/komp-plasma-metabolomics-dataset
+  - https://www.nature.com/articles/s41598-020-72914-7, see also:  https://www.kaggle.com/datasets/desertman/human-serum-metabolome-variability
+  - https://www.kaggle.com/datasets/desertman/komp-plasma-metabolomics-dataset
+
+## notes
+
+  - https://chatgpt.com/share/1b6994f4-e909-46e0-8d15-17814f1b870b
+  - https://www.kaggle.com/code/desertman/box-and-whisker-plots-for-a-metabolomics-dataset 
   
 
