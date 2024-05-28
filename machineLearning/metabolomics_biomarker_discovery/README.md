@@ -59,3 +59,9 @@ This dataset can be used for:
    - Building machine learning models to predict disease status based on metabolite levels
    - Conducting statistical analysis to identify significant metabolites related to the disease
 
+## Referneces and further reading
+
+- https://www.kaggle.com/datasets/desertman/human-serum-metabolome-variability, see also:  https://www.kaggle.com/datasets/desertman/human-serum-metabolome-variability
+- https://www.kaggle.com/datasets/desertman/komp-plasma-metabolomics-dataset
+  
+
