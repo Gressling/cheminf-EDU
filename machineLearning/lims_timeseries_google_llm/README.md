@@ -33,7 +33,7 @@ Following observations are made from the dataset:
 * This dataset can be used to analyze the behavior of the LDR sensor over time, identifying trends or patterns in light intensity as recorded by the sensor.
 
 ### Columns:
-* **_result**: Always set to _result, indicating the name of the result set.
+* **_result**: Always empty.
 * **table**: Identifies the table number.
 * **_start**: The start time for the query range.
 * **_stop**: The end time for the query range.
