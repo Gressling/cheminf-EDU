@@ -51,6 +51,18 @@ The dataset has been visualized using various plots:
   -  Pairplots: Pairwise scatter plots of metabolites, colored by disease status, to visualize relationships and clustering
   -  Correlation Heatmap: A heatmap of the correlation matrix to identify relationships between different metabolites
 
+## 3D Plots
+### Correlation Matrix
+
+![newplot](https://github.com/Gressling/cheminf-EDU/assets/151255461/61771c67-83b4-492b-a2f5-e23ed24f3d5d)
+
+### Scatter Plot 
+![newplot (1)](https://github.com/Gressling/cheminf-EDU/assets/151255461/8ed0eafe-ca41-4b5e-9ae4-f102dde48573)
+
+### Surface Plot 
+![newplot (2)](https://github.com/Gressling/cheminf-EDU/assets/151255461/e430002f-0c61-4918-9993-645be0af97cb)
+
+
 ## Usage
 
 This dataset can be used for:
