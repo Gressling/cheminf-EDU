@@ -2,9 +2,10 @@
 
 ## Introduction
 
-In recent years, the landscape of time-series forecasting has witnessed significant advancements, 
+In recent years, the landscape of time-series forecasting 
+(see this [Introduction into time-series forecasting](https://www.tableau.com/learn/articles/time-series-forecasting#:~:text=Time%20series%20forecasting%20occurs%20when,drive%20future%20strategic%20decision%2Dmaking)) has witnessed significant advancements, 
 driven by the increasing availability of large-scale data and the development of sophisticated machine 
-learning models. Google LLM, with its powerful language modeling capabilities, presents a promising avenue 
+learning models. Google LLM ([Google TimesFM GitHub](https://github.com/google-research/timesfm)), with its powerful language modeling capabilities, presents a promising avenue 
 for enhancing time-series forecasting accuracy and efficiency. This project, 
 focuses on leveraging TimesFM, Google’s advanced foundation model, to improve forecasting performance in various
 applications such as finance, weather prediction, and supply chain management. The motivation behind this study
@@ -168,3 +169,8 @@ for table in result:
 df = pd.DataFrame(results, columns=['field', 'value', 'time', 'device'])
 df.head(10)
 ```
+# References
+1. Google TimesFM GitHub: https://github.com/google-research/timesfm
+2. Google TimesFM Article: https://towardsdatascience.com/timesfm-googles-foundation-model-for-time-series-forecasting-593a332dd08d
+3. Time Series with Pandas: https://towardsdatascience.com/introducing-time-series-in-pandas-09c7cab569b4
+4. Introduction into time-series forecasting:https://www.tableau.com/learn/articles/time-series-forecasting#:~:text=Time%20series%20forecasting%20occurs%20when,drive%20future%20strategic%20decision%2Dmaking
