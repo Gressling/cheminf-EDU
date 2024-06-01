@@ -1,9 +1,9 @@
 # Biological Assays Efficacy Prediction
  
-Introduction
+##Introduction
 This project aims to develop a machine learning model to predict the efficacy of biological assays. Biological assays are crucial experiments in biological research and drug development, used to measure the effects of a substance on a living organism or cells. Accurate prediction of assay outcomes can significantly accelerate the drug discovery process, reduce costs, and enhance the development of effective treatments.
 
-Objective
+##Objective
 The primary goal of this project is to build a predictive model that can accurately determine the efficacy of various compounds in biological assays. The model seeks to address the challenge of predicting assay outcomes based on compound features and assay conditions, potentially leading to more efficient drug screening and discovery processes.
 
 Data Used
