@@ -1,8 +1,48 @@
 # Metabolomics Dataset
 ## Overview
 
-This repository contains a dataset derived from a metabolomics study aimed at distinguishing between diseased and healthy individuals based on metabolite levels. The dataset includes various metabolites measured in blood samples, along with demographic information such as age, gender, and disease status.
+This repository contains a dataset derived from a metabolomics study aimed at distinguishing between diseased and healthy individuals based on metabolite levels. Metabolomics, a field within "omics" sciences, focuses on the comprehensive analysis of small molecules, known as metabolites, within biological samples. The primary goal of this study is to identify metabolic differences that can serve as biomarkers for disease states, offering potential insights for diagnosis, prognosis, and therapeutic interventions.
 
+The dataset includes quantitative measurements of various metabolites in blood samples, along with demographic information such as age, gender, and disease status. By analyzing this data, researchers can potentially uncover significant metabolic alterations associated with different health conditions, advancing our understanding of disease mechanisms and aiding in the development of personalized medicine.
+
+## Metabolomics: An Overview
+
+### Definition and Importance
+Metabolomics is the scientific study of chemical processes involving metabolites, which are the intermediates and products of metabolism. The metabolome represents the complete set of metabolites in a biological cell, tissue, organ, or organism, which are the end products of cellular processes. The study of these small molecules and their interactions within a biological system provides a direct functional readout of cellular activity and physiological status.
+
+The following graphic illustrates the factors influencing the phenotype and the role of metabolomics in understanding these influences:
+
+By leveraging this dataset, researchers can apply various analytical and statistical techniques to uncover significant metabolic differences, leading to a better understanding of disease states and potential avenues for treatment and prevention.
+<p align="center">
+  <img src="https://github.com/Gressling/cheminf-EDU/assets/151255461/ec010b09-38f4-446b-9396-7c8b8c726a84" alt="1578509820-640w_mti_metabolomics">
+</p>
+
+<p align="center">
+  Source: <a href="https://www.mtidx.com/our-technology/metabolomics">MTI Metabolomics</a>
+</p>
+
+### Applications
+Metabolomics has a broad range of applications in various fields, including:
+
+   - **Medical Research**: Identifying biomarkers for diseases, understanding disease mechanisms, and discovering new therapeutic targets
+   - **Pharmacology**: Investigating drug metabolism and pharmacokinetics, and predicting drug efficacy and toxicity
+   - **Nutrition**: Analyzing the impact of diet on health and identifying metabolic responses to dietary interventions
+   - **Environmental Science**: Studying the effects of environmental changes on organisms and ecosystems through metabolic alterations
+### Techniques
+Several analytical techniques are employed in metabolomics to identify and quantify metabolites, including:
+
+ - **Mass Spectrometry (MS)**: Provides detailed information on the molecular weight and structure of metabolites.
+ - **Nuclear Magnetic Resonance (NMR) Spectroscopy**: Offers insights into the molecular structure and dynamics of metabolites.
+ - **Chromatography**: Techniques like Gas Chromatography (GC) and Liquid Chromatography (LC) are used to separate complex mixtures of metabolites before MS or NMR analysis.
+
+### Data Analysis
+The analysis of metabolomic data involves several steps:
+
+   1.  **Data Acquisition**: Collecting quantitative measurements of metabolites using analytical techniques.
+   2.  **Data Preprocessing**: Normalizing and transforming raw data to reduce technical variability.
+   3.  **Statistical Analysis**: Applying statistical methods to identify significant differences between groups (e.g., healthy vs. diseased).
+   4.  **Pathway Analysis**: Mapping significant metabolites to metabolic pathways to understand the biological context.
+    
 ## Dataset Description
 ### Columns
 
