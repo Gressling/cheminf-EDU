@@ -49,13 +49,13 @@ By leveraging CNNs, researchers can analyze images alongside numerical data to p
 
 ## Data Visualization
 
-<img src="C:\Users\Edward\Desktop\Meinwerk\Code\Demo\PM10.png" >
+![location](location.png)
 
-<img src="C:\Users\Edward\Desktop\Meinwerk\Code\Demo\location.png" >
+![PM10](PM10.png)
 
-<img src="C:\Users\Edward\Desktop\Meinwerk\Code\Demo\Corr_Mat.png" >
+![Corr_Mat](Corr_Mat.png)
 
-<img src="C:\Users\Edward\Desktop\Meinwerk\Code\Demo\3D.png" >
+![3D](3D.png)
 
 ## Methodology
 
