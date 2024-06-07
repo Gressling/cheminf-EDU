@@ -49,36 +49,16 @@ By leveraging CNNs, researchers can analyze images alongside numerical data to p
 
 ## Data Visualization
 
+<img src="C:\Users\Edward\Desktop\Meinwerk\Code\Demo\PM10.png" >
 
+<img src="C:\Users\Edward\Desktop\Meinwerk\Code\Demo\location.png" >
 
-![location](C:\Users\Edward\Desktop\Meinwerk\Code\Demo\location.png)
+<img src="C:\Users\Edward\Desktop\Meinwerk\Code\Demo\Corr_Mat.png" >
 
-![PM10](C:\Users\Edward\Desktop\Meinwerk\Code\Demo\PM10.png)
-
-![Corr_Mat](C:\Users\Edward\Desktop\Meinwerk\Code\Demo\Corr_Mat.png)
-
-![3D](C:\Users\Edward\Desktop\Meinwerk\Code\Demo\3D.png)
-
-
-
-## Installation and Usage
-- Python packages:
-
-  -pymysql-1.1.1
-
-  -sqlalchemy-2.0.30
-
-  -pandas
-
-  -matplotlib-3.7.1
-
-  -seaborn-0.13.1
-
----
-
-# Exercise 3 (Start: June 14th)
+<img src="C:\Users\Edward\Desktop\Meinwerk\Code\Demo\3D.png" >
 
 ## Methodology
+
 Outline the methodology used in the project. This may include:
 - Data preprocessing steps
 - Feature engineering
