@@ -1,26 +1,78 @@
-# Envirnonmental Pollution Prediction (Title of the Study)
+# Environmental Pollution Prediction 
 
 ## Introduction
-Provide a brief overview of the project. Explain the context, motivation, and the importance of the study.
+The "Environmental Pollution" dataset is a comprehensive collection of data aimed at analyzing and predicting environmental pollution levels using Convolutional Neural Networks (CNNs). This dataset includes a variety of features that are crucial for understanding air quality and the factors influencing it.
 
 ## Objective
-What is the question to solve? Describe the main problem or question that the project aims to address. Highlight the significance and potential impact of solving this problem.
-
-## Data Used
-Describe the data used in the project. Include details such as:
-- Source of the data (hypothetical)
-- Data collection methods
-- Data size and structure
-- Any preprocessing steps applied to the data (best guess)
+By leveraging CNNs, researchers can analyze images alongside numerical data to predict pollution levels and understand the underlying patterns and trends. The diverse range of features included in this dataset provides a rich source of information for creating sophisticated models for environmental pollution predictions.
 
 ## Features
-List and describe the features used in the machine learning model. Explain why these features are important and how they contribute to solving the problem. 
+**ID**: A unique identifier for each record in the dataset.
+
+**Location**: The geographical location where the data was collected.
+
+**Timestamp**: The specific date and time when the data was recorded.
+
+**Image URL**: A link to an image related to the data point, which can be used for visual analysis.
+
+**NO2 (Nitrogen Dioxide)**: The concentration of nitrogen dioxide in the air.
+
+**PM2.5 (Particulate Matter 2.5)**: The amount of fine particulate matter with a diameter of 2.5 micrometers or less.
+
+**PM10 (Particulate Matter 10)**: The concentration of particulate matter with a diameter of 10 micrometers or less.
+
+**CO (Carbon Monoxide)**: The concentration of carbon monoxide in the air.
+
+**O3 (Ozone)**: The level of ozone present in the atmosphere.
+
+**SO2 (Sulfur Dioxide)**: The amount of sulfur dioxide in the air.
+
+**Temperature**: The ambient temperature at the time of data collection.
+
+**Humidity**: The relative humidity in the environment.
+
+**Wind Speed**: The speed of the wind, which can affect the dispersion of pollutants.
+
+**Wind Direction**: The direction from which the wind is blowing.
+
+
+
+## Sample Data
+
+|  id  |    location     | ...  | NO2  | PM2_5 |
+| :--: | :-------------: | :--: | :--: | :---: |
+|  1   |  New York, NY   | ...  | 24.5 | 15.0  |
+|  2   | Los Angeles, CA | ...  | 20.0 | 25.0  |
+|  3   |   Chicago, IL   | ...  | 18.0 | 20.0  |
+
+
+
+## Data Visualization
+
+
+
+![location](C:\Users\Edward\Desktop\Meinwerk\Code\Demo\location.png)
+
+![PM10](C:\Users\Edward\Desktop\Meinwerk\Code\Demo\PM10.png)
+
+![Corr_Mat](C:\Users\Edward\Desktop\Meinwerk\Code\Demo\Corr_Mat.png)
+
+![3D](C:\Users\Edward\Desktop\Meinwerk\Code\Demo\3D.png)
+
+
 
 ## Installation and Usage
-Provide instructions on how to install and use the project. This should include:
-- Prerequisites
-- Installation steps
-- Example usage
+- Python packages:
+
+  -pymysql-1.1.1
+
+  -sqlalchemy-2.0.30
+
+  -pandas
+
+  -matplotlib-3.7.1
+
+  -seaborn-0.13.1
 
 ---
 
@@ -44,16 +96,16 @@ Present the results of the study. Include:
 Summarize the findings of the project. Discuss the significance of the results and any potential limitations of the study.
 
 ## Future Work
-Suggest possible future directions for the project. Highlight areas for improvement or further exploration.
+Using Convolutional Neural Network for environmental pollution predictions.
 
 ## Contributors
-List the contributors to the project and their roles.
+toipha（xkunpenggy@gmail.com）
 
 ## License
-Specify the license under which the project is distributed.
+-
 
 ## References
 Include any references or citations used in the project.
 
 ## Acknowledgements
-Acknowledge any individuals or organizations that contributed to the project.
+-
