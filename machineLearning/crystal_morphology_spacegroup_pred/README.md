@@ -1,7 +1,7 @@
 # Crystal Morphology Space Groups Prediction
 
 ## Overview
-The project is focused on the analysis of crystal morphology data with the ultimate goal of training a Convolutional Neural Network (CNN) to predict space groups. Currently, the project involves data extraction from a database, decoding and analyzing the morphology data, and visualizing various aspects of the data to gain insights that will inform the machine learning model development.
+The project is focused on the analysis of crystal morphology data with the ultimate goal of training a Convolutional Neural Network (CNN) to predict space groups. Currently, the project involves data extraction from a database, decoding and analysing the morphology data, and visualising various aspects of the data to gain insights that will inform the machine learning model development.
 
 ## Data Overview
 ### What is Crystal Morphology?
@@ -14,11 +14,11 @@ Space groups are a classification of the symmetrical arrangement of atoms in a c
 ### Data Overview
 The data in the database is structured as follows:
 
-| Column name   | Description                                                    |
-|---------------|----------------------------------------------------------------|
-| **id**        | Unique identifier for each record                              |
-| **bitmap**    | Encoded bitmap data representing the morphology of the crystal |
-| **pacegroup** | Label representing the space group of the crystal              |
+| Column name    | Description                                                    |
+|----------------|----------------------------------------------------------------|
+| **id**         | Unique identifier for each record                              |
+| **bitmap**     | Encoded bitmap data representing the morphology of the crystal |
+| **spacegroup** | Label representing the space group of the crystal              |
 
 
 ## Work with this Dataset
