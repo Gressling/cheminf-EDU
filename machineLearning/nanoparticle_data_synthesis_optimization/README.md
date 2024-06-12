@@ -68,6 +68,14 @@ To run the project in a Jupyter Notebook using Google Colab, follow these steps:
 
 3. **Install Required Packages**:
    - At the top of this notebook is a cell in which all necessary packages are installed and loaded, which must be executed once at the beginning.
+     ```r
+     # Install and load pacman package
+      if (!require("pacman")) install.packages("pacman")
+      capture.output(library(pacman), file = NULL)
+      
+      # Load packages quietly using capture.output
+      capture.output(p_load(DBI,RMySQL, getPass, dplyr, ggplot2, tidyr, ggcorrplot, broom, visdat,skimr, vtable, gridExtra, GGally,mgcv, caret, pROC, keras), file = NULL);
+     ```
    Note: this process may take some time.
 
 ### Example Usage
@@ -115,6 +123,7 @@ To run the project in a Jupyter Notebook using Google Colab, follow these steps:
 - **R-squared**: Used to determine the proportion of variance explained by the models.
 - **P-values**: Assessed the statistical significance of the predictors in the linear and GAM models.
 - **Generalized Cross-Validation (GCV)**: Evaluated the GAM model's performance.
+- **ROC and AUC**: Used to evaluate the performance of the CNN and compare it with the GAM.
 
 **[... to be continued]**
 
@@ -185,10 +194,10 @@ The findings suggest that reactant concentrations, particularly reactant B and C
 
 ## Future Work
 
-- **CNN Training**: Train and optimize the CNN to improve prediction accuracy.
-- **Feature Engineering**: Explore additional features or interactions that might enhance the model.
-- **Hyperparameter Tuning**: Conduct extensive hyperparameter tuning for the CNN and other models.
-- **Validation**: Use cross-validation and additional datasets to validate the model's robustness.
+- **CNN Training**: Train and optimize the CNN to improve prediction accuracy. This includes gathering more data to ensure the input dimensions are sufficient for convolutional operations.
+- (**Cross-Validation**: Implement cross-validation to ensure the model's robustness and prevent overfitting. This involves splitting the dataset into multiple folds and validating the model on each fold.) - already started
+- **Increase Data Volume**: Collect additional data to improve the model's training and validation process. Larger datasets will help in building a more accurate and generalizable model.
+
 
 ## Contributors
 
