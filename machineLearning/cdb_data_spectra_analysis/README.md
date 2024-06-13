@@ -26,3 +26,47 @@ By employing machine learning methods - e.g. analysis via Convolutional Neural N
 ## Visualization
 
 ![Compound 01](compound_01.png)
+
+| Compound_1 | Retention_Time |	Intensity |
+| :--: | :-------------: | :--: |
+| count |	25.000000 |	25.000000 |
+| mean	| 5.000000	| 346.467804 |
+| std	| 3.066584	| 224.181274 |
+| min	| 0.000000	| 16.179400 |
+| 25%	| 2.500000	| 144.156000 |
+| 50%	| 5.000000	| 294.389000 |
+| 75%	| 7.500000	| 480.916000 |
+| max	| 10.000000	| 762.349000 |
+
+## Methodology
+
+Outline the methodology used in the project. This may include:
+- Data preprocessing steps
+- Feature engineering
+- Model selection and training
+- Hyperparameter tuning
+- Evaluation metrics
+
+## Results
+Present the results of the study. Include:
+- Performance metrics
+- Visualizations (e.g., graphs, charts) to illustrate the results
+- Discussion of the results and their implications
+
+## Conclusion
+Summarize the findings of the project. Discuss the significance of the results and any potential limitations of the study.
+
+## Future Work
+Using Convolutional Neural Network for environmental pollution predictions.
+
+## Contributors
+roadrunner_gs（slommage@hu-berlin.de）
+
+## License
+-
+
+## References
+Include any references or citations used in the project.
+
+## Acknowledgements
+-
