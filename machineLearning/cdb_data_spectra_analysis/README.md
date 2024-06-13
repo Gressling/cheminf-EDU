@@ -13,10 +13,15 @@ By employing machine learning methods - e.g. analysis via Convolutional Neural N
 **Retention_Time**: time interval from starting point of experiment
 **Intensity**: measured wave length
 
-| Compount  | Retention_Time | Intensity |
+## Sample Data
+
+| Compound | Retention_Time | Intensity |
 | :--: | :-------------: | :--: |
 | Compound_1 |	0.000000	| 294.3890 |
 | Compound_1	| 0.416667	| 747.2610 |
 | Compound_1 |	0.833333 |	575.3470 |
 | Compound_1	| 1.250000	| 470.5460 |
 | Compound_1	| 1.666670	| 122.6310 |
+
+## Visualization
+
