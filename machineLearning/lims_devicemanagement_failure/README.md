@@ -106,7 +106,6 @@ import pymysql.cursors
 import pandas as pd
 import matplotlib.pyplot as plt
 import tensorflow as tf
-
 #### Connect to the database
 connection = pymysql.connect(
     host='den1.mysql6.gear.host',
@@ -115,18 +114,15 @@ connection = pymysql.connect(
     database='situation',
     cursorclass=pymysql.cursors.DictCursor
 )
-
 #### Fetch data from the c3_devicecalibration table
 sql = "SELECT * FROM c3_devicecalibration;"
 data = pd.read_sql(sql, connection)
-
 #### Display the first few rows of the data
 print(data.head())
-
 #### Preprocess the data for RNN model
-
-
 #### Define and train the RNN model
+#### Predict device failures
+
 
 ## Conclusion
 
@@ -139,5 +135,3 @@ TensorFlow Documentation: https://www.tensorflow.org/
 For more information and detailed documentation, please refer to the project's GitHub repository.
 
 
-# Predict device failures
-# (Prediction steps here)
