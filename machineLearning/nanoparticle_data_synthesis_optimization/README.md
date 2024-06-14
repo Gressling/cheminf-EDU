@@ -1,5 +1,7 @@
 # Nanoparticle Synthesis Optimization
 
+**Note**: This project consists of two Jupyter notebooks: `DA_nanoparticles.ipynb` and `nanoparticle_CNN_python.ipynb`. The first notebook deals with statistical analysis (consisting of descriptive and explorative analysis) and contains a first draft for a CNN in the programming language R. The second notebook takes up the CNN and realises it in Python. How these notebooks can be executed can be read under [Installation and Usage](#installation-and-usage).
+
 ## Introduction
 
 Nanoparticles play a critical role in various industries, ranging from medicine to environmental science, due to their unique properties. The synthesis of nanoparticles is a complex process that can be optimized by understanding the relationships between different synthesis parameters and the resulting particle size. This project aims to explore and predict the particle size of nanoparticles based on various synthesis parameters. Understanding these relationships can lead to more efficient production methods, better quality control, and advancements in nanoparticle applications. The study leverages a combination of linear regression, generalized additive models, and convolutional neural networks to model these relationships. By accurately predicting particle size, manufacturers can ensure consistency and quality in nanoparticle production. This project also highlights the importance of statistical and machine learning methods in optimizing industrial processes. The findings of this study have the potential to improve the scalability and efficiency of nanoparticle synthesis, ultimately contributing to advancements in nanotechnology and its applications.
@@ -57,6 +59,8 @@ To run the project in a Jupyter Notebook using Google Colab, follow these steps:
 
 ### Running in Google Colab
 
+#### Running the R Version
+
 1. **Open the Notebook in Colab**:
    - Upload the existing notebook (`DA_nanoparticles.ipynb`) to Google Drive.
    - Open the notebook in Google Colab.
@@ -78,7 +82,42 @@ To run the project in a Jupyter Notebook using Google Colab, follow these steps:
      ```
    Note: this process may take some time.
 
+#### Running the Python Version
+
+1. **Open the Notebook in Colab**:
+   - Upload the existing notebook (`nanoparticle_CNN_python.ipynb`) to Google Drive.
+   - Open the notebook in Google Colab.
+
+2. **Change the Runtime Type**:
+   - Go to the menu: `Runtime` > `Change runtime type`.
+   - Select `Python 3` from the `Runtime type` dropdown menu.
+   - Click `Save`.
+
+3. **Install Required Packages**:
+   - At the top of this notebook is a cell in which all necessary packages are installed and loaded, which must be executed once at the beginning.
+     ```python
+     %%capture
+     !pip install PyMySQL scikit-learn keras tensorflow matplotlib
+     import pymysql.cursors
+     import pandas as pd
+     import warnings
+     import getpass
+     import numpy as np
+     from sklearn.model_selection import train_test_split
+     from sklearn.preprocessing import StandardScaler
+     from keras.models import Sequential
+     from keras.layers import Conv1D, MaxPooling1D, Flatten, Dense, Dropout
+     from keras.optimizers import Adam
+     from sklearn.metrics import roc_auc_score, roc_curve
+     import matplotlib.pyplot as plt
+     warnings.filterwarnings('ignore')
+     ```
+   Note: This process may take some time.
+
+
 ### Example Usage
+
+#### R Notebook
 
 1. **Load the Data**:
     - To do this, the code cell under ‘Load data from the database’ must be executed. This establishes a connection to the database. The password for this connection must be entered on request. If this notebook is reused for your own purposes, the connection details must be adjusted accordingly or the data must be made available differently. Care should be taken to ensure that the data is transferred accordingly:
@@ -89,6 +128,17 @@ To run the project in a Jupyter Notebook using Google Colab, follow these steps:
 
 2. **Descriptive and Exploratory Data Analysis**:
     - By executing the subsequent cells in the notebook, you can perform both descriptive and exploratory data analysis
+      
+#### Python Notebook
+
+1. **Load the Data**:
+    - Execute the cell that connects to the database and loads the data into a pandas DataFrame. You will be prompted to enter the database password. The connection details may need to be adjusted for different use cases. Ensure the data is transferred as expected:
+    ```python
+    data = query_table('r18_nanoparticle_experiments')
+    data_tbl = pd.DataFrame(data)
+    ```
+2. **Data Preparation and CNN Training**:
+    - Execute the cells to perform data standardization, splitting into training, validation, and test sets, and preparing the data for CNN input. The CNN model training is included, but note that additional data is required to fully train and evaluate the model effectively.
 
 ## Methodology
 
