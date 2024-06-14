@@ -132,6 +132,6 @@ This project aims to provide a robust and scalable solution for predicting devic
 Recurrent Neural Networks:
 Data Preprocessing for Machine Learning: 
 TensorFlow Documentation: https://www.tensorflow.org/
-For more information and detailed documentation, please refer to the project's GitHub repository.
+
 
 
