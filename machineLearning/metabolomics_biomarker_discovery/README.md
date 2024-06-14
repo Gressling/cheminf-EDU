@@ -90,6 +90,11 @@ The dataset has been visualized using various plots:
   -  Distribution of Metabolites: Histograms for each metabolite show the distribution of their values
   -  Pairplots: Pairwise scatter plots of metabolites, colored by disease status, to visualize relationships and clustering
   -  Correlation Heatmap: A heatmap of the correlation matrix to identify relationships between different metabolites
+  -  Violinplots: Depict the distribution of metabolite levels by disease status, combining aspects of boxplots and kernel density plots
+  -  Heatmap of Average Metabolite Levels: Shows the average levels of each metabolite for healthy and diseased groups, providing a clear comparison
+  -  Swarmplot: Visualizes the distribution of individual data points for a specific metabolite by disease status and gender
+  -  Boxplot: Illustrate the median, quartiles, and outliers of metabolite levels for different disease statuses
+  -  Histograms: Show the distribution and frequency of metabolite levels in the dataset
 
 ## 3D Plots
 ### Correlation Matrix
