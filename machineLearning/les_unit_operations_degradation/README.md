@@ -14,23 +14,23 @@ Efficient manufacturing processes are pivotal for minimizing costs, optimizing r
 
 #### Columns:
 
-- id: Unique identifier for each data entry
-- reactor_robot_id: Identifier for the reactor or robot involved
-- experiment_group: Categorization of experiments
-- workflow_step: Step within the workflow
-- parameter_name: Name of the parameter recorded
-- parameter_value: Value of the parameter recorded
-- execution_time: Timestamp of the measurement
-- inefficiency_score: Metric indicating operational inefficiency
+- **id**: Unique identifier for each data entry
+- **reactor_robot_id**: Identifier for the reactor or robot involved
+- **experiment_group**: Categorization of experiments
+- **workflow_step**: Step within the workflow
+- **parameter_name**: Name of the parameter recorded
+- **parameter_value**: Value of the parameter recorded
+- **execution_time**: Timestamp of the measurement
+- **inefficiency_score**: Metric indicating operational inefficiency
 
 ### Parameters Data
 
 #### Columns:
 
-- Unit_Operation_ID: Identifier for the unit operation
-- UOName: Name of the unit operation
-- UODescription: Description of the unit operation
-- UOParams: Parameters associated with the unit operation
+- **Unit_Operation_ID**: Identifier for the unit operation
+- **UOName**: Name of the unit operation
+- **UODescription**: Description of the unit operation
+- **UOParams**: Parameters associated with the unit operation
 
 ## Sample Data
 
