@@ -102,3 +102,7 @@ This dataset can be used for:
 - Analyzing operational inefficiencies spanning diverse unit operations and workflow steps.
 - Developing predictive models to anticipate inefficiency scores based on operational parameters.
 - Conducting statistical analyses to pinpoint significant parameters influencing operational inefficiencies.
+
+## Notes
+
+This dataset is intended for research and educational purposes only.
