@@ -17,6 +17,19 @@ The dataset contains the following columns:
 - drug_target: Indicates whether the gene is a target for drug development (1 for yes, 0 for no). This is the main focus of this project, as identifying new drug targets is key to developing innovative therapies.
 
 
+### Data Snapshot
+
+This dataset represents a snapshot of genomic data for a set of genes. Researchers or bioinformaticians might use this data to analyze various aspects of gene function and expression. Below are the first five entries of the dataset:
+
+| gene_id | gene_name | chromosome | start_position | end_position | strand | gene_expression | drug_target |
+|---------|-----------|------------|----------------|--------------|--------|-----------------|-------------|
+| 1       | GeneA     | Chr1       | 1000           | 2000         | +      | 0.8             | 1           |
+| 2       | GeneB     | Chr2       | 3000           | 4000         | -      | 0.6             | 0           |
+| 3       | GeneC     | Chr3       | 5000           | 6000         | +      | 0.9             | 1           |
+| 4       | GeneD     | Chr4       | 7000           | 8000         | -      | 0.3             | 0           |
+| 5       | GeneE     | Chr5       | 9000           | 10000         | +      | 0.7             | 1           |
+
+
 ## What the Data Represents
 
 This dataset is useful for various types of genomic analysis, including:
