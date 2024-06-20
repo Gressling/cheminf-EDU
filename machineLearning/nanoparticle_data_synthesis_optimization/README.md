@@ -54,7 +54,7 @@ Preparation to build a CNN:
 
 ### What will be predicted?
 
-Information on setting up the model and choosing the endpoint can be found at [Model Selection and Training](#model-selection-and-training), as well as in the notebook `DA_nanoparticles.ipynb`.
+Information on setting up the model and selecting the endpoint can be found at [Model Selection and Training](#model-selection-and-training). In addition, a more detailed explanation can be found in the notebook `DA_nanoparticles.ipynb` under the section **Model Justification and Endpoint Selection**.
 
 ## Installation and Usage
 
