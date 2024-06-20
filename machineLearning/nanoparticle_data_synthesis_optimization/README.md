@@ -52,6 +52,10 @@ Preparation to build a CNN:
 - **Reactant C Concentration**: Amount of reactant C in the mixture, shows high correlation with particle size.
 - **Particle Size**: The dependent variable, representing the size of the nanoparticles synthesized.
 
+### What will be predicted?
+
+Information on setting up the model and choosing the endpoint can be found at [Model Selection and Training](#model-selection-and-training), as well as in the notebook `DA_nanoparticles.ipynb`.
+
 ## Installation and Usage
 
 ### Prerequisites
