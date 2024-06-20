@@ -37,9 +37,9 @@ Note: everything is included in the notebook
 
 1. **Checking for Missing Values**: Verified that there were no missing values in the dataset.
 
-Preparation to build a CNN: \
+Preparation to build a CNN: 
 
-2. **Normalization**: Standardized the predictor variables to ensure they are on a comparable scale. \
+2. **Normalization**: Standardized the predictor variables to ensure they are on a comparable scale. 
 3. **Data Splitting**: Split the dataset into training and testing sets to evaluate model performance.
 
 ### Features
@@ -260,7 +260,7 @@ This project is licensed under the MIT Licence.
 
 ## References
 
-https://creativecommons.org/licenses/by/4.0/
+https://creativecommons.org/licenses/by/4.0/ \
 https://www.mdpi.com/openaccess
 
 Liaqat N, Jahan N, Khalil-Ur-Rahman, Anwar T, Qureshi H. Green synthesized silver nanoparticles: Optimization, characterization, antimicrobial activity, and cytotoxicity study by hemolysis assay. Front Chem. 2022 Aug 29;10:952006. doi: 10.3389/fchem.2022.952006. PMID: 36105303; PMCID: PMC9465387.
