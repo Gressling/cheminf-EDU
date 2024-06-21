@@ -16,6 +16,12 @@ The dataset contains the following columns:
 - gene_expression: The level of gene expression, which reflects how actively a gene is being transcribed into RNA and translated into protein.
 - drug_target: Indicates whether the gene is a target for drug development (1 for yes, 0 for no). This is the main focus of this project, as identifying new drug targets is key to developing innovative therapies.
 
+These are the *features* the dataset provides. 
+
+#### What's to predict?
+
+In this project, the main objective is to predict the value of the ``drug_target`` feature. This feature indicates whether a particular gene is a target for drug development, with 1 representing a gene that is identified as a potential drug target and 0 representing a gene that is not considered a drug target. The prediction task involves analyzing various genomic features of the genes to accurately determine their potential as drug targets. By predicting the ``drug_target`` value, researchers can focus on genes that are more likely to be viable candidates for drug development, thus streamlining the drug discovery process and potentially leading to the development of new and effective therapies. 
+
 
 ### Data Snapshot
 
