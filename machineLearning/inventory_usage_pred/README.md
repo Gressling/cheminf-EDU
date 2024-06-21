@@ -19,7 +19,7 @@ The dataset used in this project contains the following fields:
 
 ## Data Overview
 
-The date overview can be found in the file Data_Overview
+The date overview can be found in the file Data_Overview.ipynb
 
 
 ## Methods
