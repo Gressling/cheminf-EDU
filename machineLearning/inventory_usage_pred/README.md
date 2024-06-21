@@ -17,6 +17,11 @@ The dataset used in this project contains the following fields:
 * `reason`: Reason for taking the chemical (e.g., initial purchase, Experiment_20).
 
 
+## Data Overview
+
+The date overview can be found in the file Data_Overview
+
+
 ## Methods
 
 This project will utilize the **LSTM model**, a type of recurrent neural network well-suited for time series data, to predict chemical usage patterns.
