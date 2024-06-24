@@ -6,7 +6,7 @@ The purpose of this project is to develop a predictive model for chemical yield 
 ## Overview
 This repository contains the code and data used to build and evaluate models for predicting the yield of chemical reactions. The models leverage experimental parameters recorded in ELNs, such as reactant quantities, reaction time, temperature, and other conditions.
 
-## Data Example
+## Features
 The dataset used in this project includes the following fields:
 - `Weight`: The weight of the sample (grams).
 - `Yield`: The yield of the reaction (%).
@@ -15,6 +15,7 @@ The dataset used in this project includes the following fields:
 - `Spectrum_ID`: Identifier for the spectrum analysis.
 - `ReactionTime`: The time taken for the reaction (seconds).
 
+## Data Example
 Here's a snippet of the dataset:
 
 | Weight | Yield | SampleDesc | QualityTest | Spectrum_ID | ReactionTime |
@@ -29,6 +30,10 @@ Here's a snippet of the dataset:
 | 155    | 83    | Compound B | 0           | 8           | 5600         |
 | 165    | 85    | Compound C | 1           | 9           | 7100         |
 | 205    | 91    | Compound A | 1           | 10          | 3650         |
+
+## Prediction 
+The purpose of the experiments recorded through ELN is to predict the yields of chemical reactions. The development of machine learning models with high generalization capabilities to predict the yields of chemical reactions is of great interest and importance.
+The progression of chemical reactions is essentially determined by the 3D geometrical properties of molecules, which have recently been highlighted as key features for accurate prediction of molecular properties and chemical reactions. Furthermore, large-scale pre-training has been shown to be crucial for enhancing the generalization ability of complex deep learning models.
 
 ## Methods
 ### Data Preprocessing
