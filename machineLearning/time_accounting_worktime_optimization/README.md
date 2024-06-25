@@ -31,6 +31,12 @@ Example data:
 | 167          | 4      | benchtop        | 2024/1/1 12:00     | 2024/1/1 12:30     | 142       | 5      | ortho-Vanillin  |
 | 167          | 3      | analytics       | 2024/1/1 13:00     | 2024/1/1 13:30     | 179       | 1      | ortho-Vanillin  |
 
+## Prediction Objective
+
+The primary objective of the project is to optimize the scheduling and allocation of worktime for various experimental tasks using reinforcement learning. The specific prediction that the reinforcement learning model is:
+
+**Reward Maximization**: Ensuring that the tasks are completed in a way that maximizes the total reward, balancing high-reward tasks with the need to minimize idle time (refers to the periods during which resources, such as personnel, equipment, or machinery, are not actively engaged in productive tasks or operations).
+
 ## Methodology
 
 The project follows these steps:
