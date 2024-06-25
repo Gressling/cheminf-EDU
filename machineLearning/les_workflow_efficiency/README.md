@@ -45,12 +45,21 @@ The project will follow these key steps:
    - Establish metrics and key performance indicators (KPIs) to track the impact of improvements
    - Continuously monitor and refine the workflows based on feedback and data analysis
 
-## Features (Preliminary)
+## Features
 
 - **Task Status**: Indicates whether a task is pending, in-progress, or completed. This helps in understanding the current state of the workflow and identifying bottlenecks.
 - **Resource Allocation**: Tracks which resources are allocated to which tasks. This is crucial for optimizing resource utilization and minimizing idle time.
 - **Time Spent**: Measures the time spent on each task. This helps in identifying time-consuming steps and opportunities for process improvement.
 - **Chemical and Device Usage**: Maps the chemicals and devices used in each workflow step. This information is essential for ensuring that the necessary materials and equipment are available and used efficiently.
+
+## Predictions
+The project aims to predict:
+
+- **Workflow Bottlenecks**: Identifying steps in the workflow that cause delays or inefficiencies.
+- **Resource Utilization**: Predicting the optimal allocation of resources to minimize idle time and maximize productivity.
+- **Time Optimization**: Estimating the time required for each task to identify opportunities for process improvement.
+- **Automation Opportunities**: Identifying steps that can be automated to enhance efficiency and standardize processes.
+
 
 ## Installation and Usage (Preliminary)
 
