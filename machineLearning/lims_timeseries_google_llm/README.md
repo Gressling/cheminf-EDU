@@ -109,6 +109,14 @@ recorded, ensuring the model focuses exclusively on light intensity measurements
 directly predict light intensity. They provide background data for understanding but aren't likely significant 
 predictors in the model.
 
+## Prediction Target
+The primary target for prediction in this dataset is:
+
+Future Light Intensity (_value):
+* Description: The goal is to forecast the light intensity values at future timestamps based on historical data.
+* Role: This target is crucial for applications such as smart lighting control, predicting environmental changes,
+and optimizing resource allocation in systems that depend on light conditions.
+
 ## Installation and Usage
 
 ### Prerequisites
@@ -174,3 +182,18 @@ df.head(10)
 2. Google TimesFM Article: https://towardsdatascience.com/timesfm-googles-foundation-model-for-time-series-forecasting-593a332dd08d
 3. Time Series with Pandas: https://towardsdatascience.com/introducing-time-series-in-pandas-09c7cab569b4
 4. Introduction into time-series forecasting:https://www.tableau.com/learn/articles/time-series-forecasting#:~:text=Time%20series%20forecasting%20occurs%20when,drive%20future%20strategic%20decision%2Dmaking
+
+## Paper Selection
+
+1. [A DECODER-ONLY FOUNDATION MODEL FOR TIME-SERIES FORECASTING](https://arxiv.org/pdf/2310.10688) - This paper 
+introduces a decoder-only foundation model for time-series forecasting, which is a variant of the Transformer
+architecture. The model, called TimesFM, is designed to capture temporal dependencies in sequential data and generate
+accurate predictions. The authors demonstrate the effectiveness of TimesFM on various time-series datasets, showing
+competitive performance compared to existing models.
+2. [Attention Is All You Need](https://arxiv.org/pdf/1706.03762) - This seminal paper introduces the Transformer
+architecture, which has become a cornerstone in natural language processing and other sequence modeling tasks.
+The Transformer model relies on self-attention mechanisms to capture long-range dependencies in sequential data,
+enabling parallel processing and efficient training. The paper has had a significant impact on the field of deep
+learning and inspired subsequent research in sequence modeling. Since TimesFM is based on the Transformer architecture,
+this paper provides foundational knowledge on the underlying principles of the model.
+3. [The great multivariate time series classification bake off: a review and experimental evaluation of recent algorithmic advances](https://link.springer.com/article/10.1007/s10618-020-00727-3) - This paper provides a comprehensive review and evaluation of recent algorithmic advances in multivariate time-series classification. It covers various machine learning and deep learning models, highlighting their strengths and weaknesses in handling complex time-series data. The insights from this paper can inform the selection of appropriate models for time-series forecasting tasks.

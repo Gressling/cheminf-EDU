@@ -37,8 +37,9 @@ Note: everything is included in the notebook
 
 1. **Checking for Missing Values**: Verified that there were no missing values in the dataset.
 
-Preparation to build a CNN:
-2. **Normalization**: Standardized the predictor variables to ensure they are on a comparable scale.
+Preparation to build a CNN: 
+
+2. **Normalization**: Standardized the predictor variables to ensure they are on a comparable scale. 
 3. **Data Splitting**: Split the dataset into training and testing sets to evaluate model performance.
 
 ### Features
@@ -50,6 +51,10 @@ Preparation to build a CNN:
 - **Reactant B Concentration**: Amount of reactant B in the mixture, shows high correlation with particle size.
 - **Reactant C Concentration**: Amount of reactant C in the mixture, shows high correlation with particle size.
 - **Particle Size**: The dependent variable, representing the size of the nanoparticles synthesized.
+
+### What will be predicted?
+
+Information on setting up the model and selecting the endpoint can be found at [Model Selection and Training](#model-selection-and-training). In addition, a more detailed explanation can be found in the notebook `DA_nanoparticles.ipynb` under the section **Model Justification and Endpoint Selection**.
 
 ## Installation and Usage
 
@@ -259,7 +264,19 @@ This project is licensed under the MIT Licence.
 
 ## References
 
-*...*
+https://creativecommons.org/licenses/by/4.0/ \
+https://www.mdpi.com/openaccess
+
+Liaqat N, Jahan N, Khalil-Ur-Rahman, Anwar T, Qureshi H. Green synthesized silver nanoparticles: Optimization, characterization, antimicrobial activity, and cytotoxicity study by hemolysis assay. Front Chem. 2022 Aug 29;10:952006. doi: 10.3389/fchem.2022.952006. PMID: 36105303; PMCID: PMC9465387.
+
+Mekki-Berrada, F., Ren, Z., Huang, T. et al. Two-step machine learning enables optimized nanoparticle synthesis. npj Comput Mater 7, 55 (2021). https://doi.org/10.1038/s41524-021-00520-w
+
+Akintelu, Sunday Adewale, Bo, Yao, Folorunso, Aderonke Similoluwa, A Review on Synthesis, Optimization, Mechanism, Characterization, and Antibacterial Application of Silver Nanoparticles Synthesized from Plants, Journal of Chemistry, 2020, 3189043, 12 pages, 2020. https://doi.org/10.1155/2020/3189043
+
+Altammar KA (2023) A review on nanoparticles: characteristics, synthesis, applications, and challenges. Front. Microbiol. 14:1155622. doi: 10.3389/fmicb.2023.1155622
+
+Boldoo, T.; Ham, J.; Kim, E.; Cho, H. Review of the Photothermal Energy Conversion Performance of Nanofluids, Their Applications, and Recent Advances. Energies 2020, 13, 5748. https://doi.org/10.3390/en13215748
+
 
 ## Acknowledgements
 

@@ -1,18 +1,45 @@
-This dataset records the usage of various chemicals by different laboratories. Specifically, each row represents an event of chemical usage or purchase and includes the following information:
+# Chemical Inventory Usage Prediction
 
-1. **id**: A unique identifier for each event.
-2. **amount_taken**: The amount of the chemical used or purchased.
-3. **unit**: The unit of measurement for the chemical amount, such as liters (L), milligrams (mg), milliliters (ml), or grams (g).
-4. **location**: The laboratory where the chemical was used or purchased (e.g., Lab_1, Lab_2).
-5. **chemical**: The name of the chemical.
-6. **CAS**: The Chemical Abstracts Service (CAS) number, a unique identifier for chemicals.
-7. **reason**: The reason for using or purchasing the chemical, such as "initial purchase" or a specific experiment (e.g., "Experiment_20").
+## Project Overview
 
-This dataset can be used for several types of analyses:
+This project aims to predict laboratory chemical inventory usage using machine learning models, specifically the **Long Short-Term Memory (LSTM)** model. By analyzing historical inventory data, including chemical names, CAS numbers, amounts used, and reasons for usage, we will build a predictive model to optimize inventory management, reduce waste, and ensure smooth experiment operations.
 
-- **Consumption Analysis**: Analyze the usage of chemicals by different laboratories and identify which chemicals are consumed the most.
-- **Inventory Management**: Monitor the stock levels of chemicals to ensure timely replenishment.
-- **Lab Activity Tracking**: Understand the activities of each laboratory and record and analyze the usage of chemicals in various experiments.
-- **Safety Management**: Assess and manage safety risks based on the types and amounts of chemicals used.
+## Dataset
 
-These analyses can help lab managers optimize chemical usage and inventory, improve operational efficiency, and enhance safety in the laboratories.
+The dataset used in this project contains the following fields:
+
+* `id`: Unique identifier for each record.
+* `amount_taken`: Amount of chemical taken.
+* `unit`: Unit of measurement for the amount taken (e.g., L, mg, ml, g).
+* `location`: Laboratory location where the chemical is stored.
+* `chemical`: Name of the chemical.
+* `CAS`: CAS Registry Number of the chemical, used for unique identification.
+* `reason`: Reason for taking the chemical (e.g., initial purchase, Experiment_20).
+
+
+## Data Overview
+
+The date overview can be found in the file Data_Overview.ipynb
+
+
+## Methods
+
+This project will utilize the **LSTM model**, a type of recurrent neural network well-suited for time series data, to predict chemical usage patterns.
+
+## Experiment Design
+
+1. **Data Preprocessing:** Clean the data, handle missing values and outliers, and convert data types as needed.
+2. **Feature Engineering:** Extract relevant features, such as time features, chemical categories, and experiment types.
+3. **Model Training and Evaluation:** Train the LSTM model using the training set and evaluate its performance on the validation set.
+4. **Model Selection:** Select the best-performing model based on the evaluation results.
+5. **Model Deployment:** Deploy the chosen model to a production environment for real-time predictions.
+
+## Considerations
+
+* The dataset may have imbalanced classes, requiring appropriate handling techniques.
+* Chemical usage can be influenced by multiple factors, so careful feature selection is necessary.
+* Prediction results may have uncertainties, requiring judgment based on the specific context.
+
+## Contact
+
+If you have any questions or suggestions regarding this project, feel free to contact me.

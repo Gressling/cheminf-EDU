@@ -1,0 +1,1001 @@
+id,amount_taken,unit,location,chemical,CAS,reason
+1,187.896,L,Lab_2,Chemical_D,50-00-0,initial purchase
+2,475.406,mg,Lab_2,Chemical_D,75-07-0,initial purchase
+3,366.265,ml,Lab_1,Chemical_A,64-17-5,initial purchase
+4,299.731,mg,Lab_1,Chemical_C,64-17-5,initial purchase
+5,78.8533,mg,Lab_2,Chemical_A,67-56-1,Experiment_20
+6,78.8413,L,Lab_1,Chemical_C,50-00-0,initial purchase
+7,29.9837,mg,Lab_1,Chemical_D,67-56-1,initial purchase
+8,433.222,L,Lab_2,Chemical_A,67-56-1,Experiment_13
+9,300.956,g,Lab_1,Chemical_C,64-17-5,initial purchase
+10,354.328,g,Lab_3,Chemical_B,50-00-0,Experiment_14
+11,11.2717,L,Lab_3,Chemical_C,75-07-0,initial purchase
+12,484.985,g,Lab_3,Chemical_A,64-17-5,Experiment_5
+13,416.389,ml,Lab_3,Chemical_B,75-07-0,Experiment_4
+14,106.957,mg,Lab_2,Chemical_C,75-07-0,Experiment_14
+15,91.7307,ml,Lab_2,Chemical_C,50-00-0,Experiment_10
+16,92.5189,mg,Lab_2,Chemical_C,67-56-1,Experiment_17
+17,152.817,g,Lab_3,Chemical_C,50-00-0,Experiment_10
+18,262.853,ml,Lab_3,Chemical_C,75-07-0,initial purchase
+19,216.541,g,Lab_1,Chemical_B,64-17-5,Experiment_7
+20,146.323,mg,Lab_1,Chemical_D,75-07-0,Experiment_16
+21,306.315,L,Lab_3,Chemical_B,64-17-5,Experiment_1
+22,70.6074,L,Lab_3,Chemical_B,64-17-5,Experiment_17
+23,146.78,ml,Lab_3,Chemical_B,50-00-0,initial purchase
+24,183.815,g,Lab_3,Chemical_D,75-07-0,initial purchase
+25,228.579,g,Lab_1,Chemical_A,67-56-1,Experiment_9
+26,392.803,ml,Lab_3,Chemical_D,75-07-0,Experiment_6
+27,100.637,L,Lab_1,Chemical_B,75-07-0,Experiment_19
+28,257.603,mg,Lab_3,Chemical_C,67-56-1,Experiment_13
+29,296.615,ml,Lab_3,Chemical_C,50-00-0,Experiment_3
+30,24.1788,mg,Lab_3,Chemical_B,75-07-0,Experiment_7
+31,304.165,L,Lab_1,Chemical_C,75-07-0,initial purchase
+32,86.0915,g,Lab_1,Chemical_B,64-17-5,Experiment_9
+33,33.4607,L,Lab_2,Chemical_C,75-07-0,initial purchase
+34,474.494,ml,Lab_3,Chemical_D,67-56-1,Experiment_5
+35,482.85,g,Lab_2,Chemical_A,64-17-5,Experiment_10
+36,404.39,ml,Lab_2,Chemical_A,50-00-0,initial purchase
+37,153.002,ml,Lab_1,Chemical_D,64-17-5,Experiment_17
+38,49.7384,L,Lab_1,Chemical_D,67-56-1,Experiment_12
+39,342.432,ml,Lab_2,Chemical_B,67-56-1,initial purchase
+40,220.636,L,Lab_3,Chemical_B,64-17-5,Experiment_16
+41,61.8971,g,Lab_1,Chemical_B,50-00-0,Experiment_3
+42,248.093,L,Lab_3,Chemical_C,64-17-5,initial purchase
+43,18.1599,g,Lab_3,Chemical_B,50-00-0,initial purchase
+44,454.751,L,Lab_2,Chemical_D,64-17-5,initial purchase
+45,130.131,mg,Lab_2,Chemical_A,67-56-1,Experiment_9
+46,331.599,mg,Lab_2,Chemical_C,75-07-0,initial purchase
+47,156.544,ml,Lab_2,Chemical_B,75-07-0,Experiment_15
+48,260.514,L,Lab_1,Chemical_C,50-00-0,Experiment_5
+49,273.808,L,Lab_1,Chemical_C,50-00-0,initial purchase
+50,93.2424,g,Lab_2,Chemical_B,50-00-0,Experiment_13
+51,484.823,ml,Lab_1,Chemical_C,67-56-1,Experiment_14
+52,387.791,L,Lab_2,Chemical_A,64-17-5,Experiment_20
+53,469.81,ml,Lab_3,Chemical_D,67-56-1,Experiment_15
+54,447.519,mg,Lab_3,Chemical_D,75-07-0,Experiment_16
+55,299.352,L,Lab_3,Chemical_A,50-00-0,initial purchase
+56,461.015,L,Lab_2,Chemical_C,64-17-5,Experiment_13
+57,45.1578,ml,Lab_3,Chemical_B,75-07-0,Experiment_17
+58,98.7954,L,Lab_1,Chemical_C,75-07-0,initial purchase
+59,23.5684,ml,Lab_3,Chemical_A,75-07-0,Experiment_8
+60,163.34,L,Lab_3,Chemical_C,67-56-1,initial purchase
+61,194.95,g,Lab_3,Chemical_D,50-00-0,Experiment_2
+62,136.403,ml,Lab_1,Chemical_C,75-07-0,Experiment_5
+63,414.54,L,Lab_2,Chemical_A,50-00-0,Experiment_6
+64,179.02,mg,Lab_1,Chemical_D,67-56-1,Experiment_12
+65,141.186,L,Lab_2,Chemical_C,75-07-0,Experiment_18
+66,271.805,mg,Lab_2,Chemical_C,67-56-1,initial purchase
+67,71.3212,mg,Lab_3,Chemical_D,67-56-1,initial purchase
+68,401.296,g,Lab_2,Chemical_B,50-00-0,initial purchase
+69,38.2008,ml,Lab_1,Chemical_D,75-07-0,Experiment_1
+70,493.457,L,Lab_1,Chemical_B,67-56-1,initial purchase
+71,386.35,g,Lab_2,Chemical_A,75-07-0,Experiment_17
+72,100.159,L,Lab_3,Chemical_A,50-00-0,initial purchase
+73,3.75554,mg,Lab_3,Chemical_D,67-56-1,Experiment_11
+74,407.915,ml,Lab_1,Chemical_D,50-00-0,Experiment_10
+75,353.722,L,Lab_3,Chemical_A,75-07-0,Experiment_19
+76,364.775,L,Lab_2,Chemical_B,75-07-0,Experiment_14
+77,385.864,mg,Lab_2,Chemical_A,50-00-0,initial purchase
+78,37.9483,L,Lab_1,Chemical_D,64-17-5,Experiment_10
+79,179.874,L,Lab_2,Chemical_A,67-56-1,Experiment_15
+80,58.8187,mg,Lab_1,Chemical_D,75-07-0,initial purchase
+81,431.689,g,Lab_2,Chemical_D,75-07-0,Experiment_19
+82,312.026,mg,Lab_1,Chemical_A,67-56-1,Experiment_4
+83,166.118,g,Lab_3,Chemical_B,50-00-0,Experiment_2
+84,32.7156,ml,Lab_2,Chemical_C,50-00-0,Experiment_9
+85,156.18,g,Lab_2,Chemical_A,50-00-0,Experiment_10
+86,163.266,g,Lab_1,Chemical_C,64-17-5,initial purchase
+87,365.073,ml,Lab_1,Chemical_A,64-17-5,Experiment_11
+88,319.141,g,Lab_2,Chemical_C,75-07-0,Experiment_14
+89,443.719,mg,Lab_1,Chemical_B,50-00-0,Experiment_7
+90,236.635,g,Lab_2,Chemical_B,67-56-1,initial purchase
+91,60.6775,ml,Lab_3,Chemical_A,75-07-0,Experiment_15
+92,356.909,mg,Lab_1,Chemical_D,67-56-1,initial purchase
+93,380.632,ml,Lab_2,Chemical_C,75-07-0,Experiment_19
+94,281.077,ml,Lab_3,Chemical_D,64-17-5,initial purchase
+95,385.713,L,Lab_3,Chemical_D,75-07-0,Experiment_15
+96,247.404,L,Lab_2,Chemical_D,64-17-5,initial purchase
+97,261.844,ml,Lab_1,Chemical_B,75-07-0,initial purchase
+98,214.343,ml,Lab_2,Chemical_A,50-00-0,initial purchase
+99,13.6841,ml,Lab_3,Chemical_A,67-56-1,Experiment_8
+100,54.8378,L,Lab_2,Chemical_B,50-00-0,Experiment_11
+101,16.6832,L,Lab_1,Chemical_B,75-07-0,initial purchase
+102,318.569,g,Lab_3,Chemical_A,75-07-0,Experiment_9
+103,157.864,g,Lab_2,Chemical_D,75-07-0,Experiment_15
+104,254.777,ml,Lab_1,Chemical_C,64-17-5,Experiment_1
+105,453.876,mg,Lab_3,Chemical_C,67-56-1,initial purchase
+106,125.397,mg,Lab_1,Chemical_C,67-56-1,Experiment_1
+107,205.781,L,Lab_3,Chemical_D,75-07-0,Experiment_19
+108,378.02,L,Lab_2,Chemical_A,75-07-0,Experiment_3
+109,115.17,L,Lab_1,Chemical_B,64-17-5,Experiment_10
+110,39.413,ml,Lab_3,Chemical_A,50-00-0,Experiment_8
+111,145.586,mg,Lab_1,Chemical_D,50-00-0,Experiment_15
+112,81.4494,g,Lab_1,Chemical_B,67-56-1,Experiment_10
+113,464.919,ml,Lab_2,Chemical_D,64-17-5,Experiment_1
+114,404.252,g,Lab_1,Chemical_C,75-07-0,initial purchase
+115,317.068,g,Lab_3,Chemical_C,67-56-1,Experiment_18
+116,435.859,ml,Lab_3,Chemical_D,64-17-5,Experiment_2
+117,402.032,g,Lab_3,Chemical_B,50-00-0,Experiment_19
+118,94.0985,mg,Lab_3,Chemical_B,64-17-5,Experiment_13
+119,446.387,g,Lab_2,Chemical_A,50-00-0,initial purchase
+120,270.132,mg,Lab_1,Chemical_C,64-17-5,Experiment_1
+121,403.913,mg,Lab_2,Chemical_A,67-56-1,Experiment_2
+122,448.15,mg,Lab_1,Chemical_A,50-00-0,initial purchase
+123,159.684,L,Lab_1,Chemical_D,67-56-1,Experiment_16
+124,55.9159,g,Lab_1,Chemical_D,67-56-1,Experiment_15
+125,114.74,ml,Lab_2,Chemical_A,50-00-0,Experiment_13
+126,214.127,ml,Lab_1,Chemical_C,50-00-0,Experiment_16
+127,409.189,g,Lab_2,Chemical_D,75-07-0,Experiment_17
+128,430.505,L,Lab_3,Chemical_A,75-07-0,initial purchase
+129,4.46911,L,Lab_3,Chemical_A,75-07-0,initial purchase
+130,255.863,mg,Lab_1,Chemical_A,67-56-1,initial purchase
+131,209.288,g,Lab_2,Chemical_A,67-56-1,Experiment_7
+132,111.832,g,Lab_3,Chemical_A,75-07-0,initial purchase
+133,60.8128,ml,Lab_2,Chemical_A,67-56-1,initial purchase
+134,169.47,g,Lab_2,Chemical_D,67-56-1,Experiment_17
+135,471.512,L,Lab_1,Chemical_C,50-00-0,Experiment_7
+136,162.278,g,Lab_3,Chemical_A,50-00-0,Experiment_13
+137,259.877,ml,Lab_1,Chemical_B,67-56-1,Experiment_5
+138,351.806,mg,Lab_1,Chemical_D,75-07-0,initial purchase
+139,182.451,ml,Lab_3,Chemical_D,64-17-5,Experiment_17
+140,485.919,ml,Lab_3,Chemical_A,75-07-0,Experiment_3
+141,481.261,mg,Lab_2,Chemical_D,64-17-5,Experiment_7
+142,126.639,ml,Lab_3,Chemical_A,75-07-0,initial purchase
+143,249.127,ml,Lab_2,Chemical_C,50-00-0,Experiment_17
+144,151.138,g,Lab_2,Chemical_C,67-56-1,Experiment_7
+145,143.135,g,Lab_2,Chemical_D,67-56-1,initial purchase
+146,19.4066,mg,Lab_3,Chemical_D,50-00-0,Experiment_1
+147,305.173,g,Lab_1,Chemical_B,64-17-5,Experiment_17
+148,251.837,g,Lab_2,Chemical_D,64-17-5,initial purchase
+149,26.6879,ml,Lab_1,Chemical_B,64-17-5,Experiment_17
+150,140.045,L,Lab_1,Chemical_C,50-00-0,Experiment_11
+151,454.225,g,Lab_3,Chemical_C,64-17-5,initial purchase
+152,120.541,L,Lab_1,Chemical_A,50-00-0,initial purchase
+153,73.3025,g,Lab_1,Chemical_C,75-07-0,initial purchase
+154,245.237,g,Lab_3,Chemical_B,75-07-0,Experiment_3
+155,492.84,mg,Lab_2,Chemical_D,50-00-0,Experiment_15
+156,121.786,mg,Lab_1,Chemical_A,67-56-1,initial purchase
+157,336.396,mg,Lab_3,Chemical_B,75-07-0,initial purchase
+158,381.048,L,Lab_1,Chemical_D,64-17-5,Experiment_11
+159,119.581,ml,Lab_1,Chemical_A,50-00-0,initial purchase
+160,364.38,g,Lab_2,Chemical_C,64-17-5,initial purchase
+161,184.524,g,Lab_1,Chemical_B,64-17-5,Experiment_16
+162,316.521,g,Lab_3,Chemical_D,67-56-1,initial purchase
+163,317.131,L,Lab_1,Chemical_A,64-17-5,initial purchase
+164,268.352,mg,Lab_2,Chemical_A,67-56-1,initial purchase
+165,46.0546,ml,Lab_2,Chemical_C,75-07-0,Experiment_9
+166,417.816,L,Lab_3,Chemical_D,50-00-0,initial purchase
+167,161.069,mg,Lab_2,Chemical_C,64-17-5,initial purchase
+168,94.0727,L,Lab_1,Chemical_C,50-00-0,Experiment_1
+169,21.3468,ml,Lab_2,Chemical_D,64-17-5,initial purchase
+170,295.856,mg,Lab_3,Chemical_D,50-00-0,initial purchase
+171,339.105,L,Lab_2,Chemical_D,64-17-5,initial purchase
+172,9.27733,ml,Lab_2,Chemical_B,64-17-5,Experiment_16
+173,256.534,g,Lab_2,Chemical_D,64-17-5,Experiment_9
+174,114.021,ml,Lab_3,Chemical_A,64-17-5,Experiment_19
+175,322.941,g,Lab_2,Chemical_C,64-17-5,Experiment_12
+176,88.0089,L,Lab_2,Chemical_B,64-17-5,Experiment_19
+177,345.778,mg,Lab_1,Chemical_D,64-17-5,initial purchase
+178,193.981,mg,Lab_3,Chemical_B,64-17-5,Experiment_9
+179,468.428,L,Lab_2,Chemical_D,64-17-5,Experiment_7
+180,69.6229,mg,Lab_3,Chemical_B,50-00-0,Experiment_14
+181,171.192,mg,Lab_2,Chemical_C,67-56-1,initial purchase
+182,57.6233,g,Lab_2,Chemical_C,64-17-5,Experiment_19
+183,462.422,L,Lab_2,Chemical_A,67-56-1,Experiment_19
+184,438.792,ml,Lab_1,Chemical_A,64-17-5,Experiment_2
+185,129.713,g,Lab_1,Chemical_D,64-17-5,Experiment_9
+186,330.332,L,Lab_1,Chemical_C,50-00-0,Experiment_13
+187,408.794,g,Lab_3,Chemical_B,75-07-0,Experiment_15
+188,278.045,ml,Lab_3,Chemical_B,75-07-0,Experiment_3
+189,265.296,ml,Lab_1,Chemical_B,50-00-0,Experiment_11
+190,121.684,L,Lab_3,Chemical_A,67-56-1,initial purchase
+191,47.4583,ml,Lab_2,Chemical_B,75-07-0,Experiment_14
+192,448.711,g,Lab_2,Chemical_A,50-00-0,initial purchase
+193,450.309,ml,Lab_2,Chemical_A,50-00-0,initial purchase
+194,316.918,g,Lab_1,Chemical_D,75-07-0,Experiment_8
+195,170.176,g,Lab_3,Chemical_B,67-56-1,Experiment_18
+196,175.256,ml,Lab_1,Chemical_B,50-00-0,Experiment_19
+197,363.252,L,Lab_3,Chemical_C,64-17-5,Experiment_16
+198,448.658,mg,Lab_2,Chemical_D,67-56-1,Experiment_2
+199,443.656,ml,Lab_1,Chemical_C,67-56-1,Experiment_8
+200,390.158,g,Lab_3,Chemical_D,75-07-0,initial purchase
+201,321.374,g,Lab_3,Chemical_B,75-07-0,Experiment_6
+202,42.9858,ml,Lab_2,Chemical_A,64-17-5,Experiment_12
+203,81.6527,L,Lab_1,Chemical_A,50-00-0,Experiment_15
+204,449.379,L,Lab_1,Chemical_A,75-07-0,initial purchase
+205,303.608,g,Lab_1,Chemical_A,75-07-0,Experiment_8
+206,5.58933,g,Lab_2,Chemical_A,67-56-1,Experiment_4
+207,51.6343,L,Lab_1,Chemical_C,75-07-0,Experiment_15
+208,332.087,mg,Lab_2,Chemical_D,75-07-0,initial purchase
+209,3.52573,ml,Lab_2,Chemical_B,75-07-0,Experiment_20
+210,81.2432,g,Lab_2,Chemical_C,75-07-0,initial purchase
+211,274.818,g,Lab_3,Chemical_D,67-56-1,Experiment_17
+212,346.256,L,Lab_1,Chemical_A,64-17-5,Experiment_13
+213,326.329,ml,Lab_1,Chemical_D,64-17-5,Experiment_18
+214,112.91,L,Lab_2,Chemical_D,50-00-0,Experiment_2
+215,356.377,ml,Lab_2,Chemical_A,75-07-0,Experiment_13
+216,119.387,ml,Lab_1,Chemical_A,67-56-1,Experiment_13
+217,163.374,ml,Lab_2,Chemical_A,50-00-0,initial purchase
+218,373.499,g,Lab_1,Chemical_B,50-00-0,Experiment_15
+219,325.167,mg,Lab_3,Chemical_A,64-17-5,Experiment_20
+220,424.762,L,Lab_2,Chemical_B,67-56-1,initial purchase
+221,329.149,mg,Lab_1,Chemical_A,67-56-1,initial purchase
+222,284.586,L,Lab_2,Chemical_B,67-56-1,Experiment_10
+223,47.7437,ml,Lab_1,Chemical_D,64-17-5,initial purchase
+224,184.49,g,Lab_1,Chemical_C,64-17-5,Experiment_3
+225,133.336,mg,Lab_2,Chemical_D,64-17-5,Experiment_19
+226,122.751,g,Lab_3,Chemical_D,64-17-5,Experiment_3
+227,486.532,L,Lab_1,Chemical_A,64-17-5,initial purchase
+228,197.156,g,Lab_1,Chemical_B,75-07-0,Experiment_14
+229,446.131,g,Lab_1,Chemical_C,75-07-0,Experiment_8
+230,315.938,mg,Lab_3,Chemical_A,67-56-1,initial purchase
+231,397.611,ml,Lab_3,Chemical_A,50-00-0,initial purchase
+232,251.816,g,Lab_2,Chemical_A,67-56-1,initial purchase
+233,288.875,ml,Lab_3,Chemical_D,50-00-0,Experiment_4
+234,246.766,L,Lab_2,Chemical_B,64-17-5,initial purchase
+235,98.4263,g,Lab_2,Chemical_B,50-00-0,initial purchase
+236,361.504,mg,Lab_3,Chemical_C,67-56-1,Experiment_20
+237,141.105,L,Lab_2,Chemical_B,67-56-1,Experiment_11
+238,13.1337,L,Lab_3,Chemical_B,50-00-0,initial purchase
+239,323.091,mg,Lab_2,Chemical_A,75-07-0,Experiment_11
+240,89.3782,g,Lab_3,Chemical_A,64-17-5,initial purchase
+241,470.289,g,Lab_3,Chemical_D,64-17-5,initial purchase
+242,477.01,L,Lab_2,Chemical_A,67-56-1,Experiment_11
+243,457.517,g,Lab_1,Chemical_A,75-07-0,Experiment_2
+244,185.709,ml,Lab_2,Chemical_A,50-00-0,initial purchase
+245,8.71285,mg,Lab_3,Chemical_A,64-17-5,Experiment_17
+246,464.231,ml,Lab_1,Chemical_D,75-07-0,Experiment_9
+247,214.664,g,Lab_2,Chemical_A,64-17-5,initial purchase
+248,483.361,L,Lab_2,Chemical_C,75-07-0,initial purchase
+249,481.846,mg,Lab_2,Chemical_C,75-07-0,Experiment_2
+250,426.652,g,Lab_1,Chemical_C,67-56-1,initial purchase
+251,147.93,g,Lab_3,Chemical_C,64-17-5,initial purchase
+252,193.164,L,Lab_2,Chemical_A,50-00-0,Experiment_15
+253,425.717,L,Lab_2,Chemical_C,67-56-1,Experiment_16
+254,159.144,ml,Lab_2,Chemical_A,67-56-1,initial purchase
+255,85.5769,mg,Lab_2,Chemical_D,50-00-0,Experiment_4
+256,278.844,mg,Lab_2,Chemical_C,67-56-1,Experiment_8
+257,468.141,L,Lab_3,Chemical_B,75-07-0,Experiment_9
+258,348.319,ml,Lab_3,Chemical_C,75-07-0,initial purchase
+259,285.461,mg,Lab_2,Chemical_C,64-17-5,initial purchase
+260,49.4911,L,Lab_1,Chemical_A,64-17-5,Experiment_5
+261,307.889,g,Lab_3,Chemical_C,50-00-0,Experiment_16
+262,495.037,mg,Lab_1,Chemical_B,64-17-5,Experiment_13
+263,70.9019,ml,Lab_3,Chemical_A,75-07-0,initial purchase
+264,259.646,ml,Lab_2,Chemical_A,50-00-0,Experiment_7
+265,438.809,ml,Lab_3,Chemical_D,50-00-0,initial purchase
+266,370.644,g,Lab_2,Chemical_D,64-17-5,Experiment_20
+267,348.811,mg,Lab_3,Chemical_C,75-07-0,Experiment_17
+268,351.54,mg,Lab_2,Chemical_D,50-00-0,Experiment_3
+269,180.386,g,Lab_2,Chemical_D,75-07-0,Experiment_5
+270,147.502,mg,Lab_2,Chemical_D,75-07-0,Experiment_19
+271,404.871,g,Lab_2,Chemical_A,75-07-0,Experiment_12
+272,405.247,g,Lab_1,Chemical_A,64-17-5,initial purchase
+273,433.669,g,Lab_2,Chemical_A,67-56-1,initial purchase
+274,456.707,ml,Lab_1,Chemical_D,67-56-1,Experiment_7
+275,256.16,mg,Lab_1,Chemical_A,50-00-0,initial purchase
+276,251.257,g,Lab_2,Chemical_D,75-07-0,Experiment_9
+277,399.349,mg,Lab_1,Chemical_A,64-17-5,initial purchase
+278,325.332,ml,Lab_3,Chemical_A,75-07-0,Experiment_6
+279,351.281,g,Lab_2,Chemical_B,75-07-0,initial purchase
+280,398.101,L,Lab_1,Chemical_C,64-17-5,initial purchase
+281,445.113,ml,Lab_2,Chemical_D,67-56-1,Experiment_17
+282,169.66,L,Lab_2,Chemical_B,75-07-0,Experiment_16
+283,188.416,mg,Lab_2,Chemical_A,75-07-0,initial purchase
+284,47.897,mg,Lab_1,Chemical_D,67-56-1,Experiment_3
+285,289.562,ml,Lab_3,Chemical_A,64-17-5,initial purchase
+286,18.9352,mg,Lab_3,Chemical_C,50-00-0,initial purchase
+287,233.333,L,Lab_1,Chemical_B,67-56-1,Experiment_4
+288,271.78,g,Lab_2,Chemical_C,50-00-0,Experiment_10
+289,143.984,g,Lab_1,Chemical_B,50-00-0,Experiment_5
+290,295.826,g,Lab_1,Chemical_A,67-56-1,initial purchase
+291,16.2196,ml,Lab_1,Chemical_C,75-07-0,initial purchase
+292,19.6367,mg,Lab_2,Chemical_C,50-00-0,initial purchase
+293,411.478,L,Lab_1,Chemical_A,50-00-0,Experiment_10
+294,180.735,mg,Lab_2,Chemical_C,64-17-5,Experiment_12
+295,64.4032,mg,Lab_1,Chemical_D,75-07-0,Experiment_10
+296,261.599,mg,Lab_3,Chemical_B,50-00-0,initial purchase
+297,385.227,g,Lab_1,Chemical_B,64-17-5,Experiment_13
+298,108.695,L,Lab_1,Chemical_B,75-07-0,Experiment_11
+299,311.822,L,Lab_3,Chemical_D,67-56-1,initial purchase
+300,43.5884,mg,Lab_2,Chemical_B,67-56-1,Experiment_16
+301,26.7892,g,Lab_2,Chemical_A,64-17-5,Experiment_8
+302,266.146,g,Lab_1,Chemical_C,67-56-1,Experiment_8
+303,270.777,L,Lab_3,Chemical_D,50-00-0,initial purchase
+304,319.078,g,Lab_2,Chemical_B,75-07-0,initial purchase
+305,363.32,g,Lab_1,Chemical_A,50-00-0,Experiment_8
+306,487.95,g,Lab_3,Chemical_C,50-00-0,Experiment_13
+307,258.634,ml,Lab_2,Chemical_C,67-56-1,initial purchase
+308,162.155,mg,Lab_2,Chemical_D,50-00-0,Experiment_2
+309,397.798,L,Lab_3,Chemical_D,67-56-1,initial purchase
+310,136.145,L,Lab_3,Chemical_D,75-07-0,initial purchase
+311,220.047,ml,Lab_3,Chemical_A,75-07-0,Experiment_12
+312,40.1497,mg,Lab_3,Chemical_A,50-00-0,Experiment_10
+313,13.65,L,Lab_1,Chemical_D,64-17-5,Experiment_12
+314,481.362,g,Lab_3,Chemical_B,67-56-1,Experiment_11
+315,418.154,L,Lab_2,Chemical_C,67-56-1,Experiment_15
+316,348.291,g,Lab_2,Chemical_C,50-00-0,Experiment_16
+317,205.068,ml,Lab_1,Chemical_A,67-56-1,Experiment_17
+318,87.4739,g,Lab_2,Chemical_C,67-56-1,initial purchase
+319,79.0621,L,Lab_2,Chemical_B,64-17-5,Experiment_2
+320,125.871,L,Lab_3,Chemical_C,64-17-5,Experiment_18
+321,275.064,L,Lab_2,Chemical_A,50-00-0,Experiment_12
+322,357.583,ml,Lab_1,Chemical_A,64-17-5,Experiment_19
+323,330.438,ml,Lab_3,Chemical_B,50-00-0,initial purchase
+324,140.687,mg,Lab_3,Chemical_B,75-07-0,initial purchase
+325,477.478,L,Lab_1,Chemical_C,50-00-0,Experiment_18
+326,369.211,g,Lab_3,Chemical_C,75-07-0,initial purchase
+327,277.623,ml,Lab_3,Chemical_A,50-00-0,Experiment_17
+328,306.249,L,Lab_1,Chemical_B,67-56-1,initial purchase
+329,210.38,L,Lab_3,Chemical_B,64-17-5,Experiment_6
+330,124.618,ml,Lab_1,Chemical_B,75-07-0,initial purchase
+331,178.63,mg,Lab_1,Chemical_C,50-00-0,Experiment_15
+332,379.165,ml,Lab_2,Chemical_B,64-17-5,Experiment_3
+333,8.18235,ml,Lab_2,Chemical_A,50-00-0,Experiment_6
+334,58.9202,g,Lab_3,Chemical_A,64-17-5,Experiment_3
+335,23.9553,g,Lab_3,Chemical_C,64-17-5,initial purchase
+336,21.3237,mg,Lab_1,Chemical_D,50-00-0,initial purchase
+337,427.875,L,Lab_3,Chemical_C,75-07-0,Experiment_1
+338,352.125,ml,Lab_1,Chemical_D,75-07-0,initial purchase
+339,237.613,mg,Lab_1,Chemical_B,67-56-1,Experiment_13
+340,49.8192,g,Lab_3,Chemical_C,64-17-5,initial purchase
+341,246.316,ml,Lab_1,Chemical_A,67-56-1,initial purchase
+342,237.262,L,Lab_2,Chemical_B,67-56-1,initial purchase
+343,87.4277,g,Lab_3,Chemical_A,50-00-0,Experiment_14
+344,217.492,g,Lab_2,Chemical_B,50-00-0,Experiment_13
+345,199.854,g,Lab_3,Chemical_C,50-00-0,initial purchase
+346,308.309,mg,Lab_1,Chemical_D,64-17-5,Experiment_4
+347,317.912,L,Lab_3,Chemical_B,50-00-0,Experiment_7
+348,23.6067,ml,Lab_2,Chemical_D,50-00-0,initial purchase
+349,187.932,mg,Lab_1,Chemical_B,64-17-5,Experiment_10
+350,313.304,mg,Lab_3,Chemical_A,64-17-5,Experiment_7
+351,252.065,mg,Lab_3,Chemical_A,75-07-0,initial purchase
+352,428.388,g,Lab_3,Chemical_B,50-00-0,Experiment_15
+353,329.688,L,Lab_2,Chemical_D,50-00-0,Experiment_15
+354,82.3043,mg,Lab_2,Chemical_C,50-00-0,Experiment_4
+355,36.2138,ml,Lab_3,Chemical_C,75-07-0,initial purchase
+356,321.567,L,Lab_1,Chemical_A,50-00-0,initial purchase
+357,14.2291,ml,Lab_1,Chemical_C,75-07-0,Experiment_6
+358,293.302,L,Lab_2,Chemical_A,67-56-1,initial purchase
+359,470.175,ml,Lab_1,Chemical_C,75-07-0,Experiment_20
+360,288.162,g,Lab_2,Chemical_B,67-56-1,initial purchase
+361,194.697,mg,Lab_3,Chemical_A,50-00-0,Experiment_5
+362,322.001,ml,Lab_2,Chemical_A,67-56-1,Experiment_20
+363,229.668,L,Lab_2,Chemical_B,75-07-0,Experiment_12
+364,273.263,mg,Lab_3,Chemical_A,64-17-5,Experiment_1
+365,470.791,mg,Lab_1,Chemical_C,67-56-1,initial purchase
+366,193.665,L,Lab_2,Chemical_C,67-56-1,Experiment_8
+367,480.634,ml,Lab_2,Chemical_A,50-00-0,Experiment_1
+368,452.77,g,Lab_3,Chemical_C,75-07-0,Experiment_5
+369,98.6998,g,Lab_1,Chemical_D,67-56-1,initial purchase
+370,35.6113,ml,Lab_2,Chemical_A,67-56-1,Experiment_6
+371,51.2882,mg,Lab_3,Chemical_B,67-56-1,initial purchase
+372,10.0927,mg,Lab_2,Chemical_D,67-56-1,initial purchase
+373,48.127,mg,Lab_3,Chemical_A,64-17-5,Experiment_3
+374,341.82,mg,Lab_1,Chemical_B,75-07-0,Experiment_15
+375,36.5231,ml,Lab_1,Chemical_C,50-00-0,Experiment_5
+376,160.169,mg,Lab_1,Chemical_B,50-00-0,initial purchase
+377,422.593,L,Lab_1,Chemical_D,64-17-5,initial purchase
+378,12.6127,mg,Lab_2,Chemical_C,75-07-0,Experiment_14
+379,407.42,g,Lab_2,Chemical_A,67-56-1,Experiment_18
+380,141.646,mg,Lab_1,Chemical_C,64-17-5,Experiment_16
+381,59.9642,ml,Lab_1,Chemical_A,75-07-0,Experiment_6
+382,348.672,g,Lab_1,Chemical_A,67-56-1,initial purchase
+383,314.842,ml,Lab_2,Chemical_B,64-17-5,initial purchase
+384,438.859,ml,Lab_1,Chemical_B,75-07-0,Experiment_14
+385,367.8,g,Lab_1,Chemical_B,50-00-0,initial purchase
+386,401.937,ml,Lab_1,Chemical_D,50-00-0,initial purchase
+387,141.735,ml,Lab_3,Chemical_D,75-07-0,Experiment_8
+388,89.5423,mg,Lab_1,Chemical_B,50-00-0,initial purchase
+389,375.557,L,Lab_3,Chemical_D,75-07-0,Experiment_7
+390,403.611,ml,Lab_3,Chemical_C,67-56-1,Experiment_8
+391,495.262,ml,Lab_1,Chemical_C,75-07-0,Experiment_13
+392,206.896,ml,Lab_3,Chemical_D,67-56-1,Experiment_6
+393,186.637,mg,Lab_1,Chemical_D,64-17-5,Experiment_18
+394,388.43,L,Lab_2,Chemical_C,75-07-0,Experiment_2
+395,171.061,g,Lab_2,Chemical_A,64-17-5,Experiment_8
+396,465.448,mg,Lab_2,Chemical_C,50-00-0,Experiment_11
+397,429.348,mg,Lab_2,Chemical_C,67-56-1,Experiment_1
+398,215.068,L,Lab_3,Chemical_D,75-07-0,initial purchase
+399,375.685,L,Lab_1,Chemical_C,64-17-5,initial purchase
+400,377.517,mg,Lab_1,Chemical_D,67-56-1,Experiment_6
+401,52.4588,g,Lab_1,Chemical_D,67-56-1,Experiment_16
+402,451.374,mg,Lab_2,Chemical_B,50-00-0,initial purchase
+403,253.121,L,Lab_2,Chemical_C,50-00-0,Experiment_20
+404,413.402,g,Lab_1,Chemical_A,67-56-1,Experiment_12
+405,160.705,L,Lab_2,Chemical_B,67-56-1,Experiment_11
+406,447.866,g,Lab_1,Chemical_D,75-07-0,initial purchase
+407,195.212,ml,Lab_1,Chemical_D,67-56-1,initial purchase
+408,6.40799,L,Lab_1,Chemical_A,75-07-0,initial purchase
+409,452.786,L,Lab_1,Chemical_D,67-56-1,Experiment_10
+410,46.5521,mg,Lab_1,Chemical_C,50-00-0,Experiment_3
+411,160.338,L,Lab_1,Chemical_B,75-07-0,Experiment_13
+412,475.081,L,Lab_1,Chemical_D,64-17-5,initial purchase
+413,475.353,ml,Lab_2,Chemical_D,50-00-0,Experiment_3
+414,287.146,L,Lab_1,Chemical_A,75-07-0,Experiment_15
+415,316.287,ml,Lab_1,Chemical_C,75-07-0,Experiment_16
+416,224.774,ml,Lab_2,Chemical_D,64-17-5,initial purchase
+417,147.312,ml,Lab_2,Chemical_A,75-07-0,Experiment_13
+418,165.004,ml,Lab_2,Chemical_D,67-56-1,Experiment_17
+419,336.587,g,Lab_1,Chemical_A,64-17-5,Experiment_3
+420,376.435,mg,Lab_3,Chemical_A,50-00-0,Experiment_20
+421,395.998,g,Lab_3,Chemical_C,50-00-0,Experiment_11
+422,395.019,L,Lab_2,Chemical_D,67-56-1,initial purchase
+423,46.5118,g,Lab_3,Chemical_C,50-00-0,initial purchase
+424,247.716,g,Lab_2,Chemical_A,75-07-0,Experiment_19
+425,29.7218,L,Lab_1,Chemical_B,75-07-0,initial purchase
+426,275.215,L,Lab_3,Chemical_D,67-56-1,Experiment_11
+427,221.324,L,Lab_1,Chemical_B,50-00-0,initial purchase
+428,443.964,g,Lab_3,Chemical_D,50-00-0,initial purchase
+429,176.107,g,Lab_1,Chemical_C,67-56-1,Experiment_16
+430,59.4164,L,Lab_3,Chemical_C,64-17-5,initial purchase
+431,72.3529,mg,Lab_1,Chemical_C,50-00-0,Experiment_3
+432,380.994,mg,Lab_1,Chemical_C,64-17-5,initial purchase
+433,309.491,ml,Lab_3,Chemical_C,50-00-0,Experiment_6
+434,51.4602,L,Lab_1,Chemical_B,50-00-0,Experiment_14
+435,42.9693,ml,Lab_1,Chemical_C,50-00-0,initial purchase
+436,350.784,mg,Lab_1,Chemical_A,50-00-0,Experiment_18
+437,37.3087,ml,Lab_3,Chemical_A,75-07-0,Experiment_17
+438,411.108,L,Lab_3,Chemical_B,64-17-5,Experiment_4
+439,353.415,L,Lab_1,Chemical_D,64-17-5,initial purchase
+440,41.593,L,Lab_1,Chemical_A,50-00-0,Experiment_15
+441,43.334,g,Lab_3,Chemical_D,50-00-0,Experiment_11
+442,493.333,ml,Lab_3,Chemical_B,64-17-5,initial purchase
+443,187.761,mg,Lab_1,Chemical_D,75-07-0,Experiment_3
+444,185.95,mg,Lab_1,Chemical_D,67-56-1,Experiment_3
+445,406.587,mg,Lab_1,Chemical_D,67-56-1,Experiment_16
+446,473.677,g,Lab_2,Chemical_D,64-17-5,Experiment_5
+447,493.015,g,Lab_3,Chemical_B,50-00-0,initial purchase
+448,376.936,L,Lab_2,Chemical_A,50-00-0,initial purchase
+449,188.754,mg,Lab_3,Chemical_C,75-07-0,Experiment_10
+450,42.6669,g,Lab_3,Chemical_D,67-56-1,Experiment_19
+451,388.796,L,Lab_3,Chemical_A,75-07-0,initial purchase
+452,279.644,mg,Lab_3,Chemical_A,67-56-1,Experiment_4
+453,212.687,ml,Lab_3,Chemical_B,64-17-5,initial purchase
+454,453.271,L,Lab_3,Chemical_A,67-56-1,initial purchase
+455,56.4875,g,Lab_3,Chemical_B,75-07-0,Experiment_19
+456,246.82,g,Lab_2,Chemical_D,75-07-0,Experiment_11
+457,6.66547,L,Lab_1,Chemical_D,75-07-0,Experiment_2
+458,234.862,L,Lab_1,Chemical_C,64-17-5,Experiment_10
+459,29.0953,g,Lab_2,Chemical_C,67-56-1,initial purchase
+460,60.2901,ml,Lab_2,Chemical_C,67-56-1,Experiment_11
+461,59.6456,mg,Lab_2,Chemical_A,75-07-0,initial purchase
+462,324.956,ml,Lab_2,Chemical_D,67-56-1,Experiment_20
+463,373.276,L,Lab_3,Chemical_B,50-00-0,Experiment_16
+464,292.101,ml,Lab_1,Chemical_C,50-00-0,Experiment_19
+465,481.124,g,Lab_3,Chemical_B,50-00-0,initial purchase
+466,188.06,L,Lab_1,Chemical_B,67-56-1,initial purchase
+467,143.57,mg,Lab_1,Chemical_C,64-17-5,Experiment_11
+468,434.431,g,Lab_2,Chemical_D,64-17-5,Experiment_14
+469,112.574,g,Lab_3,Chemical_C,64-17-5,Experiment_2
+470,481.648,mg,Lab_2,Chemical_B,64-17-5,initial purchase
+471,7.06508,mg,Lab_3,Chemical_C,50-00-0,initial purchase
+472,484.97,ml,Lab_1,Chemical_B,50-00-0,Experiment_5
+473,22.5368,L,Lab_2,Chemical_B,75-07-0,initial purchase
+474,445.68,mg,Lab_2,Chemical_C,67-56-1,Experiment_5
+475,264.323,mg,Lab_1,Chemical_A,67-56-1,Experiment_19
+476,496.489,L,Lab_1,Chemical_C,64-17-5,initial purchase
+477,37.8245,mg,Lab_1,Chemical_A,50-00-0,Experiment_12
+478,277.373,mg,Lab_2,Chemical_B,64-17-5,Experiment_18
+479,484.682,ml,Lab_3,Chemical_B,75-07-0,Experiment_4
+480,262.026,g,Lab_2,Chemical_A,67-56-1,initial purchase
+481,315.07,g,Lab_3,Chemical_B,67-56-1,Experiment_17
+482,348.179,g,Lab_2,Chemical_A,64-17-5,Experiment_10
+483,227.816,g,Lab_2,Chemical_A,75-07-0,Experiment_20
+484,314.151,mg,Lab_1,Chemical_B,67-56-1,Experiment_6
+485,292.573,L,Lab_3,Chemical_D,75-07-0,initial purchase
+486,450.678,L,Lab_2,Chemical_A,75-07-0,Experiment_14
+487,23.6777,ml,Lab_2,Chemical_C,64-17-5,Experiment_11
+488,141.201,ml,Lab_1,Chemical_C,50-00-0,Experiment_11
+489,475.255,mg,Lab_1,Chemical_B,64-17-5,initial purchase
+490,445.242,L,Lab_3,Chemical_D,50-00-0,Experiment_18
+491,228.373,L,Lab_2,Chemical_B,75-07-0,initial purchase
+492,310.446,g,Lab_3,Chemical_D,50-00-0,initial purchase
+493,139.413,mg,Lab_2,Chemical_A,75-07-0,initial purchase
+494,94.8725,mg,Lab_3,Chemical_A,67-56-1,Experiment_18
+495,232.385,g,Lab_1,Chemical_A,67-56-1,initial purchase
+496,177.323,mg,Lab_2,Chemical_A,67-56-1,initial purchase
+497,292.244,mg,Lab_3,Chemical_C,64-17-5,Experiment_11
+498,39.7896,ml,Lab_1,Chemical_C,64-17-5,initial purchase
+499,487.223,L,Lab_1,Chemical_B,75-07-0,Experiment_12
+500,493.119,mg,Lab_3,Chemical_D,67-56-1,Experiment_5
+501,349.383,ml,Lab_2,Chemical_A,64-17-5,initial purchase
+502,268.512,L,Lab_2,Chemical_A,67-56-1,Experiment_9
+503,155.454,g,Lab_1,Chemical_D,64-17-5,initial purchase
+504,407.084,ml,Lab_2,Chemical_D,50-00-0,initial purchase
+505,342.681,ml,Lab_2,Chemical_B,50-00-0,Experiment_9
+506,82.1459,L,Lab_2,Chemical_D,67-56-1,initial purchase
+507,455.553,g,Lab_1,Chemical_A,75-07-0,Experiment_10
+508,411.446,ml,Lab_3,Chemical_A,64-17-5,initial purchase
+509,474.95,mg,Lab_2,Chemical_A,64-17-5,Experiment_19
+510,363.134,mg,Lab_1,Chemical_A,50-00-0,Experiment_1
+511,307.094,mg,Lab_1,Chemical_A,50-00-0,Experiment_7
+512,209.703,g,Lab_3,Chemical_B,75-07-0,Experiment_4
+513,466.432,ml,Lab_2,Chemical_A,75-07-0,Experiment_1
+514,433.166,mg,Lab_2,Chemical_B,75-07-0,Experiment_15
+515,23.5641,g,Lab_3,Chemical_A,67-56-1,Experiment_8
+516,14.1571,mg,Lab_3,Chemical_C,50-00-0,Experiment_12
+517,188.855,L,Lab_1,Chemical_C,67-56-1,initial purchase
+518,405.466,ml,Lab_1,Chemical_C,50-00-0,initial purchase
+519,493.651,ml,Lab_3,Chemical_C,50-00-0,Experiment_18
+520,76.058,g,Lab_2,Chemical_B,64-17-5,Experiment_15
+521,297.471,g,Lab_1,Chemical_B,50-00-0,Experiment_17
+522,191.065,ml,Lab_1,Chemical_D,50-00-0,initial purchase
+523,484.987,mg,Lab_2,Chemical_A,67-56-1,Experiment_14
+524,421.217,mg,Lab_1,Chemical_C,50-00-0,Experiment_14
+525,419.326,L,Lab_2,Chemical_B,67-56-1,Experiment_18
+526,234.878,mg,Lab_2,Chemical_A,75-07-0,Experiment_20
+527,207.995,g,Lab_2,Chemical_A,50-00-0,Experiment_18
+528,137.43,g,Lab_3,Chemical_B,50-00-0,Experiment_16
+529,29.1314,mg,Lab_3,Chemical_C,67-56-1,Experiment_1
+530,432.496,g,Lab_3,Chemical_D,75-07-0,initial purchase
+531,406.638,ml,Lab_2,Chemical_A,64-17-5,initial purchase
+532,499.859,ml,Lab_2,Chemical_D,75-07-0,Experiment_11
+533,498.322,mg,Lab_3,Chemical_C,67-56-1,Experiment_15
+534,278.16,ml,Lab_1,Chemical_C,75-07-0,Experiment_12
+535,384.725,ml,Lab_2,Chemical_D,67-56-1,Experiment_8
+536,472.438,L,Lab_1,Chemical_C,67-56-1,initial purchase
+537,424.974,L,Lab_1,Chemical_A,64-17-5,Experiment_20
+538,124.427,ml,Lab_2,Chemical_D,50-00-0,initial purchase
+539,225.822,mg,Lab_2,Chemical_C,67-56-1,Experiment_6
+540,65.4505,L,Lab_1,Chemical_D,67-56-1,Experiment_3
+541,477.071,g,Lab_1,Chemical_A,64-17-5,initial purchase
+542,303.481,g,Lab_3,Chemical_C,67-56-1,initial purchase
+543,115.093,g,Lab_3,Chemical_A,50-00-0,initial purchase
+544,336.179,mg,Lab_2,Chemical_C,64-17-5,initial purchase
+545,309.446,ml,Lab_3,Chemical_B,50-00-0,Experiment_13
+546,179.723,g,Lab_3,Chemical_C,50-00-0,Experiment_13
+547,57.6652,mg,Lab_3,Chemical_D,64-17-5,Experiment_2
+548,336.115,L,Lab_3,Chemical_C,67-56-1,Experiment_5
+549,260.634,ml,Lab_1,Chemical_A,50-00-0,Experiment_17
+550,386.387,L,Lab_2,Chemical_A,50-00-0,Experiment_6
+551,260.562,mg,Lab_3,Chemical_C,50-00-0,Experiment_2
+552,426.239,g,Lab_1,Chemical_D,50-00-0,Experiment_4
+553,276.402,g,Lab_1,Chemical_B,64-17-5,initial purchase
+554,280.908,mg,Lab_1,Chemical_D,64-17-5,initial purchase
+555,438.45,g,Lab_3,Chemical_B,75-07-0,Experiment_11
+556,202.338,ml,Lab_3,Chemical_A,75-07-0,Experiment_8
+557,67.8736,mg,Lab_2,Chemical_D,50-00-0,Experiment_12
+558,15.3626,L,Lab_3,Chemical_B,67-56-1,Experiment_8
+559,377.813,mg,Lab_3,Chemical_C,50-00-0,Experiment_11
+560,310.534,ml,Lab_1,Chemical_A,67-56-1,initial purchase
+561,352.336,ml,Lab_2,Chemical_C,50-00-0,Experiment_20
+562,107.269,mg,Lab_3,Chemical_A,75-07-0,Experiment_8
+563,69.0494,mg,Lab_3,Chemical_D,75-07-0,initial purchase
+564,8.25779,g,Lab_1,Chemical_D,67-56-1,Experiment_8
+565,175.943,ml,Lab_1,Chemical_A,50-00-0,initial purchase
+566,295.369,mg,Lab_3,Chemical_A,67-56-1,initial purchase
+567,196.73,mg,Lab_2,Chemical_A,75-07-0,Experiment_17
+568,219.3,ml,Lab_2,Chemical_D,50-00-0,Experiment_20
+569,452.175,mg,Lab_1,Chemical_B,50-00-0,Experiment_20
+570,174.779,g,Lab_1,Chemical_C,67-56-1,initial purchase
+571,257.481,ml,Lab_3,Chemical_C,64-17-5,Experiment_16
+572,392.043,g,Lab_1,Chemical_D,67-56-1,Experiment_14
+573,198.875,g,Lab_3,Chemical_C,75-07-0,initial purchase
+574,311.421,g,Lab_2,Chemical_A,75-07-0,Experiment_11
+575,431.319,g,Lab_2,Chemical_B,75-07-0,Experiment_7
+576,474.811,ml,Lab_3,Chemical_C,75-07-0,Experiment_16
+577,74.3897,g,Lab_1,Chemical_B,75-07-0,Experiment_13
+578,463.367,g,Lab_2,Chemical_A,64-17-5,initial purchase
+579,246.566,mg,Lab_1,Chemical_C,50-00-0,Experiment_15
+580,129.864,ml,Lab_2,Chemical_D,67-56-1,initial purchase
+581,230.109,ml,Lab_3,Chemical_B,67-56-1,Experiment_16
+582,490.036,L,Lab_3,Chemical_A,75-07-0,initial purchase
+583,246.816,ml,Lab_3,Chemical_B,67-56-1,initial purchase
+584,165.047,ml,Lab_2,Chemical_C,75-07-0,initial purchase
+585,317.067,L,Lab_1,Chemical_C,64-17-5,initial purchase
+586,120.833,ml,Lab_1,Chemical_D,64-17-5,Experiment_9
+587,38.8558,ml,Lab_1,Chemical_A,50-00-0,Experiment_3
+588,65.311,ml,Lab_2,Chemical_A,64-17-5,Experiment_19
+589,64.8949,ml,Lab_2,Chemical_D,64-17-5,Experiment_20
+590,76.7994,L,Lab_2,Chemical_D,50-00-0,Experiment_5
+591,70.2748,ml,Lab_2,Chemical_A,67-56-1,Experiment_10
+592,320.797,ml,Lab_2,Chemical_B,75-07-0,Experiment_17
+593,91.7582,L,Lab_1,Chemical_B,75-07-0,Experiment_15
+594,173.488,mg,Lab_2,Chemical_D,67-56-1,initial purchase
+595,448.497,g,Lab_2,Chemical_B,50-00-0,initial purchase
+596,237.507,mg,Lab_1,Chemical_A,67-56-1,Experiment_8
+597,334.111,L,Lab_2,Chemical_C,64-17-5,Experiment_15
+598,86.9876,g,Lab_1,Chemical_C,50-00-0,initial purchase
+599,96.9522,L,Lab_1,Chemical_B,50-00-0,initial purchase
+600,21.3934,L,Lab_3,Chemical_D,50-00-0,Experiment_14
+601,85.2986,ml,Lab_3,Chemical_D,75-07-0,Experiment_20
+602,140.017,g,Lab_3,Chemical_D,67-56-1,initial purchase
+603,89.3282,ml,Lab_3,Chemical_D,50-00-0,Experiment_7
+604,45.2626,g,Lab_2,Chemical_D,50-00-0,initial purchase
+605,61.1973,L,Lab_3,Chemical_B,50-00-0,initial purchase
+606,230.929,L,Lab_1,Chemical_C,67-56-1,Experiment_12
+607,103.961,mg,Lab_2,Chemical_C,75-07-0,Experiment_17
+608,182.771,g,Lab_3,Chemical_B,64-17-5,Experiment_17
+609,252.205,ml,Lab_1,Chemical_D,75-07-0,Experiment_10
+610,345.507,mg,Lab_2,Chemical_B,50-00-0,initial purchase
+611,20.6168,mg,Lab_2,Chemical_C,75-07-0,initial purchase
+612,399.906,mg,Lab_3,Chemical_A,75-07-0,Experiment_19
+613,314.322,ml,Lab_2,Chemical_B,64-17-5,Experiment_14
+614,41.7978,mg,Lab_1,Chemical_D,67-56-1,Experiment_11
+615,436.916,ml,Lab_2,Chemical_C,67-56-1,Experiment_2
+616,460.515,mg,Lab_1,Chemical_C,75-07-0,Experiment_18
+617,31.4779,ml,Lab_2,Chemical_C,75-07-0,Experiment_7
+618,139.162,L,Lab_3,Chemical_C,67-56-1,Experiment_12
+619,403.294,L,Lab_1,Chemical_D,67-56-1,initial purchase
+620,374.382,L,Lab_2,Chemical_A,64-17-5,Experiment_2
+621,93.076,L,Lab_2,Chemical_C,50-00-0,initial purchase
+622,105.465,L,Lab_2,Chemical_B,75-07-0,Experiment_20
+623,185.866,mg,Lab_1,Chemical_A,67-56-1,Experiment_18
+624,242.777,mg,Lab_1,Chemical_C,75-07-0,Experiment_6
+625,309.509,mg,Lab_1,Chemical_A,75-07-0,initial purchase
+626,185.088,ml,Lab_3,Chemical_B,67-56-1,Experiment_10
+627,231.805,ml,Lab_3,Chemical_C,64-17-5,Experiment_20
+628,373.988,ml,Lab_1,Chemical_B,75-07-0,Experiment_15
+629,19.3049,ml,Lab_2,Chemical_D,64-17-5,Experiment_5
+630,126.966,L,Lab_3,Chemical_C,67-56-1,Experiment_20
+631,356.961,L,Lab_1,Chemical_C,50-00-0,Experiment_3
+632,447.708,L,Lab_2,Chemical_C,50-00-0,Experiment_5
+633,256.327,g,Lab_3,Chemical_C,75-07-0,initial purchase
+634,266.525,mg,Lab_2,Chemical_D,67-56-1,initial purchase
+635,54.4788,ml,Lab_2,Chemical_C,64-17-5,Experiment_8
+636,224.259,ml,Lab_2,Chemical_A,75-07-0,Experiment_8
+637,266.776,L,Lab_2,Chemical_C,67-56-1,Experiment_8
+638,121.993,ml,Lab_3,Chemical_D,67-56-1,Experiment_12
+639,135.352,ml,Lab_3,Chemical_C,64-17-5,initial purchase
+640,189.265,mg,Lab_3,Chemical_A,75-07-0,initial purchase
+641,11.0155,L,Lab_1,Chemical_D,67-56-1,Experiment_8
+642,161.717,mg,Lab_3,Chemical_D,67-56-1,Experiment_11
+643,106.513,g,Lab_2,Chemical_A,67-56-1,Experiment_14
+644,164.421,g,Lab_3,Chemical_A,64-17-5,Experiment_8
+645,60.7613,g,Lab_2,Chemical_A,75-07-0,initial purchase
+646,445.373,L,Lab_1,Chemical_A,75-07-0,initial purchase
+647,297.203,ml,Lab_2,Chemical_A,75-07-0,initial purchase
+648,339.872,L,Lab_2,Chemical_D,75-07-0,initial purchase
+649,394.796,L,Lab_2,Chemical_D,50-00-0,Experiment_10
+650,249.723,ml,Lab_1,Chemical_C,50-00-0,Experiment_7
+651,44.3732,mg,Lab_3,Chemical_C,75-07-0,initial purchase
+652,269.016,g,Lab_3,Chemical_B,64-17-5,Experiment_17
+653,293.834,mg,Lab_1,Chemical_C,50-00-0,Experiment_4
+654,372.974,g,Lab_2,Chemical_C,67-56-1,initial purchase
+655,216.398,L,Lab_3,Chemical_A,50-00-0,Experiment_13
+656,64.6626,g,Lab_1,Chemical_A,67-56-1,Experiment_4
+657,142.604,L,Lab_3,Chemical_C,75-07-0,Experiment_5
+658,182.178,mg,Lab_1,Chemical_B,50-00-0,initial purchase
+659,323.313,L,Lab_2,Chemical_A,64-17-5,initial purchase
+660,285.818,mg,Lab_3,Chemical_C,50-00-0,Experiment_4
+661,178.692,ml,Lab_1,Chemical_C,50-00-0,Experiment_18
+662,493.271,ml,Lab_3,Chemical_D,50-00-0,Experiment_6
+663,303.282,ml,Lab_3,Chemical_B,75-07-0,initial purchase
+664,119.376,L,Lab_3,Chemical_D,64-17-5,initial purchase
+665,51.7895,ml,Lab_3,Chemical_B,50-00-0,initial purchase
+666,77.2767,g,Lab_1,Chemical_A,64-17-5,initial purchase
+667,123.733,mg,Lab_2,Chemical_B,75-07-0,Experiment_2
+668,81.18,mg,Lab_1,Chemical_C,67-56-1,initial purchase
+669,94.0969,g,Lab_1,Chemical_C,50-00-0,Experiment_11
+670,143.262,L,Lab_1,Chemical_B,64-17-5,initial purchase
+671,87.5134,L,Lab_2,Chemical_B,64-17-5,Experiment_14
+672,448.486,mg,Lab_3,Chemical_B,75-07-0,initial purchase
+673,41.0366,ml,Lab_3,Chemical_D,50-00-0,Experiment_5
+674,262.731,L,Lab_3,Chemical_B,67-56-1,Experiment_6
+675,205.788,L,Lab_2,Chemical_A,64-17-5,Experiment_10
+676,491.207,g,Lab_3,Chemical_D,50-00-0,Experiment_8
+677,56.9074,g,Lab_2,Chemical_D,67-56-1,Experiment_14
+678,199.53,ml,Lab_3,Chemical_B,64-17-5,initial purchase
+679,484.766,L,Lab_3,Chemical_A,64-17-5,Experiment_3
+680,432.888,L,Lab_1,Chemical_D,67-56-1,Experiment_12
+681,408.719,g,Lab_2,Chemical_C,67-56-1,Experiment_16
+682,129.694,L,Lab_1,Chemical_D,75-07-0,initial purchase
+683,86.2729,mg,Lab_1,Chemical_B,50-00-0,initial purchase
+684,334.653,g,Lab_1,Chemical_A,50-00-0,initial purchase
+685,464.759,ml,Lab_2,Chemical_B,75-07-0,Experiment_17
+686,278.825,g,Lab_2,Chemical_C,64-17-5,Experiment_1
+687,286.235,L,Lab_3,Chemical_C,67-56-1,initial purchase
+688,140.71,ml,Lab_1,Chemical_C,67-56-1,Experiment_10
+689,384.977,g,Lab_3,Chemical_B,67-56-1,initial purchase
+690,94.3348,mg,Lab_1,Chemical_D,64-17-5,initial purchase
+691,162.516,mg,Lab_2,Chemical_B,67-56-1,Experiment_10
+692,213.293,g,Lab_2,Chemical_A,67-56-1,initial purchase
+693,254.298,mg,Lab_2,Chemical_D,75-07-0,initial purchase
+694,121.962,mg,Lab_1,Chemical_C,64-17-5,Experiment_2
+695,58.3036,mg,Lab_2,Chemical_B,50-00-0,Experiment_9
+696,305.699,ml,Lab_1,Chemical_C,75-07-0,initial purchase
+697,145.027,mg,Lab_3,Chemical_C,75-07-0,Experiment_13
+698,291.038,mg,Lab_1,Chemical_A,50-00-0,initial purchase
+699,78.027,mg,Lab_3,Chemical_D,75-07-0,Experiment_16
+700,241.089,ml,Lab_1,Chemical_A,64-17-5,Experiment_18
+701,266.762,g,Lab_3,Chemical_A,67-56-1,Experiment_19
+702,26.8599,L,Lab_2,Chemical_A,64-17-5,Experiment_12
+703,168.966,mg,Lab_3,Chemical_C,50-00-0,Experiment_8
+704,68.0729,g,Lab_2,Chemical_A,50-00-0,Experiment_17
+705,32.6241,mg,Lab_2,Chemical_A,75-07-0,Experiment_15
+706,494.99,ml,Lab_3,Chemical_D,64-17-5,Experiment_10
+707,161.855,g,Lab_1,Chemical_D,64-17-5,Experiment_15
+708,405.127,ml,Lab_1,Chemical_A,50-00-0,Experiment_15
+709,128.066,mg,Lab_1,Chemical_D,64-17-5,initial purchase
+710,341.07,mg,Lab_1,Chemical_D,50-00-0,Experiment_7
+711,380.354,ml,Lab_1,Chemical_A,64-17-5,Experiment_13
+712,298.224,L,Lab_2,Chemical_C,64-17-5,Experiment_17
+713,236.317,ml,Lab_1,Chemical_A,64-17-5,Experiment_9
+714,206.509,mg,Lab_2,Chemical_D,50-00-0,Experiment_8
+715,175.085,ml,Lab_2,Chemical_C,75-07-0,Experiment_20
+716,464.835,L,Lab_2,Chemical_B,64-17-5,initial purchase
+717,415.479,ml,Lab_3,Chemical_C,50-00-0,initial purchase
+718,482.548,L,Lab_3,Chemical_D,50-00-0,initial purchase
+719,63.0243,L,Lab_2,Chemical_C,64-17-5,Experiment_18
+720,365.703,ml,Lab_3,Chemical_A,64-17-5,Experiment_13
+721,469.232,ml,Lab_1,Chemical_B,75-07-0,Experiment_16
+722,91.4353,g,Lab_1,Chemical_B,50-00-0,Experiment_9
+723,34.1816,mg,Lab_2,Chemical_B,50-00-0,Experiment_12
+724,370.819,L,Lab_1,Chemical_D,67-56-1,Experiment_12
+725,287.662,g,Lab_2,Chemical_D,50-00-0,Experiment_6
+726,421.073,ml,Lab_2,Chemical_B,75-07-0,Experiment_19
+727,70.7464,mg,Lab_1,Chemical_C,67-56-1,initial purchase
+728,397.838,g,Lab_3,Chemical_B,67-56-1,Experiment_7
+729,101.612,L,Lab_1,Chemical_C,67-56-1,initial purchase
+730,82.6643,g,Lab_1,Chemical_C,64-17-5,Experiment_3
+731,82.9686,L,Lab_2,Chemical_D,64-17-5,Experiment_16
+732,407.473,ml,Lab_2,Chemical_C,50-00-0,Experiment_18
+733,332.933,mg,Lab_2,Chemical_B,67-56-1,Experiment_16
+734,262.01,mg,Lab_2,Chemical_D,75-07-0,initial purchase
+735,180.056,mg,Lab_3,Chemical_A,64-17-5,Experiment_7
+736,438.723,ml,Lab_3,Chemical_A,75-07-0,Experiment_4
+737,196.83,L,Lab_3,Chemical_D,75-07-0,initial purchase
+738,408.483,ml,Lab_2,Chemical_B,64-17-5,initial purchase
+739,220.128,mg,Lab_2,Chemical_A,64-17-5,initial purchase
+740,189.095,ml,Lab_2,Chemical_A,64-17-5,Experiment_8
+741,231.877,ml,Lab_3,Chemical_C,64-17-5,Experiment_13
+742,151.388,ml,Lab_2,Chemical_C,67-56-1,Experiment_13
+743,374.057,L,Lab_1,Chemical_B,67-56-1,Experiment_17
+744,251.857,g,Lab_1,Chemical_D,67-56-1,Experiment_17
+745,116.874,g,Lab_2,Chemical_B,67-56-1,Experiment_5
+746,449.888,ml,Lab_1,Chemical_D,50-00-0,Experiment_6
+747,192.562,g,Lab_1,Chemical_A,67-56-1,Experiment_19
+748,272.233,g,Lab_3,Chemical_C,64-17-5,Experiment_13
+749,453.33,ml,Lab_2,Chemical_B,75-07-0,initial purchase
+750,312.495,ml,Lab_2,Chemical_B,67-56-1,initial purchase
+751,59.3321,mg,Lab_3,Chemical_D,50-00-0,initial purchase
+752,469.976,g,Lab_1,Chemical_D,64-17-5,Experiment_14
+753,314.226,L,Lab_1,Chemical_B,75-07-0,initial purchase
+754,168.118,ml,Lab_2,Chemical_D,75-07-0,Experiment_4
+755,70.4968,mg,Lab_1,Chemical_B,67-56-1,initial purchase
+756,397.219,L,Lab_3,Chemical_B,75-07-0,Experiment_7
+757,310.416,g,Lab_3,Chemical_B,67-56-1,Experiment_8
+758,267.197,mg,Lab_2,Chemical_A,67-56-1,initial purchase
+759,447.052,ml,Lab_3,Chemical_D,64-17-5,Experiment_13
+760,394.51,L,Lab_3,Chemical_C,64-17-5,initial purchase
+761,76.6858,ml,Lab_2,Chemical_C,50-00-0,Experiment_6
+762,156.549,g,Lab_3,Chemical_D,64-17-5,Experiment_6
+763,124.996,L,Lab_3,Chemical_B,64-17-5,initial purchase
+764,372.229,g,Lab_3,Chemical_C,67-56-1,initial purchase
+765,17.7327,g,Lab_1,Chemical_C,64-17-5,initial purchase
+766,285.375,mg,Lab_2,Chemical_D,67-56-1,initial purchase
+767,381.467,ml,Lab_2,Chemical_C,67-56-1,Experiment_3
+768,438.506,L,Lab_2,Chemical_B,64-17-5,initial purchase
+769,171.699,g,Lab_1,Chemical_D,50-00-0,Experiment_3
+770,410.807,g,Lab_1,Chemical_B,50-00-0,Experiment_13
+771,56.2052,L,Lab_2,Chemical_C,75-07-0,initial purchase
+772,423.38,g,Lab_1,Chemical_C,75-07-0,Experiment_2
+773,64.6168,mg,Lab_2,Chemical_B,64-17-5,Experiment_16
+774,199.246,mg,Lab_1,Chemical_A,50-00-0,initial purchase
+775,398.85,mg,Lab_3,Chemical_C,67-56-1,initial purchase
+776,75.8088,mg,Lab_3,Chemical_A,75-07-0,Experiment_6
+777,115.396,g,Lab_2,Chemical_C,67-56-1,Experiment_8
+778,361.404,L,Lab_1,Chemical_A,75-07-0,initial purchase
+779,360.298,L,Lab_1,Chemical_A,64-17-5,Experiment_8
+780,320.933,L,Lab_3,Chemical_A,50-00-0,initial purchase
+781,347.28,L,Lab_3,Chemical_B,75-07-0,initial purchase
+782,271.819,ml,Lab_1,Chemical_A,50-00-0,Experiment_6
+783,126.648,L,Lab_1,Chemical_A,67-56-1,Experiment_14
+784,173.502,ml,Lab_1,Chemical_A,64-17-5,Experiment_3
+785,91.6173,ml,Lab_1,Chemical_C,50-00-0,Experiment_10
+786,454.317,mg,Lab_1,Chemical_A,64-17-5,Experiment_3
+787,292.113,ml,Lab_1,Chemical_C,50-00-0,initial purchase
+788,201.025,g,Lab_2,Chemical_A,67-56-1,Experiment_12
+789,231.541,ml,Lab_1,Chemical_A,67-56-1,Experiment_17
+790,473.694,mg,Lab_3,Chemical_B,64-17-5,initial purchase
+791,77.5223,ml,Lab_2,Chemical_C,67-56-1,initial purchase
+792,293.529,g,Lab_1,Chemical_A,75-07-0,Experiment_5
+793,253.438,g,Lab_3,Chemical_C,50-00-0,initial purchase
+794,306.116,g,Lab_2,Chemical_C,67-56-1,Experiment_20
+795,10.037,mg,Lab_3,Chemical_D,75-07-0,initial purchase
+796,436.19,mg,Lab_1,Chemical_B,64-17-5,Experiment_9
+797,466.127,L,Lab_1,Chemical_B,75-07-0,initial purchase
+798,283.001,mg,Lab_1,Chemical_B,64-17-5,initial purchase
+799,348.629,g,Lab_1,Chemical_D,64-17-5,initial purchase
+800,461.327,g,Lab_2,Chemical_D,50-00-0,Experiment_20
+801,353.912,mg,Lab_2,Chemical_B,50-00-0,Experiment_7
+802,77.117,ml,Lab_3,Chemical_D,75-07-0,initial purchase
+803,288.568,mg,Lab_1,Chemical_D,50-00-0,Experiment_4
+804,303.751,mg,Lab_3,Chemical_D,50-00-0,Experiment_13
+805,212.641,g,Lab_2,Chemical_B,50-00-0,Experiment_13
+806,368.486,L,Lab_1,Chemical_B,75-07-0,Experiment_10
+807,467.249,g,Lab_1,Chemical_B,67-56-1,Experiment_18
+808,462.859,L,Lab_2,Chemical_D,50-00-0,Experiment_17
+809,225.969,g,Lab_2,Chemical_B,50-00-0,Experiment_20
+810,57.5058,mg,Lab_2,Chemical_D,75-07-0,Experiment_20
+811,492.436,g,Lab_2,Chemical_A,67-56-1,Experiment_13
+812,419.61,g,Lab_2,Chemical_D,50-00-0,Experiment_17
+813,63.2067,g,Lab_1,Chemical_C,64-17-5,initial purchase
+814,460.5,mg,Lab_2,Chemical_B,75-07-0,Experiment_4
+815,435.078,mg,Lab_1,Chemical_B,50-00-0,Experiment_1
+816,259.9,mg,Lab_1,Chemical_C,50-00-0,Experiment_1
+817,296.046,mg,Lab_2,Chemical_D,64-17-5,Experiment_15
+818,200.102,L,Lab_2,Chemical_A,64-17-5,Experiment_13
+819,28.3261,L,Lab_1,Chemical_C,75-07-0,Experiment_17
+820,168.263,ml,Lab_2,Chemical_C,75-07-0,initial purchase
+821,401.624,mg,Lab_2,Chemical_D,64-17-5,initial purchase
+822,3.31138,L,Lab_2,Chemical_B,75-07-0,Experiment_8
+823,167.416,g,Lab_3,Chemical_D,64-17-5,Experiment_18
+824,199.686,mg,Lab_1,Chemical_C,50-00-0,initial purchase
+825,269.16,ml,Lab_3,Chemical_C,64-17-5,Experiment_13
+826,460.008,ml,Lab_2,Chemical_B,64-17-5,initial purchase
+827,173.827,ml,Lab_3,Chemical_B,67-56-1,Experiment_14
+828,174.13,g,Lab_2,Chemical_B,64-17-5,Experiment_8
+829,369.013,L,Lab_3,Chemical_D,64-17-5,Experiment_8
+830,226.657,g,Lab_2,Chemical_B,67-56-1,initial purchase
+831,113.078,mg,Lab_3,Chemical_C,75-07-0,initial purchase
+832,226.767,ml,Lab_3,Chemical_C,67-56-1,Experiment_15
+833,71.2877,g,Lab_3,Chemical_A,50-00-0,initial purchase
+834,89.0171,g,Lab_1,Chemical_D,67-56-1,Experiment_13
+835,249.686,L,Lab_3,Chemical_A,50-00-0,Experiment_7
+836,210.044,L,Lab_1,Chemical_C,75-07-0,Experiment_5
+837,457.508,ml,Lab_2,Chemical_A,67-56-1,Experiment_17
+838,181.835,g,Lab_3,Chemical_C,67-56-1,initial purchase
+839,290.714,g,Lab_2,Chemical_A,75-07-0,initial purchase
+840,316.5,L,Lab_2,Chemical_B,50-00-0,initial purchase
+841,7.53413,g,Lab_3,Chemical_A,67-56-1,Experiment_16
+842,332.105,g,Lab_1,Chemical_B,50-00-0,initial purchase
+843,89.84,g,Lab_3,Chemical_B,67-56-1,Experiment_2
+844,480.574,L,Lab_2,Chemical_D,64-17-5,initial purchase
+845,75.1827,ml,Lab_2,Chemical_B,67-56-1,Experiment_18
+846,207.897,mg,Lab_3,Chemical_B,75-07-0,Experiment_17
+847,43.5895,ml,Lab_1,Chemical_A,75-07-0,initial purchase
+848,498.44,mg,Lab_1,Chemical_C,50-00-0,Experiment_7
+849,251.595,g,Lab_2,Chemical_D,67-56-1,Experiment_13
+850,298.097,ml,Lab_2,Chemical_B,50-00-0,Experiment_18
+851,34.4712,mg,Lab_1,Chemical_D,50-00-0,initial purchase
+852,375.23,L,Lab_3,Chemical_A,64-17-5,Experiment_14
+853,105.743,L,Lab_2,Chemical_B,64-17-5,initial purchase
+854,449.129,ml,Lab_1,Chemical_A,75-07-0,Experiment_18
+855,103.365,ml,Lab_2,Chemical_D,50-00-0,Experiment_13
+856,96.1532,g,Lab_3,Chemical_A,75-07-0,Experiment_11
+857,19.2383,ml,Lab_1,Chemical_D,67-56-1,initial purchase
+858,236.561,g,Lab_2,Chemical_A,50-00-0,initial purchase
+859,282.856,g,Lab_3,Chemical_D,50-00-0,initial purchase
+860,33.7886,L,Lab_2,Chemical_C,67-56-1,Experiment_16
+861,387.988,L,Lab_3,Chemical_A,67-56-1,initial purchase
+862,227.191,mg,Lab_3,Chemical_A,75-07-0,Experiment_17
+863,262.671,L,Lab_1,Chemical_C,75-07-0,Experiment_8
+864,220.941,L,Lab_3,Chemical_C,67-56-1,Experiment_19
+865,200.981,ml,Lab_2,Chemical_A,75-07-0,Experiment_20
+866,280.261,L,Lab_3,Chemical_C,67-56-1,Experiment_15
+867,78.4649,mg,Lab_3,Chemical_B,50-00-0,Experiment_9
+868,91.7821,ml,Lab_1,Chemical_D,50-00-0,Experiment_20
+869,431.031,mg,Lab_3,Chemical_D,64-17-5,Experiment_10
+870,473.112,L,Lab_3,Chemical_D,50-00-0,Experiment_12
+871,187.281,mg,Lab_2,Chemical_B,67-56-1,initial purchase
+872,136.102,ml,Lab_1,Chemical_C,75-07-0,initial purchase
+873,322.356,g,Lab_1,Chemical_C,64-17-5,Experiment_20
+874,204.958,mg,Lab_1,Chemical_A,75-07-0,initial purchase
+875,13.6678,mg,Lab_3,Chemical_C,67-56-1,Experiment_1
+876,78.9201,ml,Lab_1,Chemical_A,50-00-0,initial purchase
+877,358.27,ml,Lab_3,Chemical_B,64-17-5,Experiment_20
+878,329.803,mg,Lab_3,Chemical_D,67-56-1,Experiment_9
+879,14.5209,L,Lab_2,Chemical_D,64-17-5,initial purchase
+880,111.764,mg,Lab_2,Chemical_D,64-17-5,Experiment_15
+881,116.306,ml,Lab_2,Chemical_C,50-00-0,Experiment_1
+882,336.274,g,Lab_2,Chemical_A,67-56-1,Experiment_12
+883,10.8356,g,Lab_2,Chemical_A,75-07-0,Experiment_3
+884,52.9502,L,Lab_3,Chemical_B,64-17-5,Experiment_11
+885,400.158,mg,Lab_3,Chemical_C,64-17-5,Experiment_2
+886,90.0938,g,Lab_1,Chemical_B,75-07-0,Experiment_16
+887,326.72,mg,Lab_3,Chemical_A,67-56-1,Experiment_9
+888,119.853,ml,Lab_3,Chemical_A,64-17-5,Experiment_15
+889,50.6213,g,Lab_2,Chemical_D,64-17-5,Experiment_12
+890,122.343,L,Lab_3,Chemical_C,64-17-5,Experiment_1
+891,361.411,ml,Lab_2,Chemical_A,67-56-1,Experiment_13
+892,427.993,L,Lab_1,Chemical_D,67-56-1,Experiment_14
+893,415.28,ml,Lab_1,Chemical_C,75-07-0,initial purchase
+894,199.195,g,Lab_3,Chemical_B,67-56-1,initial purchase
+895,334.374,L,Lab_1,Chemical_C,67-56-1,Experiment_8
+896,103.287,L,Lab_3,Chemical_C,50-00-0,Experiment_8
+897,147.281,ml,Lab_1,Chemical_A,75-07-0,initial purchase
+898,448.272,L,Lab_2,Chemical_A,64-17-5,initial purchase
+899,7.48796,ml,Lab_2,Chemical_C,67-56-1,Experiment_12
+900,43.6688,ml,Lab_2,Chemical_A,64-17-5,Experiment_1
+901,104.735,ml,Lab_2,Chemical_A,64-17-5,Experiment_11
+902,14.2396,ml,Lab_3,Chemical_A,50-00-0,Experiment_8
+903,91.5363,g,Lab_1,Chemical_D,67-56-1,Experiment_10
+904,291.938,ml,Lab_3,Chemical_D,75-07-0,initial purchase
+905,211.291,mg,Lab_2,Chemical_C,67-56-1,Experiment_19
+906,446.443,L,Lab_3,Chemical_A,64-17-5,Experiment_11
+907,408.904,mg,Lab_1,Chemical_D,75-07-0,Experiment_7
+908,171.567,g,Lab_3,Chemical_C,67-56-1,Experiment_11
+909,130.452,mg,Lab_1,Chemical_A,64-17-5,Experiment_17
+910,190.467,L,Lab_3,Chemical_B,64-17-5,Experiment_1
+911,295.557,mg,Lab_1,Chemical_A,50-00-0,initial purchase
+912,134.764,g,Lab_1,Chemical_A,50-00-0,initial purchase
+913,312.45,ml,Lab_2,Chemical_D,50-00-0,initial purchase
+914,205.296,mg,Lab_1,Chemical_C,64-17-5,initial purchase
+915,276.472,g,Lab_2,Chemical_C,67-56-1,Experiment_8
+916,218.627,g,Lab_2,Chemical_D,50-00-0,initial purchase
+917,147.938,L,Lab_2,Chemical_A,67-56-1,initial purchase
+918,474.278,L,Lab_3,Chemical_B,50-00-0,Experiment_6
+919,382.039,mg,Lab_3,Chemical_A,75-07-0,initial purchase
+920,70.9165,ml,Lab_3,Chemical_A,75-07-0,Experiment_18
+921,434.366,g,Lab_3,Chemical_B,50-00-0,Experiment_6
+922,244.228,mg,Lab_1,Chemical_D,64-17-5,Experiment_5
+923,447.382,g,Lab_1,Chemical_C,50-00-0,Experiment_13
+924,400.128,g,Lab_3,Chemical_D,50-00-0,Experiment_19
+925,213.182,ml,Lab_1,Chemical_D,64-17-5,initial purchase
+926,12.2122,ml,Lab_1,Chemical_A,75-07-0,Experiment_8
+927,135.07,mg,Lab_2,Chemical_C,67-56-1,Experiment_9
+928,271.275,ml,Lab_2,Chemical_C,50-00-0,Experiment_17
+929,317.106,ml,Lab_2,Chemical_D,64-17-5,Experiment_3
+930,129.686,mg,Lab_2,Chemical_B,50-00-0,Experiment_19
+931,70.5387,ml,Lab_1,Chemical_D,64-17-5,Experiment_11
+932,417.63,L,Lab_3,Chemical_B,67-56-1,initial purchase
+933,492.217,g,Lab_1,Chemical_C,67-56-1,Experiment_17
+934,263.319,g,Lab_1,Chemical_D,75-07-0,initial purchase
+935,86.668,g,Lab_1,Chemical_A,64-17-5,Experiment_19
+936,136.881,g,Lab_2,Chemical_D,64-17-5,Experiment_2
+937,10.1769,mg,Lab_2,Chemical_C,75-07-0,Experiment_8
+938,457.235,g,Lab_2,Chemical_A,75-07-0,Experiment_19
+939,59.7578,g,Lab_3,Chemical_A,64-17-5,Experiment_7
+940,288.682,g,Lab_1,Chemical_B,75-07-0,initial purchase
+941,137.754,g,Lab_3,Chemical_A,67-56-1,initial purchase
+942,277.535,L,Lab_2,Chemical_A,50-00-0,Experiment_17
+943,326.059,g,Lab_3,Chemical_D,67-56-1,Experiment_6
+944,415.041,L,Lab_1,Chemical_C,75-07-0,Experiment_19
+945,104.004,mg,Lab_1,Chemical_B,64-17-5,initial purchase
+946,6.48692,ml,Lab_2,Chemical_D,64-17-5,Experiment_6
+947,69.3059,g,Lab_2,Chemical_A,67-56-1,initial purchase
+948,450.109,ml,Lab_3,Chemical_A,64-17-5,Experiment_2
+949,437.071,ml,Lab_2,Chemical_B,75-07-0,Experiment_6
+950,299.109,mg,Lab_2,Chemical_C,67-56-1,initial purchase
+951,300.658,ml,Lab_1,Chemical_B,64-17-5,Experiment_5
+952,332.853,L,Lab_2,Chemical_D,50-00-0,Experiment_19
+953,88.5103,ml,Lab_2,Chemical_B,50-00-0,Experiment_20
+954,457.292,ml,Lab_1,Chemical_A,75-07-0,Experiment_4
+955,209.966,ml,Lab_1,Chemical_D,64-17-5,initial purchase
+956,192.186,g,Lab_3,Chemical_A,75-07-0,initial purchase
+957,259.94,g,Lab_2,Chemical_C,67-56-1,Experiment_17
+958,24.436,L,Lab_1,Chemical_A,50-00-0,Experiment_11
+959,83.9754,L,Lab_3,Chemical_A,67-56-1,Experiment_4
+960,369.279,g,Lab_3,Chemical_B,64-17-5,initial purchase
+961,42.3165,L,Lab_2,Chemical_A,75-07-0,Experiment_13
+962,301.973,g,Lab_2,Chemical_D,75-07-0,Experiment_20
+963,123.429,mg,Lab_3,Chemical_D,75-07-0,initial purchase
+964,195.259,ml,Lab_1,Chemical_C,67-56-1,Experiment_17
+965,145.058,ml,Lab_3,Chemical_D,50-00-0,Experiment_9
+966,178.481,L,Lab_2,Chemical_B,67-56-1,Experiment_4
+967,359.804,g,Lab_1,Chemical_C,67-56-1,initial purchase
+968,149.264,g,Lab_1,Chemical_D,64-17-5,initial purchase
+969,283.636,L,Lab_3,Chemical_B,64-17-5,Experiment_14
+970,238.549,g,Lab_2,Chemical_D,64-17-5,Experiment_19
+971,332.172,mg,Lab_3,Chemical_D,50-00-0,initial purchase
+972,468.478,ml,Lab_3,Chemical_A,50-00-0,initial purchase
+973,366.553,L,Lab_3,Chemical_D,64-17-5,Experiment_3
+974,108.255,L,Lab_1,Chemical_D,64-17-5,Experiment_14
+975,16.5604,g,Lab_1,Chemical_B,50-00-0,Experiment_8
+976,131.87,L,Lab_2,Chemical_B,75-07-0,initial purchase
+977,297.944,mg,Lab_2,Chemical_A,50-00-0,initial purchase
+978,26.6615,g,Lab_3,Chemical_D,50-00-0,initial purchase
+979,248.687,g,Lab_3,Chemical_A,50-00-0,Experiment_1
+980,298.825,g,Lab_3,Chemical_D,64-17-5,Experiment_10
+981,167.788,g,Lab_2,Chemical_C,75-07-0,Experiment_18
+982,385.685,mg,Lab_1,Chemical_C,50-00-0,Experiment_16
+983,54.1925,g,Lab_1,Chemical_A,64-17-5,Experiment_8
+984,38.4938,L,Lab_3,Chemical_A,67-56-1,Experiment_1
+985,364.366,mg,Lab_3,Chemical_A,67-56-1,Experiment_12
+986,248.25,ml,Lab_3,Chemical_B,50-00-0,Experiment_8
+987,344.513,ml,Lab_3,Chemical_B,67-56-1,initial purchase
+988,217.979,L,Lab_2,Chemical_B,75-07-0,Experiment_16
+989,123.955,L,Lab_1,Chemical_A,67-56-1,Experiment_18
+990,409.732,mg,Lab_3,Chemical_D,67-56-1,Experiment_4
+991,399.909,ml,Lab_2,Chemical_C,75-07-0,Experiment_6
+992,347.654,ml,Lab_3,Chemical_A,50-00-0,Experiment_12
+993,136.8,ml,Lab_3,Chemical_B,50-00-0,initial purchase
+994,295.525,ml,Lab_1,Chemical_B,75-07-0,Experiment_9
+995,181.126,ml,Lab_3,Chemical_A,75-07-0,Experiment_15
+996,46.6995,g,Lab_1,Chemical_A,75-07-0,Experiment_16
+997,458.739,L,Lab_1,Chemical_B,67-56-1,initial purchase
+998,69.2725,g,Lab_1,Chemical_D,75-07-0,Experiment_12
+999,475.168,ml,Lab_2,Chemical_B,64-17-5,initial purchase
+1000,223.557,mg,Lab_2,Chemical_B,67-56-1,initial purchase
