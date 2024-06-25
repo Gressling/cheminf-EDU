@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc4e53f3-358c-4a7b-807a-1b224bb5dbdc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/cheminf-EDU.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/machineLearning/les_unit_operations_degradation/literature/1-s2.0-0300946780800037-main.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/machineLearning/les_unit_operations_degradation/literature/Unit_Operations_in_Chemical_Industries.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machineLearning/les_unit_operations_degradation/data_analyze.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/machineLearning/les_unit_operations_degradation/data_analyze.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machineLearning/les_unit_operations_degradation/db_access.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/machineLearning/les_unit_operations_degradation/db_access.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
