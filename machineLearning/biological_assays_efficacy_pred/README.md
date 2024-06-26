@@ -28,12 +28,11 @@ The model leverages a set of features from the dataset to predict the quantitati
 
 - **Assay ID**: Unique identifier for each assay, providing a reference to the specific experimental setup.
 - **Compound Name**: The name of the chemical or biological compound tested in the assay.
+- **Target** (not ML target): The biological target (e.g., protein, enzyme) that the assay is designed to interact with, which is crucial for understanding the specificity and action mechanism of the compound.
 - **Assay Type**: The type of assay conducted, which can influence the interpretation of results (e.g., inhibition assay, binding assay).
 - **Measurement Type**: The method used to measure the assay's outcome (e.g., absorbance, fluorescence), which affects the data's reliability and precision.
 - **Efficacy Class**: Categorical assessment of the compound's efficacy, providing context for the quantitative results.
 - **Date Performed**: The date the assay was conducted, useful for tracking experiments and analyzing time-based trends.
-
-- - **Target**: The biological target (e.g., protein, enzyme) that the assay is designed to interact with, which is crucial for understanding the specificity and action mechanism of the compound.
 
 These features are selected to provide a comprehensive view of the conditions and variables that influence the assay outcomes, enhancing the model's ability to make accurate predictions.
 
