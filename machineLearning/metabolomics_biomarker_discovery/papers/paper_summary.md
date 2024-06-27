@@ -35,3 +35,58 @@ Hier ist eine Zusammenfassung der wichtigsten Erkenntnisse des Dokuments "Interp
 
 
 Diese Zusammenfassung umfasst die wichtigsten Punkte und Erkenntnisse aus dem Dokument und hebt insbesondere die relevanten Aspekte des Einsatzes von Machine Learning zur Analyse von Metabolomics-Daten hervor.
+
+
+### Zusammenfassung des Dokuments: Machine Learning zur Entdeckung von Biomarkern für die Vorhersage von großen Arterien Atherosklerose (LAA)
+Hier ist eine Zusammenfassung der wichtigsten Erkenntnisse des Dokuments "Machine learning approaches for biomarker discovery to predict large‑artery atherosclerosis" von Sun et al. (2023):
+#### Wichtige Erkenntnisse im Bereich Machine Learning und Datensatz:
+- **Kombination von klinischen Faktoren und Metabolitprofilen**:
+  - Die Kombination von klinischen Faktoren und Metabolitprofilen verbessert die Stabilität des Datensatzes und die Vorhersagegenauigkeit.
+  - Verwendung von 62 Merkmalen in einem logistischen Regressionsmodell (LR) ergab einen AUC-Wert von 0.92.
+
+- **Merkmalsauswahl und Modelle**:
+  - Der Recursive Feature Elimination mit Cross-Validation (RFECV) Ansatz wurde verwendet, um die besten Merkmale zu identifizieren.
+  - Logistische Regression (LR) Modell zeigte die beste Vorhersageleistung mit einem AUC-Wert von 0.90.
+  - Wenn 27 gemeinsame Merkmale über fünf Modelle hinweg verwendet wurden, konnte der AUC-Wert auf 0.93 erhöht werden.
+
+- **Modelle und Leistung**:
+  - Sechs ML-Modelle wurden verglichen: logistische Regression (LR), Support Vector Machine (SVM), Entscheidungsbaum, Random Forest, XGBoost und Gradient Boost.
+  - Die Modelle wurden auf drei Ebenen von Eingangsmerkmalen getestet: klinische Faktoren, Metaboliten und eine Kombination aus beiden.
+  - LR-Modell benötigte die geringste Anzahl von Merkmalen und erzielte die beste Leistung.
+
+- **Klinische Relevanz und Merkmale**:
+  - Klinische Risikofaktoren wie BMI, Rauchen und Medikamente zur Kontrolle von Diabetes, Bluthochdruck und Hyperlipidämie sowie Metaboliten, die an der Aminoacyl-tRNA-Biosynthese und dem Lipidstoffwechsel beteiligt sind, wurden als wichtig identifiziert.
+  - Die identifizierten Metaboliten umfassen biochemische Lipidwege wie Sphingolipide, Phospholipide, Eicosanoide und Fettsäureoxidation.
+
+- **Verbesserungen und Vergleiche**:
+  - Die gemeinsame Verwendung von klinischen Faktoren und Metaboliten verbessert die Modellleistung.
+  - Vergleich mit anderen Studien zeigte, dass die vorgeschlagene Methode bessere Ergebnisse lieferte.
+
+#### Schlussfolgerungen:
+- Die Integration mehrerer ML-Algorithmen und Merkmalsauswahlmethoden verbessert die Leistung und Generalisierbarkeit von Modellen zur Vorhersage von LAA.
+- Die Verwendung gemeinsamer Merkmale über mehrere Modelle hinweg führt zu zuverlässigeren Ergebnissen, die für die zukünftige Identifizierung von LAA von Wert sein können.
+
+#### Bedeutung für die Praxis:
+- Die Studie zeigt das Potenzial von ML-Modellen zur kostengünstigen und effizienten Identifizierung von Biomarkern für LAA, was zu verbesserten Diagnose- und Behandlungsstrategien führen könnte.
+
+### Wichtige Erkenntnisse im Bereich Machine Learning und Datensatz
+
+| **Bereich**                       | **Erkenntnisse**                                                                                          |
+|-----------------------------------|------------------------------------------------------------------------------------------------------------|
+| **Kombination von Faktoren**      | - Kombination von klinischen Faktoren und Metabolitprofilen verbessert Stabilität und Vorhersagegenauigkeit<br>- Logistisches Regressionsmodell mit 62 Merkmalen erzielte AUC-Wert von 0.92                             |
+| **Merkmalsauswahl und Modelle**   | - Recursive Feature Elimination mit Cross-Validation (RFECV) zur Identifikation der besten Merkmale<br>- Logistisches Regressionsmodell zeigte beste Vorhersageleistung mit AUC-Wert von 0.90<br>- Verwendung von 27 gemeinsamen Merkmalen über fünf Modelle erhöhte AUC-Wert auf 0.93 |
+| **Vergleich der Modelle**         | - Sechs ML-Modelle verglichen: LR, SVM, Entscheidungsbaum, Random Forest, XGBoost, Gradient Boost<br>- Modelle getestet mit klinischen Faktoren, Metaboliten und Kombination aus beiden<br>- LR-Modell benötigte die geringste Anzahl von Merkmalen und erzielte die beste Leistung    |
+| **Klinische Relevanz**            | - Identifikation wichtiger klinischer Risikofaktoren: BMI, Rauchen, Medikamente zur Kontrolle von Diabetes, Bluthochdruck und Hyperlipidämie<br>- Wichtige Metaboliten: Aminoacyl-tRNA-Biosynthese, Lipidstoffwechsel (Sphingolipide, Phospholipide, Eicosanoide, Fettsäureoxidation) |
+| **Verbesserungen und Vergleiche** | - Gemeinsame Nutzung von klinischen Faktoren und Metaboliten verbessert Modellleistung<br>- Vergleich mit anderen Studien zeigte bessere Ergebnisse der vorgeschlagenen Methode                                     |
+
+### Schlussfolgerungen
+
+| **Schlussfolgerung**                                                                                     |
+|---------------------------------------------------------------------------------------------------------|
+| - Integration mehrerer ML-Algorithmen und Merkmalsauswahlmethoden verbessert Leistung und Generalisierbarkeit von Modellen zur Vorhersage von LAA <br>- Verwendung gemeinsamer Merkmale über mehrere Modelle führt zu zuverlässigeren Ergebnissen, die für die zukünftige Identifizierung von LAA wertvoll sein können |
+
+### Bedeutung für die Praxis
+
+| **Praktische Bedeutung**                                                                               |
+|---------------------------------------------------------------------------------------------------------|
+| - ML-Modelle zeigen Potenzial zur kostengünstigen und effizienten Identifizierung von Biomarkern für LAA <br>- Dies könnte zu verbesserten Diagnose- und Behandlungsstrategien führen |
