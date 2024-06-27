@@ -90,3 +90,63 @@ Hier ist eine Zusammenfassung der wichtigsten Erkenntnisse des Dokuments "Machin
 | **Praktische Bedeutung**                                                                               |
 |---------------------------------------------------------------------------------------------------------|
 | - ML-Modelle zeigen Potenzial zur kostengünstigen und effizienten Identifizierung von Biomarkern für LAA <br>- Dies könnte zu verbesserten Diagnose- und Behandlungsstrategien führen |
+
+
+### Zusammenfassung des Dokuments: "Machine Learning auf Metabolomics-Daten zur Identifizierung von Biomarkern für Parkinson-Krankheit"
+
+#### Wichtige Erkenntnisse bezüglich Machine Learning und Datensatz
+
+- **Ziel des Projekts**: 
+  - Entwicklung von ML-Modellen zur Identifikation von Biomarkern für die Parkinson-Krankheit anhand von Metabolomics-Daten.
+
+- **Datensatz**:
+  - Proben: Serumproben von Parkinson-Patienten und gesunden Kontrollpersonen.
+  - Metabolomics-Daten: Umfassende chemische Analysen zur Identifikation von Stoffwechselprodukten.
+
+- **Machine Learning Modelle**:
+  - Eingesetzte Algorithmen: 
+    - **Logistic Regression (LR)**
+    - **Support Vector Machine (SVM)**
+    - **Decision Tree**
+    - **Random Forest (RF)**
+    - **Extreme Gradient Boosting (XGBoost)**
+    - **Gradient Boosting**
+  - Zielvariable: Vorhandensein oder Fehlen der Parkinson-Krankheit (binäre Klassifikation).
+
+- **Wesentliche Ergebnisse**:
+  - **Leistungsbewertung der Modelle**:
+    - Die Kombination aus klinischen Faktoren und Metabolomics-Daten führte zu einer verbesserten Vorhersagegenauigkeit.
+    - Externe Validierung zeigte, dass Logistic Regression das am besten geeignete Modell war, um LAA vorherzusagen.
+  - **Beste Modellleistung**:
+    - Logistic Regression zeigte eine AUC von 0.89.
+
+#### Tabelle: Vergleich der Modellleistung
+
+| Jahr | Eingabedaten                       | Methode                                | AUC  | Genauigkeit | Recall (Sensitivität) | Referenzen |
+|------|------------------------------------|----------------------------------------|------|-------------|-----------------------|------------|
+| 2023 | Klinische Daten + Metabolomics-Daten (27 Merkmale) | 5 ML-Modelle (LR, SVM, RF, XGBoost, Gradient Boost) | 0.93 | 0.81        | 0.93                  | -          |
+| 2017 | Klinische Daten                    | 4 ML-Modelle (RF, LR, Gradient Boosting, Neural Networks) | 0.76 | -           | 0.67                  | 69         |
+| 2019 | Klinische Daten                    | ANN und KNN                             | -    | 0.96        | 0.97                  | 70         |
+| 2020 | Klinische Daten + Serum-Biomarker  | Multivariate Logistische Regression    | 0.83 | -           | -                     | 71         |
+| 2020 | Koronarangiographie                | Gradient Boosted Trees (GBT) Algorithmus | 0.76 | 0.73        | 0.67                  | 72         |
+| 2020 | EHRs                               | 6 ML-Modelle (LR, DT, KNN, SVM, RF, XGBoost) | 0.94 | 0.87        | 0.82                  | 73         |
+| 2021 | Klinische Daten                    | Support Vector Machine                 | -    | 0.91        | 0.80                  | 74         |
+| 2022 | Klinische Daten                    | Multivariate Logistische Regression    | 0.93 | -           | -                     | 75         |
+| 2022 | Klinische Daten                    | Random Forest Classifier               | 0.84 | -           | -                     | 76         |
+| 2022 | Klinische Daten                    | 8 ML-Modelle (LR, DT, RF, XGBoost, LightGBM, GBDT, SVM, Neural Networks) | 0.85 | 0.80        | 0.82 (RF)             | 76         |
+
+#### Schlüsselkonzepte und Methoden
+
+- **Feature-Auswahl und Datenvorverarbeitung**:
+  - Recursive Feature Elimination with Cross-Validation (RFECV) zur Auswahl der besten Merkmale.
+  - Verwendung von Dummy-Variablen und Normalisierung zur Standardisierung der Daten.
+
+- **Klassifikationstechniken**:
+  - **Logistic Regression (LR)**: Analyse dichotomer Daten, S-förmige Kurve zur Wahrscheinlichkeitsvorhersage.
+  - **Support Vector Machine (SVM)**: Gute Generalisierungsfähigkeit, besonders bei nichtlinearen, hochdimensionalen Daten.
+  - **Decision Tree**: Entscheidungsfindung anhand eines Baumdiagramms.
+  - **Random Forest (RF)**: Ensemble-Lernverfahren, Robustheit durch Mehrheitsvotum.
+  - **XGBoost**: Gradient Boosting, Effizienz und Flexibilität durch zweite Taylor-Entwicklung der Verlustfunktion.
+
+Diese Erkenntnisse zeigen, dass Machine Learning Modelle, insbesondere Logistic Regression, effektiv zur Vorhersage und Identifizierung von Biomarkern für die Parkinson-Krankheit aus Metabolomics-Daten eingesetzt werden können.
+
