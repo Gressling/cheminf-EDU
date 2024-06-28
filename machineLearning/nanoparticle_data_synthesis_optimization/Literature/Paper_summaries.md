@@ -1,18 +1,8 @@
 # Summaries of Papers on Nanoparticle Synthesis Optimization
 
-## 1. Review of the Photothermal Energy Conversion Performance of Nanofluids, Their Applications, and Recent Advances
+## 1. A Review on Synthesis, Optimization, Mechanism, Characterization, and Applications of Silver Nanoparticles
 
-**Citation:** Tsogtbilegt Boldoo, Jeonggyun Ham, Eui Kim, and Honghyun Cho;
-key: `boldooReviewPhotothermalEnergy2020`
-
-### Summary:
-This paper provides a comprehensive review of the photothermal energy conversion performance of various nanofluids. The review compares different nanofluids used in solar thermal systems, focusing on their thermal properties and efficiency in converting solar energy into heat. The analysis is based on both experimental and numerical studies, highlighting the potential of nanomaterials to improve the efficiency of solar thermal collectors and other photothermal applications. The paper also discusses recent advances and challenges in the field, including the role of magnetic nanofluids and the impact of nanoparticle size, concentration, and morphology on the optical properties and thermal performance of nanofluids.
-
----
-
-## 2. A Review on Synthesis, Optimization, Mechanism, Characterization, and Applications of Silver Nanoparticles
-
-**Citation:** Sunday Adewale Akintelu, Yao Bo, Aderonke Similoluwa Folorunso;
+**Citation:** Sunday Adewale Akintelu, Yao Bo, Aderonke Similoluwa Folorunso; \
 key: `akinteluReviewSynthesisOptimization2020`
 
 ### Summary:
@@ -20,9 +10,19 @@ This review focuses on the synthesis, optimization, and characterization of silv
 
 ---
 
+## 2. A Review on Nanoparticles: Characteristics, Synthesis, Applications, and Challenges
+
+**Citation:** Khadijah A. Altammar; \
+key: `altammarReviewNanoparticlesCharacteristics2023`
+
+### Summary:
+This paper reviews the characteristics, synthesis methods, applications, and challenges of nanoparticles (NPs). It discusses the various types of nanoparticles, including metal, ceramic, and polymeric nanoparticles, and their unique properties. The synthesis methods covered include chemical, physical, and green synthesis approaches. The paper also explores the wide range of applications for nanoparticles in fields such as medicine, environmental remediation, agriculture, and food safety. Additionally, it highlights the challenges associated with nanoparticle synthesis and application, including toxicity, environmental impact, and the need for standardized characterization techniques.
+
+---
+
 ## 3. Two-Step Machine Learning Enables Optimized Nanoparticle Synthesis
 
-**Citation:** Flore Mekki-Berrada, Zekun Ren, Tan Huang, et al;
+**Citation:** Flore Mekki-Berrada, Zekun Ren, Tan Huang, et al; \
 key: `mekki-berradaTwostepMachineLearning2021`
 
 ### Summary:
@@ -32,7 +32,7 @@ This paper presents a two-step machine learning framework for optimizing the syn
 
 ## 4. Green Synthesis of Nanoparticles: Characterization and Applications
 
-**Citation:** Nida Liaqat, Nazish Jahan, Khalil-ur-Rahman, Tauseef Anwar, Huma Qureshi;
+**Citation:** Nida Liaqat, Nazish Jahan, Khalil-ur-Rahman, Tauseef Anwar, Huma Qureshi; \
 key: `liaqatGreenSynthesizedSilver2022`
 
 ### Summary:
@@ -40,12 +40,12 @@ This paper explores the green synthesis of nanoparticles using biological agents
 
 ---
 
-## 5. A Review on Nanoparticles: Characteristics, Synthesis, Applications, and Challenges
+## 5. Review of the Photothermal Energy Conversion Performance of Nanofluids, Their Applications, and Recent Advances
 
-**Citation:** Khadijah A. Altammar;
-key: `altammarReviewNanoparticlesCharacteristics2023`
+**Citation:** Tsogtbilegt Boldoo, Jeonggyun Ham, Eui Kim, and Honghyun Cho; \
+key: `boldooReviewPhotothermalEnergy2020`
 
 ### Summary:
-This paper reviews the characteristics, synthesis methods, applications, and challenges of nanoparticles (NPs). It discusses the various types of nanoparticles, including metal, ceramic, and polymeric nanoparticles, and their unique properties. The synthesis methods covered include chemical, physical, and green synthesis approaches. The paper also explores the wide range of applications for nanoparticles in fields such as medicine, environmental remediation, agriculture, and food safety. Additionally, it highlights the challenges associated with nanoparticle synthesis and application, including toxicity, environmental impact, and the need for standardized characterization techniques.
+This paper provides a comprehensive review of the photothermal energy conversion performance of various nanofluids. The review compares different nanofluids used in solar thermal systems, focusing on their thermal properties and efficiency in converting solar energy into heat. The analysis is based on both experimental and numerical studies, highlighting the potential of nanomaterials to improve the efficiency of solar thermal collectors and other photothermal applications. The paper also discusses recent advances and challenges in the field, including the role of magnetic nanofluids and the impact of nanoparticle size, concentration, and morphology on the optical properties and thermal performance of nanofluids.
 
 ---
