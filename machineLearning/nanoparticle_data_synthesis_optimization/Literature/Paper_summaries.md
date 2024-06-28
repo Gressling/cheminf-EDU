@@ -2,7 +2,7 @@
 
 ## 1. A Review on Synthesis, Optimization, Mechanism, Characterization, and Applications of Silver Nanoparticles
 
-**Citation:** Sunday Adewale Akintelu, Yao Bo, Aderonke Similoluwa Folorunso; \
+**Authors:** Sunday Adewale Akintelu, Yao Bo, Aderonke Similoluwa Folorunso; \
 key: `akinteluReviewSynthesisOptimization2020`
 
 ### Summary:
@@ -12,7 +12,7 @@ This review focuses on the synthesis, optimization, and characterization of silv
 
 ## 2. A Review on Nanoparticles: Characteristics, Synthesis, Applications, and Challenges
 
-**Citation:** Khadijah A. Altammar; \
+**Author:** Khadijah A. Altammar; \
 key: `altammarReviewNanoparticlesCharacteristics2023`
 
 ### Summary:
@@ -22,7 +22,7 @@ This paper reviews the characteristics, synthesis methods, applications, and cha
 
 ## 3. Two-Step Machine Learning Enables Optimized Nanoparticle Synthesis
 
-**Citation:** Flore Mekki-Berrada, Zekun Ren, Tan Huang, et al; \
+**Authors:** Flore Mekki-Berrada, Zekun Ren, Tan Huang, et al; \
 key: `mekki-berradaTwostepMachineLearning2021`
 
 ### Summary:
@@ -32,7 +32,7 @@ This paper presents a two-step machine learning framework for optimizing the syn
 
 ## 4. Green Synthesis of Nanoparticles: Characterization and Applications
 
-**Citation:** Nida Liaqat, Nazish Jahan, Khalil-ur-Rahman, Tauseef Anwar, Huma Qureshi; \
+**Authors:** Nida Liaqat, Nazish Jahan, Khalil-ur-Rahman, Tauseef Anwar, Huma Qureshi; \
 key: `liaqatGreenSynthesizedSilver2022`
 
 ### Summary:
@@ -42,7 +42,7 @@ This paper explores the green synthesis of nanoparticles using biological agents
 
 ## 5. Review of the Photothermal Energy Conversion Performance of Nanofluids, Their Applications, and Recent Advances
 
-**Citation:** Tsogtbilegt Boldoo, Jeonggyun Ham, Eui Kim, and Honghyun Cho; \
+**Authors:** Tsogtbilegt Boldoo, Jeonggyun Ham, Eui Kim, and Honghyun Cho; \
 key: `boldooReviewPhotothermalEnergy2020`
 
 ### Summary:
