@@ -4,9 +4,13 @@
 
 This repository contains a dataset collected from a sensor over a period of time. The dataset includes information about sensor readings, temperature, humidity, and degradation levels recorded at different timestamps.
 
+## Project Objective
+
+The main objective of this project is to leverage the power of Convolutional Neural Networks (CNNs) to predict the degradation levels of sensors over time. By analyzing historical data collected from various sensors, the CNN model will learn to identify patterns and trends that indicate the degradation of sensor performance. Accurate prediction of degradation levels can help in proactive maintenance and preventing unexpected failures, ensuring the reliability and longevity of the equipment being monitored.
+
 ## Dataset Description
 
-The dataset consists of the following fields:
+The dataset consists of the following features:
 
 - **SensorID**: A unique identifier for each sensor.
 - **Timestamp**: The specific date and time when the data was recorded.

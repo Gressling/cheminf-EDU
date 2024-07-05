@@ -1,8 +1,8 @@
-# Chemical Inventory Usage Prediction
+# Chemical Inventory Usage Prediction using LSTM
 
 ## Project Overview
 
-This project aims to predict laboratory chemical inventory usage using machine learning models, specifically the **Long Short-Term Memory (LSTM)** model. By analyzing historical inventory data, including chemical names, CAS numbers, amounts used, and reasons for usage, we will build a predictive model to optimize inventory management, reduce waste, and ensure smooth experiment operations.
+This project aims to predict laboratory chemical inventory usage using a **Long Short-Term Memory (LSTM)** model. By analyzing historical inventory data, we will build a predictive model to optimize inventory management, reduce waste, and ensure smooth experiment operations.
 
 ## Dataset
 
@@ -16,23 +16,60 @@ The dataset used in this project contains the following fields:
 * `CAS`: CAS Registry Number of the chemical, used for unique identification.
 * `reason`: Reason for taking the chemical (e.g., initial purchase, Experiment_20).
 
-
-## Data Overview
+### Data Overview
 
 The date overview can be found in the file Data_Overview.ipynb
 
-
-## Methods
+## Methodology
 
 This project will utilize the **LSTM model**, a type of recurrent neural network well-suited for time series data, to predict chemical usage patterns.
 
-## Experiment Design
+### Data Preprocessing
 
-1. **Data Preprocessing:** Clean the data, handle missing values and outliers, and convert data types as needed.
-2. **Feature Engineering:** Extract relevant features, such as time features, chemical categories, and experiment types.
-3. **Model Training and Evaluation:** Train the LSTM model using the training set and evaluate its performance on the validation set.
-4. **Model Selection:** Select the best-performing model based on the evaluation results.
-5. **Model Deployment:** Deploy the chosen model to a production environment for real-time predictions.
+
+
+### Feature Engineering
+
+### Features
+
+The features used in this project for predicting chemical usage include:
+
+*   `chemical`: The type of chemical being used.
+*   `location`: The laboratory location where the chemical is stored/used.
+*   `reason`: The reason for chemical usage (e.g., experiment, initial purchase).
+*   `date`: The date of chemical usage.
+*   Lag features (e.g., past 7-day and 30-day usage) for each chemical.
+
+### Prediction Target
+
+The target variable is the `amount_taken`, representing the quantity of each chemical used. Separate models will be built for each chemical to accommodate different units of measurement.
+
+
+### Model Training and Evaluation
+
+* **LSTM Model:** Explain the architecture of your LSTM model (e.g., number of layers, number of units per layer, activation functions, etc.).
+* **Training:** Describe the training process (e.g., loss function, optimizer, batch size, number of epochs).
+* **Evaluation:** Explain how you evaluated the model (e.g., using a validation set, cross-validation). List the evaluation metrics you used (e.g., mean squared error, mean absolute error).
+
+## Results
+
+
+
+## Conclusion
+
+
+
+## Future Work
+
+
+## Installation and Usage
+
+## Contributors
+
+## License
+
+## Acknowledgements
+
 
 ## Considerations
 
