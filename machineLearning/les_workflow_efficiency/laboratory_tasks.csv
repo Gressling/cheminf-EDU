@@ -1,0 +1,17 @@
+TaskID,TaskStatus,ResourceAllocated,TimeSpent,Reward
+1,pending,Resource1,0.0,0.0
+2,in-progress,Resource2,1.5,0.5
+3,completed,Resource3,2.0,1.0
+4,pending,Resource4,2.5,1.5
+5,in-progress,Resource5,3.0,2.0
+6,completed,Resource1,0.0,0.0
+7,pending,Resource2,1.5,0.5
+8,in-progress,Resource3,2.0,1.0
+9,completed,Resource4,2.5,1.5
+10,pending,Resource5,3.0,2.0
+11,in-progress,Resource1,0.0,0.0
+12,completed,Resource2,1.5,0.5
+13,pending,Resource3,2.0,1.0
+14,in-progress,Resource4,2.5,1.5
+15,completed,Resource5,3.0,2.0
+
