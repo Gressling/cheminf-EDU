@@ -50,8 +50,20 @@ Outline the methodology used in the project. This may include:
 ## Results
 Present the results of the study. Include:
 - Performance metrics
+    No performance metrics since unsupervised learning
 - Visualizations (e.g., graphs, charts) to illustrate the results
-- Discussion of the results and their implications
+  Fold 0:
+  Train: index=[ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29]
+  Test:  index=[0]
+1/1 [==============================] - 0s 48ms/step
+1/1 [==============================] - 0s 67ms/step
+1/1 [==============================] - 0s 19ms/step
+max at: 4.58333
+![Compound 01-outlier](spectral_outliers.png)
+![Compound-likeness](compound_likeness.png)
+- It is possible to get likeness of compounds by using a CNN (convolutional neural net) when feeding in the time series.
+The ReLU-activation function had to be used, since the sigmoid-function did lead in no epoch to a accuracy gain (or training loss for that matter)
+- It is possible to find outliers in the time series. By looking at the results this is most of the time the minmum value or the maximum value (for DeepSVDD) or a bit before or after thos values with the LOF.
 
 ## Conclusion
 Summarize the findings of the project. Discuss the significance of the results and any potential limitations of the study.
@@ -63,7 +75,7 @@ Using Convolutional Neural Network for environmental pollution predictions.
 roadrunner_gs（slommage@hu-berlin.de）
 
 ## License
--
+- CC-BY-SA
 
 ## References
 Include any references or citations used in the project.
