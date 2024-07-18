@@ -35,3 +35,14 @@ Here is a summarized overview, for details see notebook:
 - **PDB codes**: All entries have unique PDB codes, indicating unique structures.
 
 The data provides a comprehensive overview of simulated protein structure docking with detailed molecular information and structural resolutions.
+
+
+**What are my features, what do I want to predict?**
+
+ **binding affinity -->** protein_HELM, ligand_HELM, resolution, classification
+
+ The binding affinity between a protein and a ligand depends on factors such as the molecular structures represented by the HELM notations, the resolution of the structure providing details on their interaction, and the protein classification influencing their binding mechanisms. These features collectively impact the strength of the protein-ligand interaction and can be used to predict binding affinity.
+
+**classification -->** protein_HELM, ligand_HELM, affinity, resolution
+ 
+In order to predict the classification of proteins, one can utilize features such as the molecular structures denoted by the HELM notations, binding affinity values, resolution of protein-ligand complexes, and the data source. By incorporating these features into a machine learning model, one can effectively forecast the protein classification based on the structural and molecular attributes present in the dataset.
