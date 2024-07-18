@@ -97,7 +97,7 @@ The idea is to predict the so called dipole moment or the polarity (this is our 
 
 The provided dataset is very small and the features are not complete for every represented molecule.
 
-Because of that I chose to use the QM9 dataset, which is a open source dataset for molecular properties with around 300 000 molecule entries.
+Because of that I chose to use the QM9 dataset, which is a open source dataset for molecular properties with more than 100 000 molecule entries.
 
 The properties presented in the QM9 dataset are presented in the following table:
 
@@ -125,3 +125,5 @@ The properties presented in the QM9 dataset are presented in the following table
 | **u298_atom**| Internal energy per atom at 298.15 K (in Hartree). This is similar to u298 but normalized by the number of atoms in the molecule. |
 | **h298_atom**| Enthalpy per atom at 298.15 K (in Hartree). This is similar to h298 but normalized by the number of atoms in the molecule. |
 | **g298_atom**| Free energy per atom at 298.15 K (in Hartree). This is similar to g298 but normalized by the number of atoms in the molecule. |
+
+
