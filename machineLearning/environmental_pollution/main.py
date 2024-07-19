@@ -17,8 +17,8 @@ Connecting to server
 host = 'den1.mysql6.gear.host'
 db = 'situation'
 usr = 'situation'
-psword = 'aichem567.'
-# psword = input("Please insert the password:")
+# psword = 'aichem567.'
+psword = input("Please insert the password:")
 engine = create_engine('mysql+pymysql://%s:%s@%s:%s/%s?charset=utf8'
                        % (usr, psword, host, '3306', db))
 sql = "SELECT * FROM situation.o15_environmental_data;"
