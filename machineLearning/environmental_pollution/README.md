@@ -61,31 +61,43 @@ By leveraging CNNs, researchers can analyze images alongside numerical data to p
 
 Outline the methodology used in the project. This may include:
 - Data preprocessing steps
-- Feature engineering
-- Model selection and training
-- Hyperparameter tuning
-- Evaluation metrics
+
+  Use NO2,PM10,CO,O3,SO2,temperature,humidity,wind_speed,precipitation to predict PM2_5
+
+  Embedding values into 3x3x10 tensors and reshape into matrices
+
+- Using a 2-layers Convolutional Neural Network as well as Maxpool layers as the model
+
+- Learning rate 0.008, channels in hidden layers:16->32
+
+- Using RMSE and MSE for evaluation
 
 ## Results
 Present the results of the study. Include:
-- Performance metrics
-- Visualizations (e.g., graphs, charts) to illustrate the results
-- Discussion of the results and their implications
+- Test Loss: 14.9942
+  Test Accuracy: 84.83%
+
+- Train loss line chart:
+
+  ![Train](Train.png)
+
+- Due to the small size of the training data, the training accuracy is only around 80%.
 
 ## Conclusion
-Summarize the findings of the project. Discuss the significance of the results and any potential limitations of the study.
+Successfully applied CNN to environment_pollution data to make predication.
 
 ## Future Work
-Using Convolutional Neural Network for environmental pollution predictions.
+If temporal data could be accquired, use Temporal models such as LSTM, RNN for better performance.
 
 ## Contributors
 toipha（xkunpenggy@gmail.com）
 
-## License
--
-
 ## References
-Include any references or citations used in the project.
+[1] Li, Taoying, Miao Hua, and X. U. Wu. "A hybrid CNN-LSTM model for forecasting particulate matter (PM2. 5)." *Ieee Access* 8 (2020): 26933-26940.
+
+[2] Zhang, Kefei, et al. "Multi-step forecast of PM2. 5 and PM10 concentrations using convolutional neural network integrated with spatial–temporal attention and residual learning." *Environment International* 171 (2023): 107691.
+
+[3] Ebrahimi, Afshin. "Prediction of atmospheric PM2. 5 level by machine learning techniques in Isfahan, Iran." *Scientific Reports* 14 (2024): 2109.
 
 ## Acknowledgements
--
+(SoSe 2024), Thorsten Gressling, AI in Chemistry (Inf.) Humboldt University of Berlin
