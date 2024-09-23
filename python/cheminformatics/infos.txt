@@ -1,0 +1,8 @@
+PyPi
+Info: https://chat.openai.com/share/c7d8b847-8c64-419d-9781-6b8aaa390d80
+Build: PS C:\htdocs\github\cheminformatics\python> python setup.py sdist bdist_wheel
+Upload: PS C:\htdocs\github\cheminformatics\python> python -m twine upload dist/*
+
+Sphinx
+Info: https://chat.openai.com/share/5bdf083c-4225-4ca9-a922-c55862f8c8e8
+Build: PS C:\htdocs\github\cheminformatics\python\cheminformatics> sphinx-build -b html . docs
