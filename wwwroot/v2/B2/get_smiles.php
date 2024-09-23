@@ -1,33 +1,44 @@
 <?php
-// Database connection
-$servername = "den1.mysql6.gear.host";
-$username = "situation";
-$password = "cogni88.";
-$dbname = "situation";
+// Include database configuration
+$config = include(__DIR__ . '/../config.php');
 
-    // Create connection
-    $conn = new mysqli($servername, $username, $password, $dbname);
+// Database connection details
+$servername = $config['db_host'];
+$username = $config['db_user'];
+$password = $config['db_pass'];
+$dbname = $config['db_name'];
 
-    // Check connection
-    if ($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
-    }
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
 
-    // Get the MoleculeID from the query string
-    $moleculeID = $_GET['moleculeID'];
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
 
-    // Fetch the SMILES string from the database
-    $sql = "SELECT CanonicalSmileFormat FROM b2_molecules WHERE MoleculeID = '" . $moleculeID . "'";
-    $result = $conn->query($sql);
+// Fetch the molecule data from the database
+$molecule = [];
+if (isset($_GET['moleculeID']) && is_numeric($_GET['moleculeID'])) {
+    $moleculeID = intval($_GET['moleculeID']);
+    $stmt = $conn->prepare("SELECT * FROM b2_molecules WHERE MoleculeID = ?");
+    $stmt->bind_param("i", $moleculeID);
+    $stmt->execute();
+    $result = $stmt->get_result();
 
     if ($result->num_rows > 0) {
-        // Output the SMILES string
-        while($row = $result->fetch_assoc()) {
-            echo $row["CanonicalSmileFormat"];
-        }
+        $molecule = $result->fetch_assoc();
+        // Include MOLFile for JSME
+        $molecule['MOLFile'] = ''; // You need to include the actual MOL file content if applicable
     } else {
-        echo "No results";
+        $molecule = ["message" => "No results"];
     }
 
-    $conn->close();
+    $stmt->close();
+}
+
+$conn->close();
+
+// Output the data as JSON
+header('Content-Type: application/json');
+echo json_encode($molecule);
 ?>

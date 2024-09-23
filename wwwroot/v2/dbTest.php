@@ -1,5 +1,6 @@
 <?php
-require 'session.php'; // Ensure this is the path to the session script
+require 'session.php'; // 确保这是正确的路径
+$config = include('config.php'); // 引入同目录下的 config.php
 ?>
 
 <!DOCTYPE html>
@@ -7,41 +8,72 @@ require 'session.php'; // Ensure this is the path to the session script
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css">
-    <title>ChemInformatics EDU</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Database Test</title>
+    <style>
+        .db-test {
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+            font-size: 1.5em; /* 调整字体大小 */
+        }
+        .db-test h3 {
+            margin-top: 0;
+            font-size: 2em; /* 调整标题字体大小 */
+        }
+        .db-test pre {
+            background-color: #e9ecef;
+            padding: 20px;
+            border-radius: 5px;
+            overflow-x: auto;
+            font-size: 1.2em; /* 调整 pre 标签内字体大小 */
+        }
+        .db-test .summary {
+            margin-top: 20px;
+            padding-top: 10px;
+            border-top: 1px solid #ccc;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <div class="php-test">Check DB, via environment variables ... <br/> 
+    <div class="db-test">
+        <h3>Check DB, via configuration ...</h3> 
 
 <?php
+// 获取数据库连接信息
+$dbhost = $config['db_host'];
+$dbname = $config['db_name'];
+$dbusername = $config['db_user'];
+$dbpassword = $config['db_pass'];
 
-// DB
-$connStr = getenv('CUSTOMCONNSTR_strConn');
-list($host, $dbname, $user, $password) = explode(';', $connStr);
-session_start();
-$message = '';
-$conn = new mysqli($host, $user, $password, $dbname);
-if ($conn->connect_error) {echo ("Connection failed: " . $conn->connect_error);}
+$conn = new mysqli($dbhost, $dbusername, $dbpassword, $dbname);
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
 
-// Select example
-
+// 执行查询
 $sql = "SELECT * FROM situation.h8_chemicals;";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
-    // output data of each row
+    echo "<pre>";
+    // 输出每行数据
     while($row = $result->fetch_assoc()) {
-        echo "id: " . $row["id"]. " - Name: " . $row["name"]. " - quantity: " . $row["quantity"]. "<br>";
+        echo "id: " . htmlspecialchars($row["id"]) . " - Name: " . htmlspecialchars($row["name"]) . " - quantity: " . htmlspecialchars($row["quantity"]) . "\n";
     }
+    echo "</pre>";
 } else {
-    echo "0 results";
+    echo "<p>0 results</p>";
 }
 
+$conn->close();
 ?>
-        </div>
-        <div class="license">MIT Licence - no commercial interest</div>
-    </div>
 
+    </div>
+    <div class="license">MIT Licence - no commercial interest</div>
 </body>
 </html>

@@ -35,10 +35,6 @@ Here's a snippet of the dataset:
 The purpose of the experiments recorded through ELN is to predict the yields of chemical reactions. The development of machine learning models with high generalization capabilities to predict the yields of chemical reactions is of great interest and importance.
 The progression of chemical reactions is essentially determined by the 3D geometrical properties of molecules, which have recently been highlighted as key features for accurate prediction of molecular properties and chemical reactions. Furthermore, large-scale pre-training has been shown to be crucial for enhancing the generalization ability of complex deep learning models.
 
-### Reasons for low prediction accuracy ：
-1. The training set has so little data that it is insufficient for full training.
-2. Using different training models results in different accuracy rates. Training model selection based on data characteristics can effectively improve prediction accuracy.
-
 ## Methods
 ### Data Preprocessing
 1. **Data Cleaning**: Handling missing values and outliers.

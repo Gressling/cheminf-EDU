@@ -32,7 +32,6 @@
         </div>
     </div>
 
-    <!-- Form for selecting the table -->
     <form method="post">
         <input type="submit" name="table" value="Chemicals" />
         <input type="submit" name="table" value="Devices" />
@@ -42,21 +41,18 @@
 
     <?php
     require '../auth.php';
-    // Database connection details
-    $host = "den1.mysql6.gear.host";
-    $dbname = "situation"; // Database name
-    $username = "situation"; // Database username
-    $password = "aichem567."; // Database password
+    $config = include(__DIR__ . '/../config.php');
+    $host = $config['db_host'];
+    $dbname = $config['db_name'];
+    $username = $config['db_user'];
+    $password = $config['db_pass'];
 
-    // Create connection
     $conn = new mysqli($host, $username, $password, $dbname);
 
-    // Check connection
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     }
 
-    // Define table information
     $tables = [
         'Chemicals' => [
             'tableName' => 'H8_Chemicals',
@@ -76,14 +72,12 @@
         ]
     ];
 
-    // Validate and fetch the selected table data
     if (isset($_POST['table']) && array_key_exists($_POST['table'], $tables)) {
         $selectedTable = $_POST['table'];
         $tableInfo = $tables[$selectedTable];
         $tableName = $tableInfo['tableName'];
         $columnHeaders = $tableInfo['headers'];
 
-        // Prepare and execute the SQL query
         $stmt = $conn->prepare("SELECT * FROM " . $tableName);
         if ($stmt === false) {
             die("Error preparing statement: " . $conn->error);
@@ -96,7 +90,6 @@
             die("Error executing query: " . $conn->error);
         }
 
-        // Build the HTML table
         echo "<div class='row' id='table'>";
         echo "<div class='col-md-12'>";
         echo "<table>";
@@ -117,7 +110,6 @@
         echo "<p>Please select a valid table.</p>";
     }
 
-    // Close the database connection
     $conn->close();
     ?>
 </body>

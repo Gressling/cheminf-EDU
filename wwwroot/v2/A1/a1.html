@@ -1,21 +1,122 @@
-<!-- '#242KKlhkh#899'; -->
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../style.css">
-    <title>ChemInformatics EDU - API Call Debug Example</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChemInformatics EDU - API Call Debug Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .title {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .php-test {
+            margin: 20px 0;
+            padding: 10px;
+            background: #e9ecef;
+            border-radius: 4px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+
+        .table-container {
+            margin: 20px 0;
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        .error, .message {
+            color: #d9534f;
+            background-color: #f2dede;
+            border: 1px solid #d9534f;
+            padding: 10px;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+
+        .success {
+            color: #5bc0de;
+            background-color: #d9edf7;
+            border: 1px solid #5bc0de;
+            padding: 10px;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+
+        .links {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .link {
+            color: #0275d8;
+            text-decoration: none;
+        }
+
+        .link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">A1 Tester</h1>
+        <div class="php-test" id="debugInfo">
+        </div>
+        <div class="links">
+            <a class="link" href="../index.php">Home</a>
+        </div>
+    </div>
+
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            const apiKey = '242KKlhkh899'; // Replace with your actual API key
-            const apiUrl = 'a1.php?apiKey=' + apiKey;
+            const apiUrl = 'a1.php';
             const debugInfo = document.getElementById('debugInfo');
-
-            // Display the requested URL for debugging purposes
-            debugInfo.innerHTML += '<p>Requesting URL: ' + apiUrl + '</p>';
 
             fetch(apiUrl)
                 .then(response => {
@@ -23,27 +124,37 @@
                     else throw new Error('Unauthorized');
                 })
                 .then(data => {
-                    console.log(data);
-                    // Display the fetched data for debugging purposes
-                    debugInfo.innerHTML += '<p>Response: ' + JSON.stringify(data) + '</p>';
+                    if (data.data && data.data.length > 0) {
+                        const tableContainer = document.createElement('div');
+                        tableContainer.className = 'table-container';
+                        let tableHTML = '<table><tr>';
+
+                        Object.keys(data.data[0]).forEach(key => {
+                            tableHTML += '<th>' + key + '</th>';
+                        });
+                        tableHTML += '</tr>';
+
+                        data.data.forEach(row => {
+                            tableHTML += '<tr>';
+                            Object.values(row).forEach(value => {
+                                tableHTML += '<td>' + value + '</td>';
+                            });
+                            tableHTML += '</tr>';
+                        });
+
+                        tableHTML += '</table>';
+                        tableContainer.innerHTML = tableHTML;
+                        debugInfo.appendChild(tableContainer);
+                    } else {
+                        debugInfo.innerHTML += '<p>No data available.</p>';
+                    }
                 })
                 .catch(error => {
                     console.error('Error:', error);
-                    // Display error information for debugging purposes
-                    debugInfo.innerHTML += '<p>Error: ' + error.message + '</p>';
+                    debugInfo.innerHTML += '<p class="error">Error: ' + error.message + '</p>';
                 });
         });
     </script>
-</head>
-
-<body>
-    <div class="container">
-        <h1 class="title">A1 Tester</h1>
-        <div class="php-test" id="debugInfo"></div> <!-- Debug information will be displayed here -->
-        <div class="license">MIT Licence - no commercial interest</div>
-        <div class="links"><a class="link" href="../index.php">Home</a><br /></div>
-    </div>
-
 </body>
 
 </html>

@@ -1,0 +1,83 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.sidebar {
+    width: 300px;
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100vh;
+    overflow: auto;
+}
+
+.sidebar h1, .sidebar h2 {
+    text-align: center;
+    margin: 0 0 10px 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #495057; /* 添加下边框 */
+}
+
+.sidebar h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sidebar h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-size: 16px;
+}
+
+.sidebar a:hover {
+    background-color: #495057;
+}
+
+.sidebar a.link {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar a.link i {
+    margin-right: 10px; /* 调整图标和文字之间的间距 */
+}
+
+.section {
+    margin-bottom: 20px; /* 添加部分之间的间距 */
+    padding: 10px;
+    border: 1px solid #495057; /* 添加边框 */
+    border-radius: 5px; /* 添加圆角 */
+    background-color: #3e444a; /* 添加背景颜色 */
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    height: 100vh;
+    overflow: auto;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}

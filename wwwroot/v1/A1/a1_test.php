@@ -1,5 +1,6 @@
 <?php
 
+
 //Database access
 $dbhost = "den1.mysql6.gear.host";
 $dbname = "situation";

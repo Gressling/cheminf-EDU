@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Cheminformaticsedu
+Version: 1.0.3
+Summary: chemie education cooperate with ai
+Home-page: https://github.com/Yakimochinai/che-edu
+Author: Ziheng Zhao
+Author-email: zhacisbw4801@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+The python part of cheminformatics-EDU, use: !pip install gressling
+
+Example notebook here:  [gressling.ipynb](https://colab.research.google.com/drive/1KDKH9iVO2niYitIt1kFzE4RHw3O6ppaR#scrollTo=B7hP9SoJ2fRh)

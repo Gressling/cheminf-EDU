@@ -1,7 +1,7 @@
 # Laboratory Execution System (LES) Workflow Efficiency Project
 
 ## Introduction
-The LES Workflow Efficiency Project aims to analyze and optimize the workflows of various laboratory processes, focusing on the synthesis of aspirin and copper sulfate pentahydrate. By studying the data related to these specific workflows, task statuses, resource allocation, and chemical and device usage, this project seeks to identify inefficiencies and propose improvements to streamline laboratory operations.
+The LES Workflow Efficiency Project aims to analyze and optimize the workflows of various laboratory processes. By studying the data related to different synthesis workflows, task statuses, resource allocation, and chemical and device usage, this project seeks to identify inefficiencies and propose improvements to streamline laboratory operations.
 
 ## Objective
 The main objective of this project is to enhance the efficiency of laboratory workflows by:
@@ -14,15 +14,16 @@ The main objective of this project is to enhance the efficiency of laboratory wo
 ## Data Used
 The project utilizes data from the following tables:
 
+- `f6_entity`: Contains information about various entities involved in the workflows
 - `f6_laboratorytasks`: Tracks the status, resource allocation, time spent, and rewards for each task
-- `f6_les_workflow`: Defines the high-level workflows (aspirin and copper sulfate pentahydrate synthesis) and their descriptions
+- `f6_les_workflow`: Defines the high-level workflows and their descriptions
 - `f6_workflow_step_chemicals`: Maps the chemicals used in each step of the workflows
 - `f6_workflow_step_devices`: Maps the devices used in each step of the workflows
 
-The data has been collected through a combination of manual input and automated tracking systems. Preprocessing steps include data cleaning and integration of the various tables.
+The data is assumed to be collected through a combination of manual input, automated tracking systems, and sensor data. Preprocessing steps may include data cleaning, normalization, and integration.
 
 ## Methodology
-The project follows these key steps:
+The project will follow these key steps:
 
 1. Data Exploration and Visualization
    - Analyze the relationships between workflows, steps, and their dependencies
@@ -40,46 +41,37 @@ The project follows these key steps:
    - Identify areas where technology solutions can be implemented to enhance efficiency
 
 4. Implementation and Monitoring
-   - Implement the recommended changes through machine learning models
+   - Collaborate with laboratory personnel to implement the recommended changes
    - Establish metrics and key performance indicators (KPIs) to track the impact of improvements
    - Continuously monitor and refine the workflows based on feedback and data analysis
 
 ## Features
 
-- **Task Status**: Indicates whether a task is pending, in-progress, or completed.
-- **Resource Allocation**: Tracks which resources are allocated to which tasks.
-- **Time Spent**: Measures the time spent on each task.
-- **Reward**: Indicates the reward associated with each task, potentially correlating with task complexity or importance.
-- **Chemical Usage**: Maps the chemicals used in each workflow step, including amounts where applicable.
-- **Device Usage**: Maps the devices used in each workflow step.
+- **Task Status**: Indicates whether a task is pending, in-progress, or completed. This helps in understanding the current state of the workflow and identifying bottlenecks.
+- **Resource Allocation**: Tracks which resources are allocated to which tasks. This is crucial for optimizing resource utilization and minimizing idle time.
+- **Time Spent**: Measures the time spent on each task. This helps in identifying time-consuming steps and opportunities for process improvement.
+- **Chemical and Device Usage**: Maps the chemicals and devices used in each workflow step. This information is essential for ensuring that the necessary materials and equipment are available and used efficiently.
 
-## Predictions and Analysis
-The project aims to predict and analyze:
+## Predictions
+The project aims to predict:
 
-- **Task Duration**: Estimating the time required for each task to identify opportunities for process improvement.
-- **Resource Utilization**: Predicting the optimal allocation of resources to minimize idle time and maximize productivity.
 - **Workflow Bottlenecks**: Identifying steps in the workflow that cause delays or inefficiencies.
-- **Feature Importance**: Understanding which factors (e.g., resource allocation, task status) most significantly impact task duration and workflow efficiency.
+- **Resource Utilization**: Predicting the optimal allocation of resources to minimize idle time and maximize productivity.
+- **Time Optimization**: Estimating the time required for each task to identify opportunities for process improvement.
+- **Automation Opportunities**: Identifying steps that can be automated to enhance efficiency and standardize processes.
 
-## Machine Learning Approach
-The project utilizes a Random Forest Regressor model to predict task duration and analyze feature importance. This approach allows for:
 
-- Accurate prediction of task duration based on various features
-- Identification of the most important factors influencing task duration
-- Robust handling of non-linear relationships and interactions between features
-
-## Installation and Usage
+## Installation and Usage (Preliminary)
 
 ### Prerequisites
 
 - Python 3.8 or higher
 - pip (Python package installer)
-- Required libraries: pandas, numpy, scikit-learn
+- Git
 
 ### Installation Steps
 
 1. Clone the repository:
-
    ```
    git clone https://github.com/yourusername/les-workflow-efficiency.git
    cd les-workflow-efficiency
@@ -94,20 +86,29 @@ The project utilizes a Random Forest Regressor model to predict task duration an
 3. Install the required packages:
 
     ```
-    pip install pandas numpy scikit-learn
+    pip install -r requirements.txt
     ```
 
+### Example Usage
 
-1. Ensure your data is in CSV format named 'laboratory_tasks.csv' in the project directory.
+1. Run the data preprocessing script:
 
-2. Execute the Jupyter Notebook
+    ```
+    python preprocess_data.py
+    ```
 
-3. View the results:
-The notebook will output the model's performance metrics, feature importance, and a sample prediction.
+2. Execute the workflow analysis:
 
-## Future Improvements
+    ```
+    python analyze_workflows.py
+    ```
 
-- Incorporate more advanced machine learning techniques, such as neural networks or gradient boosting methods.
-- Develop a user interface for easy interaction with the model and visualization of results.
-- Implement real-time monitoring and prediction capabilities.
-- Expand the analysis to include more diverse types of laboratory workflows.
+3. Generate optimization recommendations:
+
+    ```
+    python optimize_workflows.py
+    ```
+
+4. View the results:
+
+    The results will be saved in the results directory. You can view the visualizations and recommendations in the generated reports.

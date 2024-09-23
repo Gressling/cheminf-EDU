@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style.css">
+    <title>ChemInformatics EDU - A1-I9</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">A1-I9 Tester</h1>
+        <div class="content">
+            <!-- 添加内容，使其与a1相匹配 -->
+
+            <!-- Molecule Search-->
+            <label for="molecule_search">Molecule</label>
+            <input type="text" name="molecule_search" id="molecule_search" placeholder="Enter your molecule ID">
+            <button onclick="searchMolecule()">Search Molecule</button>
+
+            <!-- Property Input-->
+            <label for="property_input">Property</label>
+            <select name="property_input" id="property_input">
+                <option value="">Select Property</option>
+                <?php
+                include 'config.php';
+
+                try {
+                    $stmtProperties = $conn->prepare("SELECT PropertyName FROM i9_properties");
+                    $stmtProperties->execute();
+
+                    while ($rowProperty = $stmtProperties->fetch(PDO::FETCH_ASSOC)) {
+                        echo "<option value='{$rowProperty['PropertyName']}'>{$rowProperty['PropertyName']}</option>";
+                    }
+                } catch (PDOException $e) {
+                    echo "Error: " . $e->getMessage();
+                }
+                ?>
+            </select>
+            <button onclick="addProperty()">Edit Property</button>
+
+            <!-- Molecule Results -->
+            <div class="result" id="searchResult">
+                <h2>Results</h2>
+                <table id="moleculeResultsTable">
+                    <thead>
+                        <tr>
+                            <th>Property Name</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
+                    <tbody id="moleculeResults"></tbody>
+                </table>
+            </div>
+
+            <!-- Edit Property Form -->
+            <div class="update-property">
+                <label for="newPropertyValue">New Property Value:</label>
+                <input type="text" name="newPropertyValue" id="newPropertyValue" placeholder="Enter new value">
+                <button onclick="updateProperty()">Update Property</button>
+            </div>
+            <!-- Add New Property Button -->
+            <div class="add-new-property-container">
+                <button onclick="addNewProperty()">Add New Property</button>
+            </div>
+        </div>
+        <div class="license">MIT Licence - no commercial interest</div>
+        <div class="links"><a class="link" href="../index.php">Home</a><br /></div>
+    </div>
+    <script src="i9.js"></script>
+</body>
+
+</html>
+
+
+

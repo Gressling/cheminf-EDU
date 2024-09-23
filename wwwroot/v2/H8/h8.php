@@ -1,32 +1,27 @@
 <?php
 session_start();
-require 'session.php'; // Include session management file
+require 'session.php';
 
-// Check if the user is logged in
 if (!isset($_SESSION['user_id'])) {
     die("Please log in to access this page.");
 }
 
-// Database connection configuration
-$host = "den1.mysql6.gear.host";
-$dbname = "situation";
-$username = "situation";
-$password = "aichem567.";
+$config = include(__DIR__ . '/../config.php');
+$host = $config['db_host'];
+$dbname = $config['db_name'];
+$username = $config['db_user'];
+$password = $config['db_pass'];
 
-// Create database connection
 $conn = new mysqli($host, $username, $password, $dbname);
 
-// Check if the connection was successful
 if ($conn->connect_error) {
     die("Database connection failed: " . $conn->connect_error . " (Error Code: " . $conn->connect_errno . ")");
 }
 
-// Determine the action based on the GET parameter
 $action = isset($_GET['action']) ? $_GET['action'] : '';
 
 switch ($action) {
     case 'view':
-        // Display inventory data
         $tableName = isset($_GET['table']) ? $_GET['table'] : 'H8_Chemicals';
         $sql = "SELECT * FROM " . $conn->real_escape_string($tableName);
         $result = $conn->query($sql);
@@ -35,14 +30,12 @@ switch ($action) {
             echo "<h2>Table: " . htmlspecialchars($tableName) . "</h2>";
             echo "<table border='1'><tr>";
 
-            // Generate table headers
             $fields = $result->fetch_fields();
             foreach ($fields as $field) {
                 echo "<th>" . htmlspecialchars($field->name) . "</th>";
             }
             echo "</tr>";
 
-            // Populate the table with data
             while ($row = $result->fetch_assoc()) {
                 echo "<tr>";
                 foreach ($row as $cell) {
@@ -59,7 +52,6 @@ switch ($action) {
         break;
 
     case 'add':
-        // Add new data to the database
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $table = isset($_POST['table']) ? $_POST['table'] : 'H8_Chemicals';
             $columns = $_POST['columns'];
@@ -88,7 +80,6 @@ switch ($action) {
         break;
 
     default:
-        // Display action selection links
         echo "<h2>Select an action</h2>";
         echo "<a href='h8.php?action=view&table=H8_Chemicals'>View Chemicals</a><br>";
         echo "<a href='h8.php?action=view&table=H8_Devices'>View Devices</a><br>";
@@ -98,6 +89,5 @@ switch ($action) {
         break;
 }
 
-// Close database connection
 $conn->close();
 ?>

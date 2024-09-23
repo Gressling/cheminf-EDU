@@ -41,7 +41,7 @@
             margin-right: 10px;
         }
         #editSection, #inventoryTable {
-            display: none; /* Initially hide the edit section and inventory table */
+            display: none;
         }
     </style>
     <script>
@@ -57,7 +57,6 @@
         </div>
     </div>
 
-    <!-- Form to input ID and fetch the record -->
     <div class="form-inline">
         <form method="post" action="">
             <label for="update_id">Enter ID to Update:</label>
@@ -66,7 +65,6 @@
         </form>
     </div>
 
-    <!-- Form for selecting the table -->
     <form method="post" action="">
         <input type="submit" name="show_inventory" value="Inventory" onclick="toggleTable(true); return false;" />
         <input type="button" value="Hide" onclick="toggleTable(false);" />
@@ -74,21 +72,18 @@
 
     <?php
     require '../auth.php';
-    // Database connection details
-    $host = "den1.mysql6.gear.host";
-    $dbname = "situation"; // Database name
-    $username = "situation"; // Database username
-    $password = "aichem567."; // Database password
+    $config = include(__DIR__ . '/../config.php');
+    $host = $config['db_host'];
+    $dbname = $config['db_name'];
+    $username = $config['db_user'];
+    $password = $config['db_pass'];
 
-    // Create connection
     $conn = new mysqli($host, $username, $password, $dbname);
 
-    // Check connection
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     }
 
-    // Handle the show inventory button to display the table
     if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['show_inventory'])) {
         $query = "SELECT * FROM h8_chemical_inventory_usage";
         $result = $conn->query($query);
@@ -108,15 +103,13 @@
                 echo "</tr>";
             }
             echo "</table></div></div>";
-
             echo "<script>document.getElementById('inventoryTable').style.display = 'block';</script>";
         } else {
             echo "<p>No inventory records found.</p>";
         }
     }
 
-    // Handle the update ID submission to fetch the record
-    if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_id']) || isset($_POST['edit'])) {
+    if ($_SERVER['REQUEST_METHOD'] === 'POST' && (isset($_POST['update_id']) || isset($_POST['edit']))) {
         $id = intval(isset($_POST['update_id']) ? $_POST['update_id'] : $_POST['id']);
         $query = "SELECT * FROM h8_chemical_inventory_usage WHERE ID = ?";
         $stmt = $conn->prepare($query);
@@ -140,7 +133,6 @@
             echo "</tr>";
             echo "</table></div></div>";
 
-            // Show the edit section below the record
             echo "<div class='form-inline' id='editSection'>";
             echo "<form method='post' action=''>";
             echo "<label for='id'>ID: $id</label>";
@@ -166,7 +158,6 @@
         $stmt->close();
     }
 
-    // Handle the edit action to update the record
     if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['edit'])) {
         $id = intval($_POST['id']);
         $field = $_POST['field'];
@@ -181,8 +172,6 @@
 
             if ($stmt->execute()) {
                 echo "<p>Record updated successfully.</p>";
-
-                // Fetch and display the updated record immediately
                 $query = "SELECT * FROM h8_chemical_inventory_usage WHERE ID = ?";
                 $stmt = $conn->prepare($query);
                 $stmt->bind_param("i", $id);
@@ -216,9 +205,7 @@
         }
     }
 
-    // Close the database connection
     $conn->close();
     ?>
-
 </body>
 </html>

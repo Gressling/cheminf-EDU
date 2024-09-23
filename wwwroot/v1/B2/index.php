@@ -36,7 +36,7 @@ $dbname = "situation";
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>JSME Molecule Editor</title>
     <script type="text/javascript" src="./jsme/JSME_2023-07-31/jsme/jsme.nocache.js"></script>
