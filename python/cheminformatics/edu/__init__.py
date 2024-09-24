@@ -29,13 +29,26 @@ class EDUInstance:
         else:
             return "Connection failed"
 
-    def getExperiments(self):
-        """Retrieves data from the API if connection is successful."""
-        if self.connect():
-            url = f"{self.RESTURL}A1/A1.php"
-            query = {"apiKey": self.apiKey}
-            response = self.session.get(url, params=query)
-            json_data = response.json()
-            return pd.DataFrame(json_data['data'])
-        else:
-            return "Connection failed"
+    def getExperiments(self, table_name):
+            if self.connect():
+                url = f"{self.RESTURL}a1/get_table.php?table={table_name}&apiKey={self.apiKey}"
+                response = self.session.get(url)
+
+                print("Request URL:", response.url)
+                print("Response Status Code:", response.status_code)
+                print("Response Text:", response.text)
+
+                try:
+                    json_data = response.json()
+                    if 'data' in json_data:
+                        return pd.DataFrame(json_data['data'])
+                    else:
+                        print("No data found in response.")
+                        return pd.DataFrame()
+                except ValueError as e:
+                    print(f"JSON decode error: {e}")
+                    return pd.DataFrame()
+            else:
+                return "Connection failed"
+
+
