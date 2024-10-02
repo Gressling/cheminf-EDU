@@ -1,13 +1,13 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="Cheminformaticsedu",  
-    version="1.0.3",  
+    name="Cheminfoedu",  
+    version="1.0.7",  
     author="Ziheng Zhao",
     author_email="zhacisbw4801@gmail.com",
     description="chemie education cooperate with ai",
     long_description=open('README.md').read(), 
-    long_description_content_type="text/markdown",  
+    long_description_content_type="text/markdown",      
     url="https://github.com/Yakimochinai/che-edu",  
     packages=find_packages(),  
     classifiers=[
