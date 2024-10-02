@@ -69,7 +69,6 @@ $username = htmlspecialchars($_SESSION['username']);
             <h2>A1 - Experiments</h2>
             <div class="section">
                 <a class="link" href="A1/index.php" target="contentFrame" onclick="hideWelcome()"><i class="fas fa-flask link-icon"></i>Experiments</a>
-                <a class="link" href="A1/a1.html" target="contentFrame" onclick="hideWelcome()"><i class="fas fa-flask link-icon"></i>A1 REST</a>
             </div>
             <h2>B2 - ELN-Molecule</h2>
             <div class="section">
